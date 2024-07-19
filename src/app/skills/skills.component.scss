@@ -1,0 +1,130 @@
+/* COMPETENCES */
+
+
+.competences{
+    background-color: var(--light-blue);
+    padding-bottom: 100px;
+
+    position: relative;
+    z-index: 2;
+}
+
+.competences-header{
+    display: flex;
+    justify-content: center;
+}
+
+.competences h2{
+    padding-top: 100px;
+    margin-bottom: 80px;
+
+    text-align: center;
+}
+
+.competences-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.competences h3{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.skills, .certifications{
+    display : flex;
+
+    justify-content: center;
+
+    width: 800px;
+    padding: 20px;
+
+    /* border: 1px solid black; */
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+
+    border-radius: 15px;
+
+    margin-bottom: 50px;
+}
+
+.competences .skills-item{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.competences .certif{
+    display: flex;
+    margin-right: 40px;
+}
+
+.competences .certif p{
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    font-size: 15px;
+
+    overflow: hidden;
+    width: 0px;
+    height: 0px;
+    transition: width 0.5s ease-in-out;
+
+    
+}
+
+
+.competences .certif img{
+    border-radius: 10%;
+    box-shadow: 0 0 7px rgba(0,0,0,0.2);
+    
+}
+
+.competences .certif:hover p{
+
+    width: 220px;
+    height: 100px;
+}
+
+
+@media screen and (max-width:900px) {
+
+    .competences .skills{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .competences .certifications{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 400px;
+        padding-top: 20px;
+    }
+
+    .competences .certif{
+        display: flex;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .competences .certif p{
+
+        width: 220px;
+        height: 100px;
+    }
+}
+
+
+
+

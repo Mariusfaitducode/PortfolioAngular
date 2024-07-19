@@ -1,2 +1,131 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Base */
+
+
+:root{
+
+    --light-gray: #666;
+    --gray: #333;
+
+    --white: #ffffff;
+
+    --black: #000000;
+
+    --transparent-black: rgb(0, 0, 0, 0.6);
+    --transparent-black-2: rgb(0, 0, 0, 1);
+    
+    --color-body: #333333;
+
+    --dark-blue: #202746;
+    --dark-blue-2: #13172A;
+
+    --transparent-blue: rgb(127, 222, 255, 0.2);
+    --blue: #7FDEFF;
+    --blue-2: #00A6FB;
+    --blue-3: #0D21A1;
+
+    --light-blue: #f6f7ff;
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+    /* box-sizing: inherit; */
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    /* color:  var(--white); */
+    margin: 0;
+    /* pointer-events: none; */
+    /* text-align: center; */
+}
+
+h1, h2, h3, h4, h5, h6{
+    /* color: #333; */
+    font-family: Poppins, sans-serif;
+    /* font-weight: 500; */
+    /* color: var(--white); */
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+
+h2{
+    font-size: 4.5rem;
+}
+
+  
+h3{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+h4{
+    font-size: 2.2rem;
+}
+
+
+
+p{
+    font-size: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--blue-2);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* li{
+    margin-bottom: 1rem;
+} */
+
+
+.list-unstyled{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.D-Flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* .grid__item{
+    width: 100%;
+} */
+
+
+.hide{
+    position: absolute;
+    
+    width: 0px;
+    display: none;
+}
+

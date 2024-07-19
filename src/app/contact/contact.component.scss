@@ -1,0 +1,105 @@
+
+
+
+/* CONTACT */
+
+.contact{
+    /* background:rgb(205,138,222); */
+    /* background-color: var(--dark-blue-2); */
+    color: var(--white);
+
+    /* position: relative;
+    z-index: 2; */
+
+    /* margin-bottom: 200px; */
+
+    /* width: 500px; */
+
+    height: 100vh;
+}
+
+.contact-header{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.contact-content{
+    
+    display: flex;
+    justify-content: center;
+
+    margin-top: 300px;
+}
+
+.contact-header h2{
+    position: absolute;
+    
+    padding-top: 100px;
+    padding-bottom: 80px;
+
+    color: var(--white);
+    
+}
+
+.contact-container{
+
+    position: absolute;
+
+    display: flex;
+
+    justify-content: center;
+
+    transition: all 1s ease-in-out;
+
+    gap:40px;
+}
+
+.contact-link{
+
+    background-color: var(--dark-blue);
+
+    padding: 20px;
+    
+    border-radius: 15px;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+.contact-link:hover{
+    
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 7px rgba(255, 252, 252, 0.2);
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .contact-content{
+        margin-top: 200px;
+    }
+
+    .contact-container{
+        /* top: 200px; */
+        flex-direction: column;
+    }
+}
+    
+@media screen and (max-height: 850px) and (max-width: 500px){
+
+    .contact-container{
+        /* top: 200px; */
+        gap: 20px;
+    }
+}
+
+@media screen and (max-height: 800px) and (max-width: 500px){
+
+    .contact-link img{
+        width: 60px;
+    }
+}
+

@@ -1,0 +1,280 @@
+/* HERO */
+
+
+.game-container{
+
+    position: fixed;
+    z-index: 0;
+
+    top: 0;
+    left: 0;
+    
+    display: grid;
+    background-color: var(--dark-blue);
+
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.espacement{
+    height: 100vh;
+    width: 0px;
+    
+    z-index: -50;
+}
+
+
+.cell{
+    /* width: 40px;
+    height: 40px; */
+    border: 1px solid var(--dark-blue);
+    box-sizing: border-box;
+    background-color: var(--black);
+
+    transition: 0.3s all ease-in-out;
+}
+
+.alive{
+    background-color: var(--dark-blue-2);
+}
+
+.hero-content{
+    position: absolute;
+
+    margin-top: 200px;
+    margin-left: 120px;
+
+
+    /* width: 600px; */
+    max-width: 70%;
+    
+    
+}
+
+.hero-content .span{
+    opacity: 0;
+    
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 5px;
+    transform: translateX(-1500px);
+    transition: all 0.5s ease;
+    
+}
+
+.name{
+    opacity: 0;
+
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 8rem;
+
+    text-transform: uppercase;
+
+    color: var(--white);
+
+    transform: translateX(-3000px);
+    transition: all 1s ease;
+}
+
+
+
+.title{
+    opacity: 0;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+
+    color: var(--blue);
+
+    transform: translateX(-4500px);
+
+    transition: all 1.5s ease;
+
+    /* text-transform: uppercase; */
+}
+
+.span.show-hero{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.name.show-hero{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.title.show-hero{
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width:1250px) {
+
+    .name{
+       font-size: 7rem;
+    }
+    .title{
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+  .name{
+     font-size: 6rem;
+  }
+  .title{
+      font-size: 4rem;
+  }
+}
+
+@media screen and (max-width:900px) {
+
+    .hero-content{
+        margin-top: 150px;
+        margin-left: 50px;
+        max-height: 400px;
+    }
+}
+
+
+
+/* Game controller */
+
+.controller{
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+
+    width: 300px;
+    /* max-width: 300px;
+    width: 20%;
+    min-width: 200px; */
+    height: 60px;
+
+    border: 3px solid var(--blue);
+    border-radius: 30px;
+
+    /* background-color: var(--white); */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pause svg{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    fill: var(--blue);
+    cursor: pointer;
+}
+
+.slider-speed {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    margin: 20px;
+    
+  }
+  
+  .slider {
+    width: 100%;
+  }
+  
+  #sliderValue {
+    margin-left: 10px;
+    color: var(--blue);
+  }
+
+  .info-button{
+
+    transition: all 0.3s ease-in-out;
+    
+    height: 56px;
+    min-width: 54px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--blue);
+    font-size: 3rem;
+    font-weight: 700;
+    /* margin-right: 30px; */
+    /* border-left: 3px solid var(--blue);
+    border-top: 3px solid var(--blue);
+    border-bottom: 3px solid var(--blue); */
+
+    border-radius: 50%;
+  }
+
+  /* .info-button:hover{
+    background: var(--transparent-blue);
+  } */
+
+  .information{
+    position: absolute;
+    bottom: 160px;
+    right: 60px;
+
+    width: 360px;
+    /* height: 360px; */
+
+    color: var(--white);
+
+    background-color: var(--transparent-black);
+    padding: 20px;
+    border-radius: 30px;
+  }
+
+  .information:hover{
+    background-color: var(--transparent-black-2);
+  }
+
+  .exit-information{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+
+    fill: var(--white);
+
+    background-color: var(--dark-blue);
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .exit-information svg{
+    width: 35px;
+    height: 35px;
+  }
+
+
+  @media screen and (max-width: 450px) {
+
+    .controller{
+        
+        right: 30px;
+    }
+
+    .information{
+        right: 30px;
+        width: 300px;
+    }
+}
+
