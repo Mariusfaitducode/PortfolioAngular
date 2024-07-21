@@ -1,0 +1,2228 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "ConcepTask",
+        "githubUrl": "https://github.com/Mariusfaitducode/ConcepTask",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:38:36.581Z",
+        "updatedAt": "2024-07-20T13:24:48.323Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Application mobile de todolist, permet de visualiser les tâches à réaliser sous forme d'arbre ou de graph",
+        "visible": true,
+        "category": "application",
+        "bigProject": true,
+        "skills": {
+          "data": [
+            {
+              "id": 16,
+              "attributes": {
+                "title": "Angular",
+                "createdAt": "2024-07-20T08:30:21.946Z",
+                "updatedAt": "2024-07-20T08:30:21.946Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 17,
+              "attributes": {
+                "title": "Ionic",
+                "createdAt": "2024-07-20T08:30:35.915Z",
+                "updatedAt": "2024-07-20T08:30:35.915Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "front-end"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 51,
+              "attributes": {
+                "name": "screen_add.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 2400,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_add.jpg",
+                    "hash": "thumbnail_screen_add_734f182ca2",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 70,
+                    "height": 156,
+                    "size": 2.74,
+                    "sizeInBytes": 2742,
+                    "url": "/uploads/thumbnail_screen_add_734f182ca2.jpg"
+                  },
+                  "large": {
+                    "name": "large_screen_add.jpg",
+                    "hash": "large_screen_add_734f182ca2",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 450,
+                    "height": 1000,
+                    "size": 53.14,
+                    "sizeInBytes": 53139,
+                    "url": "/uploads/large_screen_add_734f182ca2.jpg"
+                  },
+                  "medium": {
+                    "name": "medium_screen_add.jpg",
+                    "hash": "medium_screen_add_734f182ca2",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 338,
+                    "height": 750,
+                    "size": 36.08,
+                    "sizeInBytes": 36080,
+                    "url": "/uploads/medium_screen_add_734f182ca2.jpg"
+                  },
+                  "small": {
+                    "name": "small_screen_add.jpg",
+                    "hash": "small_screen_add_734f182ca2",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 225,
+                    "height": 500,
+                    "size": 19.53,
+                    "sizeInBytes": 19530,
+                    "url": "/uploads/small_screen_add_734f182ca2.jpg"
+                  }
+                },
+                "hash": "screen_add_734f182ca2",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 172.37,
+                "url": "/uploads/screen_add_734f182ca2.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:12.243Z",
+                "updatedAt": "2024-07-20T10:23:12.243Z"
+              }
+            },
+            {
+              "id": 50,
+              "attributes": {
+                "name": "screen_calendar.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 2400,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_calendar.jpg",
+                    "hash": "thumbnail_screen_calendar_b2dea2ea41",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 70,
+                    "height": 156,
+                    "size": 3.18,
+                    "sizeInBytes": 3179,
+                    "url": "/uploads/thumbnail_screen_calendar_b2dea2ea41.jpg"
+                  },
+                  "large": {
+                    "name": "large_screen_calendar.jpg",
+                    "hash": "large_screen_calendar_b2dea2ea41",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 450,
+                    "height": 1000,
+                    "size": 43.16,
+                    "sizeInBytes": 43164,
+                    "url": "/uploads/large_screen_calendar_b2dea2ea41.jpg"
+                  },
+                  "small": {
+                    "name": "small_screen_calendar.jpg",
+                    "hash": "small_screen_calendar_b2dea2ea41",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 225,
+                    "height": 500,
+                    "size": 17.95,
+                    "sizeInBytes": 17952,
+                    "url": "/uploads/small_screen_calendar_b2dea2ea41.jpg"
+                  },
+                  "medium": {
+                    "name": "medium_screen_calendar.jpg",
+                    "hash": "medium_screen_calendar_b2dea2ea41",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 338,
+                    "height": 750,
+                    "size": 29.54,
+                    "sizeInBytes": 29544,
+                    "url": "/uploads/medium_screen_calendar_b2dea2ea41.jpg"
+                  }
+                },
+                "hash": "screen_calendar_b2dea2ea41",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 135.52,
+                "url": "/uploads/screen_calendar_b2dea2ea41.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:12.130Z",
+                "updatedAt": "2024-07-20T10:23:12.130Z"
+              }
+            },
+            {
+              "id": 42,
+              "attributes": {
+                "name": "conceptask_green.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 512,
+                "height": 512,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_conceptask_green.png",
+                    "hash": "thumbnail_conceptask_green_466af3f2f0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 24.84,
+                    "sizeInBytes": 24844,
+                    "url": "/uploads/thumbnail_conceptask_green_466af3f2f0.png"
+                  },
+                  "small": {
+                    "name": "small_conceptask_green.png",
+                    "hash": "small_conceptask_green_466af3f2f0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 232.97,
+                    "sizeInBytes": 232970,
+                    "url": "/uploads/small_conceptask_green_466af3f2f0.png"
+                  }
+                },
+                "hash": "conceptask_green_466af3f2f0",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 37.25,
+                "url": "/uploads/conceptask_green_466af3f2f0.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:11.152Z",
+                "updatedAt": "2024-07-20T10:23:11.152Z"
+              }
+            },
+            {
+              "id": 45,
+              "attributes": {
+                "name": "screen_graph.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 2400,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_graph.jpg",
+                    "hash": "thumbnail_screen_graph_64546bbc35",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 70,
+                    "height": 156,
+                    "size": 2.7,
+                    "sizeInBytes": 2704,
+                    "url": "/uploads/thumbnail_screen_graph_64546bbc35.jpg"
+                  },
+                  "large": {
+                    "name": "large_screen_graph.jpg",
+                    "hash": "large_screen_graph_64546bbc35",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 450,
+                    "height": 1000,
+                    "size": 38.17,
+                    "sizeInBytes": 38171,
+                    "url": "/uploads/large_screen_graph_64546bbc35.jpg"
+                  },
+                  "medium": {
+                    "name": "medium_screen_graph.jpg",
+                    "hash": "medium_screen_graph_64546bbc35",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 338,
+                    "height": 750,
+                    "size": 26.1,
+                    "sizeInBytes": 26103,
+                    "url": "/uploads/medium_screen_graph_64546bbc35.jpg"
+                  },
+                  "small": {
+                    "name": "small_screen_graph.jpg",
+                    "hash": "small_screen_graph_64546bbc35",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 225,
+                    "height": 500,
+                    "size": 15.36,
+                    "sizeInBytes": 15362,
+                    "url": "/uploads/small_screen_graph_64546bbc35.jpg"
+                  }
+                },
+                "hash": "screen_graph_64546bbc35",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 127.92,
+                "url": "/uploads/screen_graph_64546bbc35.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:11.680Z",
+                "updatedAt": "2024-07-20T10:23:11.680Z"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "screen_home.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 2400,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_home.jpg",
+                    "hash": "thumbnail_screen_home_94a3de0e17",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 70,
+                    "height": 156,
+                    "size": 2.42,
+                    "sizeInBytes": 2419,
+                    "url": "/uploads/thumbnail_screen_home_94a3de0e17.jpg"
+                  },
+                  "large": {
+                    "name": "large_screen_home.jpg",
+                    "hash": "large_screen_home_94a3de0e17",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 450,
+                    "height": 1000,
+                    "size": 34.82,
+                    "sizeInBytes": 34816,
+                    "url": "/uploads/large_screen_home_94a3de0e17.jpg"
+                  },
+                  "medium": {
+                    "name": "medium_screen_home.jpg",
+                    "hash": "medium_screen_home_94a3de0e17",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 338,
+                    "height": 750,
+                    "size": 24.02,
+                    "sizeInBytes": 24020,
+                    "url": "/uploads/medium_screen_home_94a3de0e17.jpg"
+                  },
+                  "small": {
+                    "name": "small_screen_home.jpg",
+                    "hash": "small_screen_home_94a3de0e17",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 225,
+                    "height": 500,
+                    "size": 14.29,
+                    "sizeInBytes": 14286,
+                    "url": "/uploads/small_screen_home_94a3de0e17.jpg"
+                  }
+                },
+                "hash": "screen_home_94a3de0e17",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 113.19,
+                "url": "/uploads/screen_home_94a3de0e17.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:11.652Z",
+                "updatedAt": "2024-07-20T10:23:11.652Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Eventum",
+        "githubUrl": "https://github.com/Mariusfaitducode/Eventum_Angular",
+        "linkUrl": "https://mariusdiguat.fr/Eventum/",
+        "teamProject": true,
+        "createdAt": "2024-07-19T20:47:24.781Z",
+        "updatedAt": "2024-07-20T13:29:26.090Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Réseau social web, dont le principe est basé sur la création et le partage d'événements",
+        "visible": true,
+        "category": "web",
+        "bigProject": true,
+        "skills": {
+          "data": [
+            {
+              "id": 16,
+              "attributes": {
+                "title": "Angular",
+                "createdAt": "2024-07-20T08:30:21.946Z",
+                "updatedAt": "2024-07-20T08:30:21.946Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 8,
+              "attributes": {
+                "title": "PHP",
+                "createdAt": "2024-07-20T08:27:42.947Z",
+                "updatedAt": "2024-07-20T08:27:42.947Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "back-end"
+              }
+            },
+            {
+              "id": 18,
+              "attributes": {
+                "title": "SQL",
+                "createdAt": "2024-07-20T08:31:08.526Z",
+                "updatedAt": "2024-07-20T08:31:08.526Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "database"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 68,
+              "attributes": {
+                "name": "eventum.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 929,
+                "height": 655,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_eventum.png",
+                    "hash": "thumbnail_eventum_c6fe59fe07",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 221,
+                    "height": 156,
+                    "size": 15.98,
+                    "sizeInBytes": 15976,
+                    "url": "/uploads/thumbnail_eventum_c6fe59fe07.png"
+                  },
+                  "small": {
+                    "name": "small_eventum.png",
+                    "hash": "small_eventum_c6fe59fe07",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 353,
+                    "size": 48.3,
+                    "sizeInBytes": 48299,
+                    "url": "/uploads/small_eventum_c6fe59fe07.png"
+                  },
+                  "medium": {
+                    "name": "medium_eventum.png",
+                    "hash": "medium_eventum_c6fe59fe07",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 529,
+                    "size": 93.09,
+                    "sizeInBytes": 93090,
+                    "url": "/uploads/medium_eventum_c6fe59fe07.png"
+                  }
+                },
+                "hash": "eventum_c6fe59fe07",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 22.89,
+                "url": "/uploads/eventum_c6fe59fe07.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:24.199Z",
+                "updatedAt": "2024-07-20T10:25:24.199Z"
+              }
+            },
+            {
+              "id": 79,
+              "attributes": {
+                "name": "screen_home.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1913,
+                "height": 928,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_home.png",
+                    "hash": "thumbnail_screen_home_aff81da36e",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 119,
+                    "size": 45.47,
+                    "sizeInBytes": 45473,
+                    "url": "/uploads/thumbnail_screen_home_aff81da36e.png"
+                  },
+                  "small": {
+                    "name": "small_screen_home.png",
+                    "hash": "small_screen_home_aff81da36e",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 243,
+                    "size": 160.03,
+                    "sizeInBytes": 160033,
+                    "url": "/uploads/small_screen_home_aff81da36e.png"
+                  },
+                  "medium": {
+                    "name": "medium_screen_home.png",
+                    "hash": "medium_screen_home_aff81da36e",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 364,
+                    "size": 334.71,
+                    "sizeInBytes": 334706,
+                    "url": "/uploads/medium_screen_home_aff81da36e.png"
+                  },
+                  "large": {
+                    "name": "large_screen_home.png",
+                    "hash": "large_screen_home_aff81da36e",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 485,
+                    "size": 561.42,
+                    "sizeInBytes": 561423,
+                    "url": "/uploads/large_screen_home_aff81da36e.png"
+                  }
+                },
+                "hash": "screen_home_aff81da36e",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 350.53,
+                "url": "/uploads/screen_home_aff81da36e.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:28.794Z",
+                "updatedAt": "2024-07-20T10:25:28.794Z"
+              }
+            },
+            {
+              "id": 77,
+              "attributes": {
+                "name": "screen_event.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1412,
+                "height": 838,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_event.png",
+                    "hash": "thumbnail_screen_event_84b304ab32",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 145,
+                    "size": 32.06,
+                    "sizeInBytes": 32063,
+                    "url": "/uploads/thumbnail_screen_event_84b304ab32.png"
+                  },
+                  "small": {
+                    "name": "small_screen_event.png",
+                    "hash": "small_screen_event_84b304ab32",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 297,
+                    "size": 113.68,
+                    "sizeInBytes": 113677,
+                    "url": "/uploads/small_screen_event_84b304ab32.png"
+                  },
+                  "medium": {
+                    "name": "medium_screen_event.png",
+                    "hash": "medium_screen_event_84b304ab32",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 445,
+                    "size": 233.43,
+                    "sizeInBytes": 233425,
+                    "url": "/uploads/medium_screen_event_84b304ab32.png"
+                  },
+                  "large": {
+                    "name": "large_screen_event.png",
+                    "hash": "large_screen_event_84b304ab32",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 593,
+                    "size": 389.95,
+                    "sizeInBytes": 389946,
+                    "url": "/uploads/large_screen_event_84b304ab32.png"
+                  }
+                },
+                "hash": "screen_event_84b304ab32",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 153.65,
+                "url": "/uploads/screen_event_84b304ab32.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:25.866Z",
+                "updatedAt": "2024-07-20T10:25:25.866Z"
+              }
+            },
+            {
+              "id": 78,
+              "attributes": {
+                "name": "screen_profil.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1323,
+                "height": 727,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_profil.png",
+                    "hash": "thumbnail_screen_profil_886a4ed011",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 135,
+                    "size": 22.84,
+                    "sizeInBytes": 22842,
+                    "url": "/uploads/thumbnail_screen_profil_886a4ed011.png"
+                  },
+                  "medium": {
+                    "name": "medium_screen_profil.png",
+                    "hash": "medium_screen_profil_886a4ed011",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 412,
+                    "size": 145.54,
+                    "sizeInBytes": 145542,
+                    "url": "/uploads/medium_screen_profil_886a4ed011.png"
+                  },
+                  "small": {
+                    "name": "small_screen_profil.png",
+                    "hash": "small_screen_profil_886a4ed011",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 275,
+                    "size": 74.12,
+                    "sizeInBytes": 74121,
+                    "url": "/uploads/small_screen_profil_886a4ed011.png"
+                  },
+                  "large": {
+                    "name": "large_screen_profil.png",
+                    "hash": "large_screen_profil_886a4ed011",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 550,
+                    "size": 236.05,
+                    "sizeInBytes": 236051,
+                    "url": "/uploads/large_screen_profil_886a4ed011.png"
+                  }
+                },
+                "hash": "screen_profil_886a4ed011",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 89.3,
+                "url": "/uploads/screen_profil_886a4ed011.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:26.195Z",
+                "updatedAt": "2024-07-20T10:25:26.195Z"
+              }
+            },
+            {
+              "id": 70,
+              "attributes": {
+                "name": "screen_calendar.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1069,
+                "height": 738,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_calendar.png",
+                    "hash": "thumbnail_screen_calendar_b08ab03fe6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 226,
+                    "height": 156,
+                    "size": 18.69,
+                    "sizeInBytes": 18692,
+                    "url": "/uploads/thumbnail_screen_calendar_b08ab03fe6.png"
+                  },
+                  "small": {
+                    "name": "small_screen_calendar.png",
+                    "hash": "small_screen_calendar_b08ab03fe6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 345,
+                    "size": 59.59,
+                    "sizeInBytes": 59592,
+                    "url": "/uploads/small_screen_calendar_b08ab03fe6.png"
+                  },
+                  "medium": {
+                    "name": "medium_screen_calendar.png",
+                    "hash": "medium_screen_calendar_b08ab03fe6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 518,
+                    "size": 110.1,
+                    "sizeInBytes": 110095,
+                    "url": "/uploads/medium_screen_calendar_b08ab03fe6.png"
+                  },
+                  "large": {
+                    "name": "large_screen_calendar.png",
+                    "hash": "large_screen_calendar_b08ab03fe6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 690,
+                    "size": 174.81,
+                    "sizeInBytes": 174807,
+                    "url": "/uploads/large_screen_calendar_b08ab03fe6.png"
+                  }
+                },
+                "hash": "screen_calendar_b08ab03fe6",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 46.72,
+                "url": "/uploads/screen_calendar_b08ab03fe6.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:24.360Z",
+                "updatedAt": "2024-07-20T10:25:24.360Z"
+              }
+            },
+            {
+              "id": 76,
+              "attributes": {
+                "name": "screen_message.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1328,
+                "height": 751,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_screen_message.png",
+                    "hash": "thumbnail_screen_message_50c011046d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 139,
+                    "size": 16.25,
+                    "sizeInBytes": 16253,
+                    "url": "/uploads/thumbnail_screen_message_50c011046d.png"
+                  },
+                  "small": {
+                    "name": "small_screen_message.png",
+                    "hash": "small_screen_message_50c011046d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 283,
+                    "size": 47.64,
+                    "sizeInBytes": 47639,
+                    "url": "/uploads/small_screen_message_50c011046d.png"
+                  },
+                  "medium": {
+                    "name": "medium_screen_message.png",
+                    "hash": "medium_screen_message_50c011046d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 424,
+                    "size": 91.47,
+                    "sizeInBytes": 91471,
+                    "url": "/uploads/medium_screen_message_50c011046d.png"
+                  },
+                  "large": {
+                    "name": "large_screen_message.png",
+                    "hash": "large_screen_message_50c011046d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 566,
+                    "size": 144.54,
+                    "sizeInBytes": 144538,
+                    "url": "/uploads/large_screen_message_50c011046d.png"
+                  }
+                },
+                "hash": "screen_message_50c011046d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 56.28,
+                "url": "/uploads/screen_message_50c011046d.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:25:25.714Z",
+                "updatedAt": "2024-07-20T10:25:25.714Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Sessad Gestion",
+        "githubUrl": "https://github.com/Mariusfaitducode/SessadOptimisation",
+        "linkUrl": null,
+        "teamProject": true,
+        "createdAt": "2024-07-19T20:48:52.369Z",
+        "updatedAt": "2024-07-20T13:30:31.760Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Projet d'optimisation sur un problème d'affectation de missions avec un algorithme génétique.",
+        "visible": true,
+        "category": "algorithm",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 5,
+              "attributes": {
+                "title": "Java",
+                "createdAt": "2024-07-20T08:26:38.510Z",
+                "updatedAt": "2024-07-20T08:26:38.510Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "programmation"
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "title": "JavaFX",
+                "createdAt": "2024-07-20T08:34:29.880Z",
+                "updatedAt": "2024-07-20T08:34:29.880Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 119,
+              "attributes": {
+                "name": "sessad.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 990,
+                "height": 709,
+                "formats": {
+                  "small": {
+                    "name": "small_sessad.png",
+                    "hash": "small_sessad_eb99e98075",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 358,
+                    "size": 104.67,
+                    "sizeInBytes": 104671,
+                    "url": "/uploads/small_sessad_eb99e98075.png"
+                  },
+                  "medium": {
+                    "name": "medium_sessad.png",
+                    "hash": "medium_sessad_eb99e98075",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 537,
+                    "size": 194.1,
+                    "sizeInBytes": 194096,
+                    "url": "/uploads/medium_sessad_eb99e98075.png"
+                  },
+                  "thumbnail": {
+                    "name": "thumbnail_sessad.png",
+                    "hash": "thumbnail_sessad_eb99e98075",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 218,
+                    "height": 156,
+                    "size": 28.21,
+                    "sizeInBytes": 28206,
+                    "url": "/uploads/thumbnail_sessad_eb99e98075.png"
+                  }
+                },
+                "hash": "sessad_eb99e98075",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 52.34,
+                "url": "/uploads/sessad_eb99e98075.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T13:04:22.128Z",
+                "updatedAt": "2024-07-20T13:30:08.674Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "Portfolio",
+        "githubUrl": "https://github.com/Mariusfaitducode/Portfolio",
+        "linkUrl": "https://mariusdiguat.fr/",
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:49:45.616Z",
+        "updatedAt": "2024-07-20T13:32:06.678Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Mon portfolio présentant mes projets et mes compétences",
+        "visible": true,
+        "category": "web",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 12,
+              "attributes": {
+                "title": "Html",
+                "createdAt": "2024-07-20T08:28:59.503Z",
+                "updatedAt": "2024-07-20T08:28:59.503Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 13,
+              "attributes": {
+                "title": "CSS",
+                "createdAt": "2024-07-20T08:29:13.178Z",
+                "updatedAt": "2024-07-20T08:29:13.178Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 15,
+              "attributes": {
+                "title": "JavaScript",
+                "createdAt": "2024-07-20T08:29:58.387Z",
+                "updatedAt": "2024-07-20T08:29:58.387Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 16,
+              "attributes": {
+                "title": "Angular",
+                "createdAt": "2024-07-20T08:30:21.946Z",
+                "updatedAt": "2024-07-20T08:30:21.946Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "front-end"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 105,
+              "attributes": {
+                "name": "portfolio-home-2.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 915,
+                "height": 790,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_portfolio-home-2.png",
+                    "hash": "thumbnail_portfolio_home_2_6c58e3daf7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 181,
+                    "height": 156,
+                    "size": 20.53,
+                    "sizeInBytes": 20526,
+                    "url": "/uploads/thumbnail_portfolio_home_2_6c58e3daf7.png"
+                  },
+                  "medium": {
+                    "name": "medium_portfolio-home-2.png",
+                    "hash": "medium_portfolio_home_2_6c58e3daf7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 648,
+                    "size": 95.45,
+                    "sizeInBytes": 95445,
+                    "url": "/uploads/medium_portfolio_home_2_6c58e3daf7.png"
+                  },
+                  "small": {
+                    "name": "small_portfolio-home-2.png",
+                    "hash": "small_portfolio_home_2_6c58e3daf7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 432,
+                    "size": 57.39,
+                    "sizeInBytes": 57385,
+                    "url": "/uploads/small_portfolio_home_2_6c58e3daf7.png"
+                  }
+                },
+                "hash": "portfolio_home_2_6c58e3daf7",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 18.57,
+                "url": "/uploads/portfolio_home_2_6c58e3daf7.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:29:35.137Z",
+                "updatedAt": "2024-07-20T10:29:35.137Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Jeu d'échecs",
+        "githubUrl": "https://github.com/Mariusfaitducode/ChessGame",
+        "linkUrl": "https://github.com/Mariusfaitducode/ChessGame",
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:50:45.737Z",
+        "updatedAt": "2024-07-20T13:33:14.161Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Jeu d'échecs à 2 joueurs réalisé en C++ avec Qt Creator",
+        "visible": true,
+        "category": "game",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "title": "C++",
+                "createdAt": "2024-07-20T08:26:18.550Z",
+                "updatedAt": "2024-07-20T08:26:18.550Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "programmation"
+              }
+            },
+            {
+              "id": 25,
+              "attributes": {
+                "title": "Qt Creator",
+                "createdAt": "2024-07-20T08:34:59.390Z",
+                "updatedAt": "2024-07-20T08:34:59.390Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 52,
+              "attributes": {
+                "name": "echec1.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1202,
+                "height": 854,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_echec1.png",
+                    "hash": "thumbnail_echec1_7fe8f978d0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 220,
+                    "height": 156,
+                    "size": 29.55,
+                    "sizeInBytes": 29553,
+                    "url": "/uploads/thumbnail_echec1_7fe8f978d0.png"
+                  },
+                  "medium": {
+                    "name": "medium_echec1.png",
+                    "hash": "medium_echec1_7fe8f978d0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 533,
+                    "size": 106.11,
+                    "sizeInBytes": 106111,
+                    "url": "/uploads/medium_echec1_7fe8f978d0.png"
+                  },
+                  "small": {
+                    "name": "small_echec1.png",
+                    "hash": "small_echec1_7fe8f978d0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 355,
+                    "size": 68.57,
+                    "sizeInBytes": 68569,
+                    "url": "/uploads/small_echec1_7fe8f978d0.png"
+                  },
+                  "large": {
+                    "name": "large_echec1.png",
+                    "hash": "large_echec1_7fe8f978d0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 710,
+                    "size": 149.25,
+                    "sizeInBytes": 149250,
+                    "url": "/uploads/large_echec1_7fe8f978d0.png"
+                  }
+                },
+                "hash": "echec1_7fe8f978d0",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 26.02,
+                "url": "/uploads/echec1_7fe8f978d0.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:23:51.888Z",
+                "updatedAt": "2024-07-20T10:23:51.888Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "Minimax alpha-beta",
+        "githubUrl": "https://github.com/Mariusfaitducode/Puissance_4_Game",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:51:53.375Z",
+        "updatedAt": "2024-07-20T13:34:33.944Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Puissance 4 jouable contre une IA implémentant l'algorithme minimax alpha beta",
+        "visible": true,
+        "category": "algorithm",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "title": "Python",
+                "createdAt": "2024-07-20T08:20:51.030Z",
+                "updatedAt": "2024-07-20T08:25:09.420Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 113,
+              "attributes": {
+                "name": "Puissance4_1.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 908,
+                "height": 596,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Puissance4_1.png",
+                    "hash": "thumbnail_Puissance4_1_32ce3d293d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 238,
+                    "height": 156,
+                    "size": 14.67,
+                    "sizeInBytes": 14666,
+                    "url": "/uploads/thumbnail_Puissance4_1_32ce3d293d.png"
+                  },
+                  "medium": {
+                    "name": "medium_Puissance4_1.png",
+                    "hash": "medium_Puissance4_1_32ce3d293d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 492,
+                    "size": 53.25,
+                    "sizeInBytes": 53250,
+                    "url": "/uploads/medium_Puissance4_1_32ce3d293d.png"
+                  },
+                  "small": {
+                    "name": "small_Puissance4_1.png",
+                    "hash": "small_Puissance4_1_32ce3d293d",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 328,
+                    "size": 33.29,
+                    "sizeInBytes": 33293,
+                    "url": "/uploads/small_Puissance4_1_32ce3d293d.png"
+                  }
+                },
+                "hash": "Puissance4_1_32ce3d293d",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 8.03,
+                "url": "/uploads/Puissance4_1_32ce3d293d.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T13:03:44.611Z",
+                "updatedAt": "2024-07-20T13:34:10.124Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "title": "Squary",
+        "githubUrl": "https://github.com/Mariusfaitducode/SquaryGame",
+        "linkUrl": null,
+        "teamProject": true,
+        "createdAt": "2024-07-19T20:53:21.946Z",
+        "updatedAt": "2024-07-20T13:35:25.327Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Jeu réalisé lors de la Scientific Game Jam 2022 de Bourgogne Franche Comté. Vainqueur du prix du public",
+        "visible": true,
+        "category": "game",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 23,
+              "attributes": {
+                "title": "Unity",
+                "createdAt": "2024-07-20T08:33:57.754Z",
+                "updatedAt": "2024-07-20T08:33:57.754Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "title": "C#",
+                "createdAt": "2024-07-20T08:26:00.327Z",
+                "updatedAt": "2024-07-20T08:26:00.327Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 126,
+              "attributes": {
+                "name": "squary4.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 743,
+                "height": 417,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_squary4.png",
+                    "hash": "thumbnail_squary4_626ae6e5a8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 25.08,
+                    "sizeInBytes": 25083,
+                    "url": "/uploads/thumbnail_squary4_626ae6e5a8.png"
+                  },
+                  "small": {
+                    "name": "small_squary4.png",
+                    "hash": "small_squary4_626ae6e5a8",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 281,
+                    "size": 79.1,
+                    "sizeInBytes": 79096,
+                    "url": "/uploads/small_squary4_626ae6e5a8.png"
+                  }
+                },
+                "hash": "squary4_626ae6e5a8",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 25.36,
+                "url": "/uploads/squary4_626ae6e5a8.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T13:04:50.500Z",
+                "updatedAt": "2024-07-20T13:04:50.500Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "title": "Labyrinthe",
+        "githubUrl": "https://github.com/Mariusfaitducode/labyrintheGame",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:54:04.289Z",
+        "updatedAt": "2024-07-20T13:36:46.401Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Programme permettant de générer des labyrinthes puis de les résoudre                                                                                               ",
+        "visible": true,
+        "category": "algorithm",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "title": "Python",
+                "createdAt": "2024-07-20T08:20:51.030Z",
+                "updatedAt": "2024-07-20T08:25:09.420Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 92,
+              "attributes": {
+                "name": "lab_7.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 958,
+                "height": 759,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_lab_7.png",
+                    "hash": "thumbnail_lab_7_e4309f0178",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 197,
+                    "height": 156,
+                    "size": 26.25,
+                    "sizeInBytes": 26245,
+                    "url": "/uploads/thumbnail_lab_7_e4309f0178.png"
+                  },
+                  "medium": {
+                    "name": "medium_lab_7.png",
+                    "hash": "medium_lab_7_e4309f0178",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 594,
+                    "size": 65.02,
+                    "sizeInBytes": 65024,
+                    "url": "/uploads/medium_lab_7_e4309f0178.png"
+                  },
+                  "small": {
+                    "name": "small_lab_7.png",
+                    "hash": "small_lab_7_e4309f0178",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 396,
+                    "size": 49.59,
+                    "sizeInBytes": 49592,
+                    "url": "/uploads/small_lab_7_e4309f0178.png"
+                  }
+                },
+                "hash": "lab_7_e4309f0178",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 10.92,
+                "url": "/uploads/lab_7_e4309f0178.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:28:01.846Z",
+                "updatedAt": "2024-07-20T10:28:01.846Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "title": "Menu multi jeux",
+        "githubUrl": "https://github.com/Mariusfaitducode/LP2B-Games",
+        "linkUrl": null,
+        "teamProject": true,
+        "createdAt": "2024-07-19T20:55:17.701Z",
+        "updatedAt": "2024-07-20T13:37:59.735Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Menu de 4 mini jeux : Brick Breaker, Furapi Bird, Apple Catcher et Stack                                                                                  ",
+        "visible": true,
+        "category": "game",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 23,
+              "attributes": {
+                "title": "Unity",
+                "createdAt": "2024-07-20T08:33:57.754Z",
+                "updatedAt": "2024-07-20T08:33:57.754Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "title": "C#",
+                "createdAt": "2024-07-20T08:26:00.327Z",
+                "updatedAt": "2024-07-20T08:26:00.327Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 99,
+              "attributes": {
+                "name": "lp2b_1.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1116,
+                "height": 631,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_lp2b_1.png",
+                    "hash": "thumbnail_lp2b_1_1c3cd596ae",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 139,
+                    "size": 36,
+                    "sizeInBytes": 35996,
+                    "url": "/uploads/thumbnail_lp2b_1_1c3cd596ae.png"
+                  },
+                  "small": {
+                    "name": "small_lp2b_1.png",
+                    "hash": "small_lp2b_1_1c3cd596ae",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 283,
+                    "size": 114.21,
+                    "sizeInBytes": 114208,
+                    "url": "/uploads/small_lp2b_1_1c3cd596ae.png"
+                  },
+                  "medium": {
+                    "name": "medium_lp2b_1.png",
+                    "hash": "medium_lp2b_1_1c3cd596ae",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 424,
+                    "size": 224.85,
+                    "sizeInBytes": 224848,
+                    "url": "/uploads/medium_lp2b_1_1c3cd596ae.png"
+                  },
+                  "large": {
+                    "name": "large_lp2b_1.png",
+                    "hash": "large_lp2b_1_1c3cd596ae",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 565,
+                    "size": 362.8,
+                    "sizeInBytes": 362801,
+                    "url": "/uploads/large_lp2b_1_1c3cd596ae.png"
+                  }
+                },
+                "hash": "lp2b_1_1c3cd596ae",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 155.5,
+                "url": "/uploads/lp2b_1_1c3cd596ae.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:29:00.484Z",
+                "updatedAt": "2024-07-20T13:37:38.308Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "title": "Sudoku Solver",
+        "githubUrl": "https://github.com/Mariusfaitducode/sudokuGame",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:58:04.782Z",
+        "updatedAt": "2024-07-20T13:38:57.387Z",
+        "publishedAt": "2024-07-20T14:21:51.735Z",
+        "smallDescription": "Programme permettant de résoudre des grilles de Sudoku en utilisant un algorithme de backtracking  ",
+        "visible": true,
+        "category": "algorithm",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 1,
+              "attributes": {
+                "title": "Python",
+                "createdAt": "2024-07-20T08:20:51.030Z",
+                "updatedAt": "2024-07-20T08:25:09.420Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 82,
+              "attributes": {
+                "name": "Sudoku3.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 829,
+                "height": 560,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Sudoku3.png",
+                    "hash": "thumbnail_Sudoku3_7625581dcd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 231,
+                    "height": 156,
+                    "size": 15.7,
+                    "sizeInBytes": 15702,
+                    "url": "/uploads/thumbnail_Sudoku3_7625581dcd.png"
+                  },
+                  "medium": {
+                    "name": "medium_Sudoku3.png",
+                    "hash": "medium_Sudoku3_7625581dcd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 507,
+                    "size": 57.77,
+                    "sizeInBytes": 57768,
+                    "url": "/uploads/medium_Sudoku3_7625581dcd.png"
+                  },
+                  "small": {
+                    "name": "small_Sudoku3.png",
+                    "hash": "small_Sudoku3_7625581dcd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 338,
+                    "size": 35.88,
+                    "sizeInBytes": 35884,
+                    "url": "/uploads/small_Sudoku3_7625581dcd.png"
+                  }
+                },
+                "hash": "Sudoku3_7625581dcd",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 11.01,
+                "url": "/uploads/Sudoku3_7625581dcd.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:26:35.530Z",
+                "updatedAt": "2024-07-20T10:26:35.530Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "attributes": {
+        "title": "Tetris",
+        "githubUrl": "https://github.com/Mariusfaitducode/Tetris",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:58:56.950Z",
+        "updatedAt": "2024-07-20T13:39:52.383Z",
+        "publishedAt": "2024-07-20T14:21:51.735Z",
+        "smallDescription": "Jeu de Tetris avec plusieurs niveaux de difficultés                                                                                            \n",
+        "visible": true,
+        "category": "game",
+        "bigProject": false,
+        "skills": {
+          "data": [
+            {
+              "id": 5,
+              "attributes": {
+                "title": "Java",
+                "createdAt": "2024-07-20T08:26:38.510Z",
+                "updatedAt": "2024-07-20T08:26:38.510Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 131,
+              "attributes": {
+                "name": "tetris_2.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 927,
+                "height": 690,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_tetris_2.png",
+                    "hash": "thumbnail_tetris_2_b27a83e1d4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 210,
+                    "height": 156,
+                    "size": 10.3,
+                    "sizeInBytes": 10304,
+                    "url": "/uploads/thumbnail_tetris_2_b27a83e1d4.png"
+                  },
+                  "small": {
+                    "name": "small_tetris_2.png",
+                    "hash": "small_tetris_2_b27a83e1d4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 372,
+                    "size": 21.37,
+                    "sizeInBytes": 21372,
+                    "url": "/uploads/small_tetris_2_b27a83e1d4.png"
+                  },
+                  "medium": {
+                    "name": "medium_tetris_2.png",
+                    "hash": "medium_tetris_2_b27a83e1d4",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 558,
+                    "size": 33.41,
+                    "sizeInBytes": 33405,
+                    "url": "/uploads/medium_tetris_2_b27a83e1d4.png"
+                  }
+                },
+                "hash": "tetris_2_b27a83e1d4",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 5.23,
+                "url": "/uploads/tetris_2_b27a83e1d4.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T13:05:19.827Z",
+                "updatedAt": "2024-07-20T13:05:19.827Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "attributes": {
+        "title": "Escape World",
+        "githubUrl": "https://github.com/Mariusfaitducode/PolytopiaTest",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-07-19T20:59:53.722Z",
+        "updatedAt": "2024-07-20T13:27:55.769Z",
+        "publishedAt": "2024-07-20T14:18:58.136Z",
+        "smallDescription": "Jeu d'aventure explorant différents mondes en 3 dimensions",
+        "visible": false,
+        "category": "game",
+        "bigProject": true,
+        "skills": {
+          "data": [
+            {
+              "id": 23,
+              "attributes": {
+                "title": "Unity",
+                "createdAt": "2024-07-20T08:33:57.754Z",
+                "updatedAt": "2024-07-20T08:33:57.754Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            },
+            {
+              "id": 28,
+              "attributes": {
+                "title": "Blender",
+                "createdAt": "2024-07-20T08:36:26.584Z",
+                "updatedAt": "2024-07-20T08:36:26.584Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "graphics"
+              }
+            },
+            {
+              "id": 3,
+              "attributes": {
+                "title": "C#",
+                "createdAt": "2024-07-20T08:26:00.327Z",
+                "updatedAt": "2024-07-20T08:26:00.327Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "programmation"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 62,
+              "attributes": {
+                "name": "escape1.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1340,
+                "height": 748,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_escape1.png",
+                    "hash": "thumbnail_escape1_c301828c38",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 137,
+                    "size": 61.72,
+                    "sizeInBytes": 61718,
+                    "url": "/uploads/thumbnail_escape1_c301828c38.png"
+                  },
+                  "small": {
+                    "name": "small_escape1.png",
+                    "hash": "small_escape1_c301828c38",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 279,
+                    "size": 205.72,
+                    "sizeInBytes": 205722,
+                    "url": "/uploads/small_escape1_c301828c38.png"
+                  },
+                  "medium": {
+                    "name": "medium_escape1.png",
+                    "hash": "medium_escape1_c301828c38",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 419,
+                    "size": 431.8,
+                    "sizeInBytes": 431797,
+                    "url": "/uploads/medium_escape1_c301828c38.png"
+                  },
+                  "large": {
+                    "name": "large_escape1.png",
+                    "hash": "large_escape1_c301828c38",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 558,
+                    "size": 738.38,
+                    "sizeInBytes": 738381,
+                    "url": "/uploads/large_escape1_c301828c38.png"
+                  }
+                },
+                "hash": "escape1_c301828c38",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 246.24,
+                "url": "/uploads/escape1_c301828c38.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:36.404Z",
+                "updatedAt": "2024-07-20T10:24:36.404Z"
+              }
+            },
+            {
+              "id": 60,
+              "attributes": {
+                "name": "escape3.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1067,
+                "height": 592,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_escape3.png",
+                    "hash": "thumbnail_escape3_afee062815",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 136,
+                    "size": 63.8,
+                    "sizeInBytes": 63804,
+                    "url": "/uploads/thumbnail_escape3_afee062815.png"
+                  },
+                  "small": {
+                    "name": "small_escape3.png",
+                    "hash": "small_escape3_afee062815",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 277,
+                    "size": 219.53,
+                    "sizeInBytes": 219534,
+                    "url": "/uploads/small_escape3_afee062815.png"
+                  },
+                  "medium": {
+                    "name": "medium_escape3.png",
+                    "hash": "medium_escape3_afee062815",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 416,
+                    "size": 446.51,
+                    "sizeInBytes": 446509,
+                    "url": "/uploads/medium_escape3_afee062815.png"
+                  },
+                  "large": {
+                    "name": "large_escape3.png",
+                    "hash": "large_escape3_afee062815",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 555,
+                    "size": 728.04,
+                    "sizeInBytes": 728043,
+                    "url": "/uploads/large_escape3_afee062815.png"
+                  }
+                },
+                "hash": "escape3_afee062815",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 162.41,
+                "url": "/uploads/escape3_afee062815.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:35.480Z",
+                "updatedAt": "2024-07-20T10:24:35.480Z"
+              }
+            },
+            {
+              "id": 56,
+              "attributes": {
+                "name": "escape4.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1054,
+                "height": 591,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_escape4.png",
+                    "hash": "thumbnail_escape4_93ca780492",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 137,
+                    "size": 45.85,
+                    "sizeInBytes": 45846,
+                    "url": "/uploads/thumbnail_escape4_93ca780492.png"
+                  },
+                  "small": {
+                    "name": "small_escape4.png",
+                    "hash": "small_escape4_93ca780492",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 280,
+                    "size": 144.75,
+                    "sizeInBytes": 144750,
+                    "url": "/uploads/small_escape4_93ca780492.png"
+                  },
+                  "medium": {
+                    "name": "medium_escape4.png",
+                    "hash": "medium_escape4_93ca780492",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 421,
+                    "size": 301.78,
+                    "sizeInBytes": 301779,
+                    "url": "/uploads/medium_escape4_93ca780492.png"
+                  },
+                  "large": {
+                    "name": "large_escape4.png",
+                    "hash": "large_escape4_93ca780492",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 561,
+                    "size": 495.67,
+                    "sizeInBytes": 495671,
+                    "url": "/uploads/large_escape4_93ca780492.png"
+                  }
+                },
+                "hash": "escape4_93ca780492",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 100.47,
+                "url": "/uploads/escape4_93ca780492.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:35.327Z",
+                "updatedAt": "2024-07-20T10:24:35.327Z"
+              }
+            },
+            {
+              "id": 57,
+              "attributes": {
+                "name": "escape7.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1064,
+                "height": 588,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_escape7.png",
+                    "hash": "thumbnail_escape7_a61e2c4fa7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 135,
+                    "size": 47.75,
+                    "sizeInBytes": 47754,
+                    "url": "/uploads/thumbnail_escape7_a61e2c4fa7.png"
+                  },
+                  "small": {
+                    "name": "small_escape7.png",
+                    "hash": "small_escape7_a61e2c4fa7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 276,
+                    "size": 153.69,
+                    "sizeInBytes": 153687,
+                    "url": "/uploads/small_escape7_a61e2c4fa7.png"
+                  },
+                  "medium": {
+                    "name": "medium_escape7.png",
+                    "hash": "medium_escape7_a61e2c4fa7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 414,
+                    "size": 303.72,
+                    "sizeInBytes": 303720,
+                    "url": "/uploads/medium_escape7_a61e2c4fa7.png"
+                  },
+                  "large": {
+                    "name": "large_escape7.png",
+                    "hash": "large_escape7_a61e2c4fa7",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 553,
+                    "size": 485.81,
+                    "sizeInBytes": 485809,
+                    "url": "/uploads/large_escape7_a61e2c4fa7.png"
+                  }
+                },
+                "hash": "escape7_a61e2c4fa7",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 111.71,
+                "url": "/uploads/escape7_a61e2c4fa7.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:35.365Z",
+                "updatedAt": "2024-07-20T10:24:35.365Z"
+              }
+            },
+            {
+              "id": 59,
+              "attributes": {
+                "name": "escape8.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1053,
+                "height": 593,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_escape8.png",
+                    "hash": "thumbnail_escape8_4c84a7c0d5",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 37.53,
+                    "sizeInBytes": 37531,
+                    "url": "/uploads/thumbnail_escape8_4c84a7c0d5.png"
+                  },
+                  "small": {
+                    "name": "small_escape8.png",
+                    "hash": "small_escape8_4c84a7c0d5",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 121.89,
+                    "sizeInBytes": 121885,
+                    "url": "/uploads/small_escape8_4c84a7c0d5.png"
+                  },
+                  "medium": {
+                    "name": "medium_escape8.png",
+                    "hash": "medium_escape8_4c84a7c0d5",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 422,
+                    "size": 268.32,
+                    "sizeInBytes": 268322,
+                    "url": "/uploads/medium_escape8_4c84a7c0d5.png"
+                  },
+                  "large": {
+                    "name": "large_escape8.png",
+                    "hash": "large_escape8_4c84a7c0d5",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 461.12,
+                    "sizeInBytes": 461122,
+                    "url": "/uploads/large_escape8_4c84a7c0d5.png"
+                  }
+                },
+                "hash": "escape8_4c84a7c0d5",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 104.49,
+                "url": "/uploads/escape8_4c84a7c0d5.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:35.416Z",
+                "updatedAt": "2024-07-20T10:24:35.416Z"
+              }
+            },
+            {
+              "id": 67,
+              "attributes": {
+                "name": "escape12.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1049,
+                "height": 591,
+                "formats": {
+                  "medium": {
+                    "name": "medium_escape12.png",
+                    "hash": "medium_escape12_c52231ae25",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 423,
+                    "size": 338.89,
+                    "sizeInBytes": 338894,
+                    "url": "/uploads/medium_escape12_c52231ae25.png"
+                  },
+                  "thumbnail": {
+                    "name": "thumbnail_escape12.png",
+                    "hash": "thumbnail_escape12_c52231ae25",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 138,
+                    "size": 53.33,
+                    "sizeInBytes": 53331,
+                    "url": "/uploads/thumbnail_escape12_c52231ae25.png"
+                  },
+                  "large": {
+                    "name": "large_escape12.png",
+                    "hash": "large_escape12_c52231ae25",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 563,
+                    "size": 553.62,
+                    "sizeInBytes": 553619,
+                    "url": "/uploads/large_escape12_c52231ae25.png"
+                  },
+                  "small": {
+                    "name": "small_escape12.png",
+                    "hash": "small_escape12_c52231ae25",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 282,
+                    "size": 165.65,
+                    "sizeInBytes": 165650,
+                    "url": "/uploads/small_escape12_c52231ae25.png"
+                  }
+                },
+                "hash": "escape12_c52231ae25",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 110.86,
+                "url": "/uploads/escape12_c52231ae25.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-20T10:24:37.196Z",
+                "updatedAt": "2024-07-20T10:24:37.196Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 12
+    }
+  }
+}
