@@ -1,0 +1,133 @@
+<section id="competences" data-id="competences" class="competences">
+
+    <div class="competences-header">
+        <h2>Mes compétences</h2>
+
+        <!-- <div class="section-header">
+          <p>En 3ans, j'ai découvert et appris énormément de choses à travers les cours et mes différents projets personnels. 
+            <br>
+            Ce semestre, j'apprends à l'UTBM : <strong>le C++</strong>, la création d'interface graphique avec <strong>Qt Creator</strong>, 
+            le développement Web avec <strong>JavaScript, PHP, Angular</strong>, les bases de données avec <strong>SQL</strong> et d'autres matières plus théorique tels que la recherche opérationnelle et l'algorithmie quantique.    
+          </p>
+        </div> -->
+    </div>
+
+    <div class="competences-container">
+
+        <h3>Programmation</h3>
+                
+        <div class="skills">
+
+            <div *ngFor="let skill of skills">
+
+                <div *ngIf="skill.category == 'programmation'" >
+                    <div class="skills-item">
+                        <img [src]="'assets'+skill.image" width="80px" alt="{{skill.title}}">
+                        <span>{{skill.title}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Back-end</h3>
+
+        <div class="skills">
+
+            <div *ngFor="let skill of skills">
+
+                <div *ngIf="skill.category == 'back-end'" >
+                    <div class="skills-item">
+                        <img [src]="'assets'+skill.image" width="80px" alt="{{skill.title}}">
+                        <span>{{skill.title}}</span>
+                    </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <h3>Front-end</h3>
+
+        <div class="skills">
+
+            <div *ngFor="let skill of skills">
+
+                <div *ngIf="skill.category == 'front-end'" >
+                    <div class="skills-item">
+                        <img [src]="'assets'+skill.image" width="80px" alt="{{skill.title}}">
+                        <span>{{skill.title}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>Base de données</h3>
+
+        <div class="skills">
+
+            <div *ngFor="let skill of skills">
+
+                <div *ngIf="skill.category == 'database'" >
+                    <div class="skills-item">
+                        <img [src]="'assets'+skill.image" width="80px" alt="{{skill.title}}">
+                        <span>{{skill.title}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <h3>Infographie</h3>
+
+        <div class="skills">
+
+            <div *ngFor="let skill of skills">
+
+                <div *ngIf="skill.category == 'graphics'" >
+                    <div class="skills-item">
+                        <img [src]="'assets'+skill.image" width="80px" alt="{{skill.title}}">
+                        <span>{{skill.title}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        
+        
+        <h3>Mes certifications</h3>
+
+        <div class="certifications">
+            
+            <a href="https://courses.nvidia.com/certificates/dfa96da549534c0e8f08d71dd27b33c5/" target="_blank" class="certif">
+                
+                <img src="assets/img/certifications/nvidia.jpg" loading="lazy" width="100" height="100" alt="certification nvidia">
+                <p>Nvidia : Fundamentals of Accelerated Computing with CUDA Python</p>
+                
+            </a>
+        
+        
+            <a href="./certifs/MariusDIGUAT--MATEUS-RE4E Introducti-certificate.pdf" target="_blank" class="certif">
+                
+                <img src="assets/img/certifications/re4e.jpg" loading="lazy" width="100" height="100" alt="certification cisco">
+                <p>Cisco CCNA 1 : Introduction to Networks</p>
+            </a>
+        
+        
+            <a href="./certifs/MariusDIGUAT--MATEUS-RE4f-2022-certificate-1.pdf" target="_blank" class="certif">
+                <img src="assets/img/certifications/re4f.jpg" loading="lazy" width="100" height="100" alt="certification cisco">
+                <p>Cisco CCNA 2 : Switching Routing & Wireless Essentials</p>
+            </a>
+
+            <a href="https://graphacademy.neo4j.com/c/72e8ab01-c9f8-44a4-a14c-fcde78f82347/" target="_blank" class="certif">
+                <img src="assets/img/certifications/neo4j-certification.svg" loading="lazy" width="100" height="100" alt="certification cisco">
+                <p>Neo4j Certified Professional</p>
+            </a>
+        
+        </div>
+         
+        
+    </div>    
+
+</section>

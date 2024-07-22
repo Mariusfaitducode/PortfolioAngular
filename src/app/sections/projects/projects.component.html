@@ -1,0 +1,50 @@
+<section id="portfolio" data-id="portfolio" class="portfolio">
+        
+    <div class="portfolio-header">
+
+        <h2>Mes projets</h2>
+    
+        <!-- Ce qui m'a tout de suite plu dans la programmation, c'est la grandeur des possibilités qui me paraît infinie. Après avoir fait mon tout premier projet 
+        (un Puissance 4 de taille réglable (Puissance N)), je me suis lancé dans une multitude de différents projets me permettant de travailler ma logique,
+        ma créativité et d'apprendre de nouvelles choses. Voici un aperçu de mes meilleurs projets. -->
+
+        <!-- Ce qui m'a tout de suite plu dans la programmation, c'est l'exploration d'un environnement aux ressources inépuisables. 
+        Après avoir codé mon tout premier projet (un Puissance 4 de taille réglable (Puissance N)), je me suis lancé dans une multitude de défis. 
+        Chaque réalisation me permet de perfectionner ma logique, ma créativité et m'oblige à m'ouvrir aux autres pour m'enrichir de leur savoir-faire. 
+        Voici un aperçu de mes réalisations. -->
+    
+    </div>
+        
+        <div class="portfolio-filters">
+            
+            <a href="#" class="active" data-filter="all">Tous les projets</a>
+        
+            <a href="#" data-filter="web">Web / App</a>
+        
+            <a href="#" data-filter="jeux">Jeux vidéo</a>
+        
+            <a href="#" data-filter="algo">Algorithmes spécifiques</a>
+            
+        </div>
+
+
+        <div *ngFor="let project of bigProjects">
+
+            <app-big-project *ngIf="project.bigProject == true" [project]="project"></app-big-project>
+            
+        </div>
+
+        <div class="projects-container">
+            <div *ngFor="let project of smallProjects">
+
+                <app-card-project *ngIf="project.bigProject == false" [project]="project"></app-card-project>
+                
+            </div>
+        </div>
+        
+
+
+
+
+    
+</section>

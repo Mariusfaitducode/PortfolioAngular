@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
-import { NavbarHeaderComponent } from './components/navbar-header/navbar-header.component';
-import { HeroComponent } from './components/hero/hero.component';
-import { AboutComponent } from './components/about/about.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { SkillsComponent } from './components/skills/skills.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { NavbarHeaderComponent } from './sections/navbar-header/navbar-header.component';
+import { HeroComponent } from './sections/hero/hero.component';
+import { AboutComponent } from './sections/about/about.component';
+import { ProjectsComponent } from './sections/projects/projects.component';
+import { SkillsComponent } from './sections/skills/skills.component';
+import { ContactComponent } from './sections/contact/contact.component';
+import { FooterComponent } from './sections/footer/footer.component';
 import { Project } from './models/project';
 import { Skill } from './models/skill';
 import { DataService } from './services/data.service';
@@ -31,16 +31,17 @@ export class AppComponent {
   title = 'PortfolioAngular';
 
 
-  projects : Project[] = [];
+  bigProjects : Project[] = [];
+  smallProjects : Project[] = [];
+
   skills : Skill[] = [];
 
+  skillsByCategory : any = {};
 
   constructor(private dataService : DataService){}
 
 
   ngOnInit(): void {
-
-    
 
     this.dataService.getSkills().subscribe((dataSkills: any) => {
       console.log(dataSkills);
@@ -53,6 +54,8 @@ export class AppComponent {
           this.skills.push(new Skill(skill));
         }
 
+        let projects : Project[] = [];
+
         for (let project of dataProjects.data){
           let newProject = new Project(project);
 
@@ -63,16 +66,28 @@ export class AppComponent {
             }
           }
 
-          this.projects.push(newProject);
+          projects.push(newProject);
         }
 
-        console.log(this.projects);
+        console.log(projects);
         console.log(this.skills);
+
+        this.bigProjects = projects.filter((project) => project.bigProject);
+        this.smallProjects = projects.filter((project) => !project.bigProject);
+
+
+        for (let skill of this.skills){
+          if (!this.skillsByCategory[skill.category]){
+            this.skillsByCategory[skill.category] = [];
+          }
+
+          this.skillsByCategory[skill.category].push(skill);
+        }
       });
     });
-
-    
   }
+
+
 
 
 
