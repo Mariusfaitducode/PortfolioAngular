@@ -1,28 +1,74 @@
 /* A PROPOS */
 
-.apropos{
+.about{
     
     
     background-color: var(--light-blue);
     color: var(--black);
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
 
     position: relative;
     z-index: 2;
+
+    padding: 100px;
 }
 
-.apropos-text{
+.title{
+    display: flex;
+    justify-content: center;
 
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    // padding-top: 100px;
+    padding-bottom: 20px;
+}
 
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px
+}
+
+.presentation p{
     width: 50%;
+    max-width: 600px;
 }
+
+.presentation img{
+    width: 450px;
+    height: 450px;
+    // max-width: 600px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .apropos-text{
+
+//     margin-left: 10%;
+//     margin-right: 10%;
+//     padding-top: 100px;
+//     padding-bottom: 100px;
+
+//     width: 50%;
+// }
 
 .apropos-text h2{
     margin-bottom: 40px;

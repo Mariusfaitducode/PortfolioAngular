@@ -17,7 +17,10 @@
         <div class="hero-content">
             <div class="span" [class.show-hero]="showHeroSpan">Je suis</div>
             <h1 class="name" [class.show-hero]="showHeroName">Marius <br>Diguat Mateus.</h1>
-            <h2 class="title" [class.show-hero]="showHeroTitle">Etudiant ingénieur en informatique </h2>
+            <h2 class="title" [class.show-hero]="true">
+                {{this.dynamicText}}
+                <span *ngIf="showCursor">|</span>
+            </h2>
             
             <!-- <a href="CV Marius DIGUAT-MATEUS.pdf" target="_blank" class="btn">Mon CV</a> -->
         </div>

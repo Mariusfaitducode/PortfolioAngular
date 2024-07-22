@@ -1,0 +1,16 @@
+
+
+<div class="timeline">
+    <div *ngFor="let experience of experiences" class="timeline-item">
+
+      <div class="timeline-content">
+
+        <h4>{{ experience.title }}</h4>
+        <!-- <h4>{{ experience.company }}</h4> -->
+        <div class="date">{{ experience.startDate }}</div>
+        <p class="description">{{ experience.description }}</p>
+
+
+      </div>
+    </div>
+  </div>

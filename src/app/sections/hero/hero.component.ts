@@ -11,6 +11,7 @@ import { GameOfLifeService } from '../../services/game-of-life.service';
 })
 export class HeroComponent {
 
+  // Game of life
 
   numRows = 30;
   numColumns = 30;
@@ -25,12 +26,20 @@ export class HeroComponent {
   gameInfoVisible = false;
 
 
-
+  // Hero texts 
 
   showHeroSpan = false;
-  showHeroTitle = false;
+  showHeroSubtitle = false;
   showHeroName = false;
 
+  subtitles: string[] = ["Etudiant ingénieur en informatique", "Auto-entrepreneur", "Passionné de programmation"];
+  currentIndex: number = 0;
+  typingSpeed: number = 50;
+  erasingSpeed: number = 10;
+  delayBetweenTexts: number = 1500; // Delay before starting to erase
+  dynamicText: string = '';
+
+  showCursor: boolean = false;
 
   constructor(private gameOfLifeService: GameOfLifeService) {}
 
@@ -44,8 +53,9 @@ export class HeroComponent {
       this.showHeroName = true;
     }, 600);
     setTimeout(() => {
-      this.showHeroTitle = true;
-    }, 700);
+      // this.showHeroSubtitle = true;
+      this.typeText();
+    }, 2000);
     
 
     this.cells = this.gameOfLifeService.createEmptyGrid(this.numRows, this.numColumns);
@@ -54,12 +64,14 @@ export class HeroComponent {
     this.adjustCellSize();
 
 
-    
   }
 
   ngOnDestroy(): void {
     this.gameOfLifeService.stopGame();
   }
+
+
+  // Game of life
 
   toggleCellState(index: number): void {
     this.gameOfLifeService.toggleCellState(this.cells, index);
@@ -121,5 +133,33 @@ export class HeroComponent {
     this.gameInfoVisible = !this.gameInfoVisible;
   }
 
+
+
+  // Hero texts
+
+  typeText(i: number = 0): void {
+    if (i < this.subtitles[this.currentIndex].length) {
+
+      this.showCursor = true;
+      this.dynamicText += this.subtitles[this.currentIndex].charAt(i);
+      setTimeout(() => this.typeText(i + 1), this.typingSpeed);
+    
+    } else {
+
+      this.showCursor = false;
+      setTimeout(() => this.eraseText(), this.delayBetweenTexts);
+    }
+  }
+
+  eraseText(): void {
+    if (this.dynamicText.length > 0) {
+      this.showCursor = true;
+      this.dynamicText = this.dynamicText.substring(0, this.dynamicText.length - 1);
+      setTimeout(() => this.eraseText(), this.erasingSpeed);
+    } else {
+      this.currentIndex = (this.currentIndex + 1) % this.subtitles.length;
+      setTimeout(() => this.typeText(), this.typingSpeed);
+    }
+  }
   
 }
