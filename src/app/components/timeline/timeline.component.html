@@ -1,16 +1,51 @@
 
 
+<!-- <div class="timeline-filters">
+  <div class="filters">
+            
+    <a [class.active]="filter == 'all'" (click)="filterExperiences('all')">Tout</a>
+  
+    <a [class.active]="filter == 'formation'" (click)="filterExperiences('formation')">Formations</a>
+  
+    <a [class.active]="filter == 'experience'" (click)="filterExperiences('experience')">Expériences</a>
+    
+  </div>
+</div> -->
+
+
+
 <div class="timeline">
-    <div *ngFor="let experience of experiences" class="timeline-item">
+    <div *ngFor="let experience of visibleExperiences; let i = index">
 
-      <div class="timeline-content">
+      <div class="timeline-item" [class.right]="i % 2 != 0"
+       *ngIf="filter == 'all' || filter == experience.type">
+        <div  class="timeline-content">
 
-        <h4>{{ experience.title }}</h4>
-        <!-- <h4>{{ experience.company }}</h4> -->
-        <div class="date">{{ experience.startDate }}</div>
-        <p class="description">{{ experience.description }}</p>
+          <div class="timeline-header">
+            <div>
+              <h4>{{ experience.title }}</h4>
+      
+              <div  class="date">
+                <div>{{ experience.startDate }}&nbsp;</div>
+                <div *ngIf="experience.endDate"> - {{ experience.endDate }}</div>
+      
+              </div>
+
+            </div>
+
+            <img *ngIf="experience.logo" [src]="experience.logo" alt="" width="64px">
+
+          </div>
+
+          
 
 
+          <p class="description">{{ experience.description }}</p>
+  
+  
+        </div>
       </div>
+
+      
     </div>
   </div>

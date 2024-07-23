@@ -15,6 +15,7 @@ export class TimelineComponent {
       title: 'Rentrée UTBM',
       description: "Après un bac S mention bien, j'ai intégré l'Université Technologique de Belfort-Montbéliard.",
       type : 'formation',
+      logo: 'assets/img/experiences/logo_utbm_seul.webp',
       startDate: '2020-09-01',
       // endDate: '2021-12-31'
     },
@@ -30,6 +31,7 @@ export class TimelineComponent {
       description: "J'ai réalisé pendant 6 mois un service civique en parallèle de mes études."+ 
                   " Mes missions consistait à organiser des événements et animer la vie étudiante au sein du Crous.",
       type : 'experience',
+      logo: 'assets/img/experiences/logo-crous.png',
       startDate: '2022-09-02',
       endDate: '2023-03-31'
     },
@@ -37,6 +39,7 @@ export class TimelineComponent {
       title: 'Stage assistant ingénieur Sonceboz',
       description: "J'ai réalisé mon stage de quatrième année dans l'entreprise Sonceboz SA. J'y ai découvert le vaste monde de l'informatique industrielle et j'ai pu perfectionner mes compétences, notamment en développement web. ",
       type : 'experience',
+      logo: 'assets/img/experiences/logo-sonceboz.png',
       startDate: '2023-08-15',
       endDate: '2024-02-15'
     },
@@ -44,6 +47,7 @@ export class TimelineComponent {
       title: 'Auto-entrepreneur : MarsCode',
       description: "Je suis devenu auto-entrepreneur en vente de services informatique. L'occasion pour moi d'appliquer ma passion pour la programmation dans des projets concrets",
       type : 'experience',
+      logo: 'assets/img/profil/logo_MC.png',
       startDate: '2024-03-01',
     },
     {
@@ -58,6 +62,7 @@ export class TimelineComponent {
       description: "Je partirai en Erasmus à l'Université de Liège pour suivre un semestre de spécialisation en Intelligence Artificielle.",
       type : 'formation',
       startDate: '2024-09-01',
+      logo: 'assets/img/experiences/ULiège-logo.svg',
       endDate: '2025-01-31'
 
     },
@@ -71,10 +76,15 @@ export class TimelineComponent {
       title: "Diplôme d'ingénieur",
       description: "Je devrais si tout se passe bien obtenir mon diplôme d'ingénieur en informatique à l'UTBM.",
       type : 'formation',
+      logo: 'assets/img/experiences/diploma.png',
       startDate: '2025-06-30',
     }
     // Ajoutez d'autres expériences ici
   ];
+
+  visibleExperiences : any[] = [];
+
+  filter = 'all';
 
 
   ngOnInit(){
@@ -86,9 +96,20 @@ export class TimelineComponent {
       experience.startDate = new Date(experience.startDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
       if (experience.endDate) {
         experience.endDate = new Date(experience.endDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
-      } else {
-        experience.endDate = 'Aujourd\'hui';
-      }
+      } 
     });
+
+    this.visibleExperiences = [...this.experiences];
+  }
+
+
+  filterExperiences(type: string) {
+    this.filter = type;
+
+    if (type === 'all') {
+      this.visibleExperiences = [...this.experiences];
+    } else {
+      this.visibleExperiences = this.experiences.filter((experience) => experience.type === type);
+    }
   }
 }
