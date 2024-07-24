@@ -18,12 +18,15 @@
 
         <img src="assets/img/profil/profil.jpg" alt="">
 
+        
 
     </div>
 
     <h3 class="title">Bientôt ingénieur</h3>
 
-    <app-timeline></app-timeline>
+    <app-timeline [timelineEvents]="timelineEvents" [visibleExperiences]="timelineEvents"></app-timeline>
+
+    <app-marscode></app-marscode>
 
 
     <div class="apropos-text">

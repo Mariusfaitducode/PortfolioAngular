@@ -1,0 +1,425 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "Rentrée UTBM",
+        "description": "Après un bac S mention bien, j'ai intégré l'Université Technologique de Belfort-Montbéliard.",
+        "type": "formation",
+        "startDate": "2020-09-01",
+        "endDate": null,
+        "createdAt": "2024-07-24T16:50:54.405Z",
+        "updatedAt": "2024-07-24T16:50:54.405Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 137,
+              "attributes": {
+                "name": "logo_utbm_seul.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 550,
+                "height": 590,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_logo_utbm_seul.webp",
+                    "hash": "thumbnail_logo_utbm_seul_647433511c",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 145,
+                    "height": 156,
+                    "size": 3.3,
+                    "sizeInBytes": 3300,
+                    "url": "/uploads/thumbnail_logo_utbm_seul_647433511c.webp"
+                  },
+                  "small": {
+                    "name": "small_logo_utbm_seul.webp",
+                    "hash": "small_logo_utbm_seul_647433511c",
+                    "ext": ".webp",
+                    "mime": "image/webp",
+                    "path": null,
+                    "width": 466,
+                    "height": 500,
+                    "size": 9.31,
+                    "sizeInBytes": 9314,
+                    "url": "/uploads/small_logo_utbm_seul_647433511c.webp"
+                  }
+                },
+                "hash": "logo_utbm_seul_647433511c",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 11.42,
+                "url": "/uploads/logo_utbm_seul_647433511c.webp",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:50:29.962Z",
+                "updatedAt": "2024-07-24T16:50:29.962Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "attributes": {
+        "title": "Rentrée branche informatique",
+        "description": "Après 2 années de tronc commun généraliste, j'ai intégré la branche informatique de l'UTBM.",
+        "type": "formation",
+        "startDate": "2022-09-01",
+        "endDate": null,
+        "createdAt": "2024-07-24T16:52:09.179Z",
+        "updatedAt": "2024-07-24T16:52:09.179Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "title": "Service civique au Crous",
+        "description": "J'ai réalisé pendant 6 mois un service civique en parallèle de mes études. Mes missions consistaient à organiser des événements et animer la vie étudiante au sein du Crous.",
+        "type": "experience",
+        "startDate": "2022-09-02",
+        "endDate": "2023-03-31",
+        "createdAt": "2024-07-24T16:53:39.618Z",
+        "updatedAt": "2024-07-24T16:53:39.618Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 135,
+              "attributes": {
+                "name": "logo-crous.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 283,
+                "height": 283,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_logo-crous.png",
+                    "hash": "thumbnail_logo_crous_39c03f1913",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 12.1,
+                    "sizeInBytes": 12099,
+                    "url": "/uploads/thumbnail_logo_crous_39c03f1913.png"
+                  }
+                },
+                "hash": "logo_crous_39c03f1913",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 3.85,
+                "url": "/uploads/logo_crous_39c03f1913.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:50:29.913Z",
+                "updatedAt": "2024-07-24T16:50:29.913Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "attributes": {
+        "title": "Stage assistant ingénieur Sonceboz",
+        "description": "J'ai réalisé mon stage de quatrième année dans l'entreprise Sonceboz SA. J'y ai découvert le vaste monde de l'informatique industrielle et j'ai pu perfectionner mes compétences, notamment en développement web.",
+        "type": "experience",
+        "startDate": "2023-08-15",
+        "endDate": "2024-02-15",
+        "createdAt": "2024-07-24T16:55:13.016Z",
+        "updatedAt": "2024-07-24T16:55:13.016Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 136,
+              "attributes": {
+                "name": "logo-sonceboz.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 512,
+                "height": 512,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_logo-sonceboz.png",
+                    "hash": "thumbnail_logo_sonceboz_1a0f01c26f",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 5.94,
+                    "sizeInBytes": 5944,
+                    "url": "/uploads/thumbnail_logo_sonceboz_1a0f01c26f.png"
+                  },
+                  "small": {
+                    "name": "small_logo-sonceboz.png",
+                    "hash": "small_logo_sonceboz_1a0f01c26f",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 44.46,
+                    "sizeInBytes": 44461,
+                    "url": "/uploads/small_logo_sonceboz_1a0f01c26f.png"
+                  }
+                },
+                "hash": "logo_sonceboz_1a0f01c26f",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 8.71,
+                "url": "/uploads/logo_sonceboz_1a0f01c26f.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:50:29.938Z",
+                "updatedAt": "2024-07-24T16:50:29.938Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "attributes": {
+        "title": "Auto-entrepreneur : MarsCode",
+        "description": "Je suis devenu auto-entrepreneur en vente de services informatique. L'occasion pour moi d'appliquer ma passion pour la programmation dans des projets concrets",
+        "type": "experience",
+        "startDate": "2024-03-01",
+        "endDate": null,
+        "createdAt": "2024-07-24T16:56:58.996Z",
+        "updatedAt": "2024-07-24T16:56:58.996Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 139,
+              "attributes": {
+                "name": "logo_MC.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 563,
+                "height": 563,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_logo_MC.png",
+                    "hash": "thumbnail_logo_MC_480c617cba",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 4.54,
+                    "sizeInBytes": 4539,
+                    "url": "/uploads/thumbnail_logo_MC_480c617cba.png"
+                  },
+                  "small": {
+                    "name": "small_logo_MC.png",
+                    "hash": "small_logo_MC_480c617cba",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 18.28,
+                    "sizeInBytes": 18276,
+                    "url": "/uploads/small_logo_MC_480c617cba.png"
+                  }
+                },
+                "hash": "logo_MC_480c617cba",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 2.22,
+                "url": "/uploads/logo_MC_480c617cba.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:56:54.865Z",
+                "updatedAt": "2024-07-24T16:56:54.865Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "attributes": {
+        "title": "Semestre bloc Monde Virtuel",
+        "description": "J'ai choisi comme premier bloc métier la spécialisation Monde Virtuel. L'occasion de découvrir le monde fascinant de la réalité virtuelle et augmentée ainsi que les grands principes et techniques de la 3d.",
+        "type": "formation",
+        "startDate": "2024-03-03",
+        "endDate": "2024-06-30",
+        "createdAt": "2024-07-24T16:59:04.229Z",
+        "updatedAt": "2024-07-24T16:59:04.229Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "attributes": {
+        "title": "Semestre bloc IA à ULiège",
+        "description": "Je partirai en Erasmus à l'Université de Liège pour suivre un semestre de spécialisation en Intelligence Artificielle.",
+        "type": "formation",
+        "startDate": "2024-09-01",
+        "endDate": "2025-01-31",
+        "createdAt": "2024-07-24T17:00:09.861Z",
+        "updatedAt": "2024-07-24T17:00:09.861Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 134,
+              "attributes": {
+                "name": "ULiège-logo.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 41,
+                "height": 41,
+                "formats": null,
+                "hash": "U_Liege_logo_1a2a0e3050",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 4.56,
+                "url": "/uploads/U_Liege_logo_1a2a0e3050.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:50:29.900Z",
+                "updatedAt": "2024-07-24T16:50:29.900Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "attributes": {
+        "title": "Stage de fin d'études",
+        "description": "Ce stage sera l'aboutissement de 5 années d'études en école d'ingénieurs à l'UTBM. Il me permettra encore une fois de mettre mes compétences au service d'une entreprise et d'une équipe.",
+        "type": "experience",
+        "startDate": "2025-02-01",
+        "endDate": "2025-06-30",
+        "createdAt": "2024-07-24T17:01:33.926Z",
+        "updatedAt": "2024-07-24T17:01:33.926Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": null
+        }
+      }
+    },
+    {
+      "id": 9,
+      "attributes": {
+        "title": "Diplôme d'ingénieur",
+        "description": "Je devrais si tout se passe bien obtenir mon diplôme d'ingénieur en informatique à l'UTBM.",
+        "type": "formation",
+        "startDate": "2025-06-30",
+        "endDate": null,
+        "createdAt": "2024-07-24T17:02:16.607Z",
+        "updatedAt": "2024-07-24T17:02:16.607Z",
+        "publishedAt": "2024-07-24T17:06:47.245Z",
+        "logo": {
+          "data": [
+            {
+              "id": 138,
+              "attributes": {
+                "name": "diploma.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1024,
+                "height": 1024,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_diploma.png",
+                    "hash": "thumbnail_diploma_8251b06bc0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 7.76,
+                    "sizeInBytes": 7757,
+                    "url": "/uploads/thumbnail_diploma_8251b06bc0.png"
+                  },
+                  "small": {
+                    "name": "small_diploma.png",
+                    "hash": "small_diploma_8251b06bc0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 500,
+                    "size": 28.43,
+                    "sizeInBytes": 28432,
+                    "url": "/uploads/small_diploma_8251b06bc0.png"
+                  },
+                  "medium": {
+                    "name": "medium_diploma.png",
+                    "hash": "medium_diploma_8251b06bc0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 750,
+                    "size": 47.64,
+                    "sizeInBytes": 47642,
+                    "url": "/uploads/medium_diploma_8251b06bc0.png"
+                  },
+                  "large": {
+                    "name": "large_diploma.png",
+                    "hash": "large_diploma_8251b06bc0",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 1000,
+                    "size": 68.81,
+                    "sizeInBytes": 68812,
+                    "url": "/uploads/large_diploma_8251b06bc0.png"
+                  }
+                },
+                "hash": "diploma_8251b06bc0",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 8.35,
+                "url": "/uploads/diploma_8251b06bc0.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-07-24T16:50:30.004Z",
+                "updatedAt": "2024-07-24T16:50:30.004Z"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pageSize": 100,
+      "pageCount": 1,
+      "total": 9
+    }
+  }
+}

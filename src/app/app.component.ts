@@ -11,6 +11,7 @@ import { FooterComponent } from './sections/footer/footer.component';
 import { Project } from './models/project';
 import { Skill } from './models/skill';
 import { DataService } from './services/data.service';
+import { Timeline } from './models/timeline';
 
 @Component({
   selector: 'app-root',
@@ -36,7 +37,9 @@ export class AppComponent {
 
   skills : Skill[] = [];
 
-  skillsByCategory : any = {};
+  timelineEvents : Timeline[] = [];
+
+  // skillsByCategory : any = {};
 
   constructor(private dataService : DataService){}
 
@@ -76,13 +79,34 @@ export class AppComponent {
         this.smallProjects = projects.filter((project) => !project.bigProject);
 
 
-        for (let skill of this.skills){
-          if (!this.skillsByCategory[skill.category]){
-            this.skillsByCategory[skill.category] = [];
+        // for (let skill of this.skills){
+        //   if (!this.skillsByCategory[skill.category]){
+        //     this.skillsByCategory[skill.category] = [];
+        //   }
+
+        //   this.skillsByCategory[skill.category].push(skill);
+        // }
+
+        this.dataService.getTimeline().subscribe((dataTimeline: any) => {
+          console.log(dataTimeline);
+
+          for (let timeline of dataTimeline.data){
+            this.timelineEvents.push(new Timeline(timeline));
           }
 
-          this.skillsByCategory[skill.category].push(skill);
-        }
+          this.timelineEvents.sort((a, b) => {
+            return new Date(b.startDate).getTime() - new Date(a.startDate).getTime();
+          });
+      
+          this.timelineEvents.forEach((experience) => {
+            experience.startDate = new Date(experience.startDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+            if (experience.endDate) {
+              experience.endDate = new Date(experience.endDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+            } 
+          });
+
+          console.log(this.timelineEvents);
+        });
       });
     });
   }
