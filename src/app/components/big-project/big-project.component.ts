@@ -1,11 +1,12 @@
 import { Component, ElementRef, Input, Renderer2 } from '@angular/core';
 import { Project } from '../../models/project';
 import { CommonModule } from '@angular/common';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-big-project',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, TranslateModule],
   templateUrl: './big-project.component.html',
   styleUrl: './big-project.component.scss'
 })
@@ -21,7 +22,7 @@ export class BigProjectComponent {
   delayBetweenImages: number = 3000;
   autoScroll: any;
 
-  constructor(private el: ElementRef, private renderer: Renderer2){}
+  constructor(private el: ElementRef, private renderer: Renderer2, private translate : TranslateService){}
 
 
   ngOnInit(): void {
@@ -67,4 +68,7 @@ export class BigProjectComponent {
   }
 
 
+  getTranslatedDescription(){
+    return this.translate.currentLang === 'fr' ? this.project.smallDescription : this.project.smallDescriptionEn;
+  }
 }

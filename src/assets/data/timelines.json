@@ -9,8 +9,10 @@
         "startDate": "2020-09-01",
         "endDate": null,
         "createdAt": "2024-07-24T16:50:54.405Z",
-        "updatedAt": "2024-07-24T16:50:54.405Z",
+        "updatedAt": "2024-07-26T13:24:29.336Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "UTBM start",
+        "descriptionEn": "After passing my baccalauréat S with distinction, I went on to study at Belfort-Montbéliard University of Technology.",
         "logo": {
           "data": [
             {
@@ -72,8 +74,10 @@
         "startDate": "2022-09-01",
         "endDate": null,
         "createdAt": "2024-07-24T16:52:09.179Z",
-        "updatedAt": "2024-07-24T16:52:09.179Z",
+        "updatedAt": "2024-07-26T13:25:43.574Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Starting UTBM IT branch",
+        "descriptionEn": "After 2 years of general studies, I joined the IT department at UTBM.",
         "logo": {
           "data": null
         }
@@ -88,8 +92,10 @@
         "startDate": "2022-09-02",
         "endDate": "2023-03-31",
         "createdAt": "2024-07-24T16:53:39.618Z",
-        "updatedAt": "2024-07-24T16:53:39.618Z",
+        "updatedAt": "2024-07-26T13:27:23.475Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Civic service at Crous",
+        "descriptionEn": "I spent 6 months on civic service alongside my studies. My role was to organise events and liven up student life at the Crous.",
         "logo": {
           "data": [
             {
@@ -139,8 +145,10 @@
         "startDate": "2023-08-15",
         "endDate": "2024-02-15",
         "createdAt": "2024-07-24T16:55:13.016Z",
-        "updatedAt": "2024-07-24T16:55:13.016Z",
+        "updatedAt": "2024-07-26T13:28:10.924Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Assistant engineer internship Sonceboz",
+        "descriptionEn": "I did my fourth-year work placement at Sonceboz SA. There I discovered the vast world of industrial IT and was able to hone my skills, particularly in web development.",
         "logo": {
           "data": [
             {
@@ -202,8 +210,10 @@
         "startDate": "2024-03-01",
         "endDate": null,
         "createdAt": "2024-07-24T16:56:58.996Z",
-        "updatedAt": "2024-07-24T16:56:58.996Z",
+        "updatedAt": "2024-07-26T13:22:46.086Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Self-employed: MarsCode",
+        "descriptionEn": "I've become a self-employed IT service provider. It's an opportunity for me to apply my passion for programming to concrete projects.",
         "logo": {
           "data": [
             {
@@ -265,8 +275,10 @@
         "startDate": "2024-03-03",
         "endDate": "2024-06-30",
         "createdAt": "2024-07-24T16:59:04.229Z",
-        "updatedAt": "2024-07-24T16:59:04.229Z",
+        "updatedAt": "2024-07-26T13:26:57.720Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Virtual World block semester",
+        "descriptionEn": "I chose the Virtual World specialisation as my first career block. It was an opportunity to discover the fascinating world of virtual and augmented reality, as well as the main principles and techniques of 3D.",
         "logo": {
           "data": null
         }
@@ -281,8 +293,10 @@
         "startDate": "2024-09-01",
         "endDate": "2025-01-31",
         "createdAt": "2024-07-24T17:00:09.861Z",
-        "updatedAt": "2024-07-24T17:00:09.861Z",
+        "updatedAt": "2024-07-26T13:26:20.788Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "AI block semester at ULiège",
+        "descriptionEn": "I'll be doing an Erasmus course at the University of Liège to do a semester specialising in Artificial Intelligence.",
         "logo": {
           "data": [
             {
@@ -319,8 +333,10 @@
         "startDate": "2025-02-01",
         "endDate": "2025-06-30",
         "createdAt": "2024-07-24T17:01:33.926Z",
-        "updatedAt": "2024-07-24T17:01:33.926Z",
+        "updatedAt": "2024-07-26T13:28:41.286Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "End-of-studies internship",
+        "descriptionEn": "This internship will be the culmination of 5 years' study at the UTBM engineering school. Once again, it will give me the opportunity to put my skills to work for a company and a team.",
         "logo": {
           "data": null
         }
@@ -335,8 +351,10 @@
         "startDate": "2025-06-30",
         "endDate": null,
         "createdAt": "2024-07-24T17:02:16.607Z",
-        "updatedAt": "2024-07-24T17:02:16.607Z",
+        "updatedAt": "2024-07-26T13:23:14.452Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
+        "titleEn": "Engineering degree",
+        "descriptionEn": "If all goes well, I should get my computer engineering degree from UTBM.",
         "logo": {
           "data": [
             {

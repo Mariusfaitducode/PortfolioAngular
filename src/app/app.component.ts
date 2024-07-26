@@ -12,6 +12,7 @@ import { Project } from './models/project';
 import { Skill } from './models/skill';
 import { DataService } from './services/data.service';
 import { Timeline } from './models/timeline';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { Timeline } from './models/timeline';
     ProjectsComponent,
     SkillsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    TranslateModule
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
@@ -42,7 +44,10 @@ export class AppComponent {
 
   // skillsByCategory : any = {};
 
-  constructor(private dataService : DataService){}
+  constructor(private dataService : DataService, private translate: TranslateService){
+    translate.setDefaultLang('fr');
+    translate.use('fr');
+  }
 
 
   ngOnInit(): void {
@@ -101,9 +106,18 @@ export class AppComponent {
           });
       
           this.timelineEvents.forEach((experience) => {
-            experience.startDate = new Date(experience.startDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+
+            let date = new Date(experience.startDate);
+
+            experience.startDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+            experience.startDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+
             if (experience.endDate) {
-              experience.endDate = new Date(experience.endDate).toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+
+              let date = new Date(experience.endDate);
+
+              experience.endDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+              experience.endDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
             } 
           });
 

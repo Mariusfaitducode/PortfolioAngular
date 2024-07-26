@@ -15,7 +15,7 @@
 
     <div class="espacement">
         <div class="hero-content">
-            <div class="span" [class.show-hero]="showHeroSpan">Je suis</div>
+            <div class="span" [class.show-hero]="showHeroSpan">{{"I AM" | translate}}</div>
             <h1 class="name" [class.show-hero]="showHeroName">Marius <br>Diguat Mateus.</h1>
             <h2 class="title" [class.show-hero]="true">
                 {{this.dynamicText}}
@@ -47,8 +47,8 @@
         </div>
 
         <div class="information" *ngIf="gameInfoVisible">
-            L'arrière plan de cette page d'accueil est un automate cellulaire :
-            <a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank">Le jeu de la vie</a> de John Conway.
+            {{"GAME OF LIFE INTRO" | translate}}
+            <a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank"> {{ "GAME OF LIFE TITLE" | translate}}</a>
              
             
            

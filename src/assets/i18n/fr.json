@@ -1,0 +1,42 @@
+
+
+{
+    "HOME": "Accueil",
+    "ABOUT": "A propos",
+    "PROJECTS": "Projets",
+    "SKILLS": "Compétences",
+    "CONTACT": "Contact",
+
+    "I AM": "Je suis",
+    "STUDENT": "Etudiant ingénieur en informatique",
+    "FREELANCE" : "Auto-entrepreneur",
+    "PASSION" : "Passionné de programmation",
+    
+    "GAME OF LIFE INTRO" : "L'arrière plan de cette page d'accueil est un automate cellulaire:",
+    "GAME OF LIFE TITLE" : "Le jeu de la vie de John Conway.",
+
+    "PRESENTATION 1" : "J'ai 22 ans et je poursuis actuellement ma cinquième année d'études en école d'ingénieur au sein de",
+    "UTBM" : " l'Université de Technologie de Belfort-Montbéliard.",
+
+    "PRESENTATION 2": "Durant les 2 premières années de tronc commun, j'ai découvert la programmation informatique qui est devenu une grande passion. ",
+    "PRESENTATION 3": "Je code régulièrement des projets dans le cadre de mon cursus scolaire, mais également à mes heures perdues par passion et par goût des défis.",
+
+    "ENGINEER SOON": "Bientôt ingénieur",
+
+    "MY PROJECTS": "Mes projets",
+
+    "ALL": "Tous",
+    "VIDEO GAME": "Jeux vidéo",
+    "ALGORITHM": "Algorithmes spécifiques",
+
+    "MY SKILLS" : "Mes compétences",
+    "DATABASES": "Base de données",
+    "GRAPHICS": "Infographie",
+
+
+    "CONTACT ME": "Me contacter",
+
+    "THANK YOU 1": "Merci d'avoir parcouru mon portfolio jusqu'au bout, ",
+    "THANK YOU 2": "je l'ai réalisé en Html, Css et JavaScript."
+
+  }

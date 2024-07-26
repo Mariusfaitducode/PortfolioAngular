@@ -6,6 +6,7 @@ export class Project {
 
     title: string = "";
     smallDescription: string = "";
+    smallDescriptionEn: string = "";
 
     githubUrl: string = "";
     linkUrl: string = "";
@@ -25,6 +26,7 @@ export class Project {
 
         this.title = data.attributes.title;
         this.smallDescription = data.attributes.smallDescription;
+        this.smallDescriptionEn = data.attributes.smallDescriptionEn;
         this.githubUrl = data.attributes.githubUrl;
         this.linkUrl = data.attributes.linkUrl; 
         this.teamProject = data.attributes.teamProject;

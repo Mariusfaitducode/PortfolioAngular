@@ -1,15 +1,21 @@
 import { CommonModule } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { GameOfLifeService } from '../../services/game-of-life.service';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-hero',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    TranslateModule
+  ],
   templateUrl: './hero.component.html',
   styleUrl: './hero.component.scss'
 })
 export class HeroComponent {
+
+  constructor(private gameOfLifeService: GameOfLifeService, private translate: TranslateService) {}
 
   // Game of life
 
@@ -32,7 +38,9 @@ export class HeroComponent {
   showHeroSubtitle = false;
   showHeroName = false;
 
-  subtitles: string[] = ["Etudiant ingénieur en informatique", "Auto-entrepreneur", "Passionné de programmation"];
+  subtitlesKey: string[] = ["STUDENT", "FREELANCE", "PASSION"];
+  subtitles: string[] = [];
+
   currentIndex: number = 0;
   typingSpeed: number = 50;
   erasingSpeed: number = 10;
@@ -41,11 +49,16 @@ export class HeroComponent {
 
   showCursor: boolean = false;
 
-  constructor(private gameOfLifeService: GameOfLifeService) {}
+  interval: any;
+
+  
 
   ngOnInit(): void {
 
     
+    
+    console.log(this.subtitles)
+
     setTimeout(() => {
       this.showHeroSpan = true;
     }, 400);
@@ -53,8 +66,21 @@ export class HeroComponent {
       this.showHeroName = true;
     }, 600);
     setTimeout(() => {
+
+      this.subtitles = this.subtitlesKey.map(key => this.translate.instant(key));
+
       // this.showHeroSubtitle = true;
       this.typeText();
+
+      this.translate.onLangChange.subscribe(() => {
+        this.subtitles = this.subtitlesKey.map(key => this.translate.instant(key));
+  
+        this.dynamicText = '';
+        // this.currentIndex = 0;
+        clearInterval(this.interval);
+        this.typeText();
+      })
+      
     }, 2000);
     
 
@@ -62,6 +88,8 @@ export class HeroComponent {
     this.gameOfLifeService.startGame(this.cells, this.numRows, this.numColumns);
 
     this.adjustCellSize();
+
+    
 
 
   }
@@ -142,12 +170,12 @@ export class HeroComponent {
 
       this.showCursor = true;
       this.dynamicText += this.subtitles[this.currentIndex].charAt(i);
-      setTimeout(() => this.typeText(i + 1), this.typingSpeed);
+      this.interval = setTimeout(() => this.typeText(i + 1), this.typingSpeed);
     
     } else {
 
       this.showCursor = false;
-      setTimeout(() => this.eraseText(), this.delayBetweenTexts);
+      this.interval = setTimeout(() => this.eraseText(), this.delayBetweenTexts);
     }
   }
 
@@ -155,11 +183,13 @@ export class HeroComponent {
     if (this.dynamicText.length > 0) {
       this.showCursor = true;
       this.dynamicText = this.dynamicText.substring(0, this.dynamicText.length - 1);
-      setTimeout(() => this.eraseText(), this.erasingSpeed);
+      this.interval = setTimeout(() => this.eraseText(), this.erasingSpeed);
     } else {
       this.currentIndex = (this.currentIndex + 1) % this.subtitles.length;
-      setTimeout(() => this.typeText(), this.typingSpeed);
+      this.interval = setTimeout(() => this.typeText(), this.typingSpeed);
     }
   }
+
+  
   
 }

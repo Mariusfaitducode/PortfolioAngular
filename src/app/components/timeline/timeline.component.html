@@ -23,11 +23,11 @@
 
           <div class="timeline-header">
             <div>
-              <h4>{{ experience.title }}</h4>
+              <h4>{{getTranslatedTitle(experience)}}</h4>
       
               <div  class="date">
-                <div>{{ experience.startDate }}&nbsp;</div>
-                <div *ngIf="experience.endDate"> - {{ experience.endDate }}</div>
+                <div>{{ getTranslatedStartDate(experience) }}&nbsp;</div>
+                <div *ngIf="experience.endDate"> - {{ getTranslatedEndDate(experience) }}</div>
       
               </div>
 
@@ -40,7 +40,7 @@
           
 
 
-          <p class="description">{{ experience.description }}</p>
+          <p class="description">{{getTranslatedDescription(experience) }}</p>
   
   
         </div>

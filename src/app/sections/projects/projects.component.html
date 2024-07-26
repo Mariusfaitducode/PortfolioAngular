@@ -2,7 +2,7 @@
         
     <div class="portfolio-header">
 
-        <h2>Mes projets</h2>
+        <h2>{{"MY PROJECTS" | translate}}</h2>
     
         <!-- Ce qui m'a tout de suite plu dans la programmation, c'est la grandeur des possibilités qui me paraît infinie. Après avoir fait mon tout premier projet 
         (un Puissance 4 de taille réglable (Puissance N)), je me suis lancé dans une multitude de différents projets me permettant de travailler ma logique,
@@ -17,15 +17,15 @@
         
         <div class="portfolio-filters">
             
-            <a [class.active]="filter == 'all'" (click)="changeFilter('all')">Tous les projets</a>
+            <a [class.active]="filter == 'all'" (click)="changeFilter('all')">{{"ALL" | translate}}</a>
         
             <a [class.active]="filter == 'web'" (click)="changeFilter('web')">Web</a>
 
             <a [class.active]="filter == 'application'" (click)="changeFilter('application')">Application</a>
         
-            <a [class.active]="filter == 'game'" (click)="changeFilter('game')">Jeux vidéo</a>
+            <a [class.active]="filter == 'game'" (click)="changeFilter('game')">{{"VIDEO GAME" | translate}}</a>
         
-            <a [class.active]="filter == 'algorithm'" (click)="changeFilter('algorithm')">Algorithmes spécifiques</a>
+            <a [class.active]="filter == 'algorithm'" (click)="changeFilter('algorithm')">{{"ALGORITHM" | translate}}</a>
             
         </div>
 

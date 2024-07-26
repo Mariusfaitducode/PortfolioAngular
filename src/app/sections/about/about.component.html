@@ -1,19 +1,20 @@
 <section id="apropos" data-id="apropos" class="about">
 
-    <h2 class="title">A propos</h2>
+    <h2 class="title">{{"ABOUT" | translate}}</h2>
 
 
     <div class="presentation">
 
-        <p>J'ai 21 ans et je poursuis actuellement ma quatrième année d'études en école d'ingénieur au sein de 
-            <a href="https://www.utbm.fr/">l'Université Technologique de Belfort-Montbéliard.</a> 
+        <p>
+            {{"PRESENTATION 1" | translate}}
+            <a href="https://www.utbm.fr/">{{"UTBM" | translate}}
+            </a> 
             <br>
-            Durant les 2 premières années de tronc commun, j'ai découvert la programmation informatique qui est devenu une grande passion. 
+            {{"PRESENTATION 2" | translate}}
             <br>
             <!-- Maintenant en branche informatique, je découvre davantage ce vaste monde. 
             <br> -->
-            Je code régulièrement des projets dans le cadre de mon cursus scolaire, mais également à
-            mes heures perdues par passion et par goût des défis.
+            {{"PRESENTATION 3" | translate}}
         </p>
 
         <img src="assets/img/profil/profil.jpg" alt="">
@@ -26,7 +27,7 @@
 
     <app-timeline [timelineEvents]="timelineEvents" [visibleExperiences]="timelineEvents"></app-timeline>
 
-    <app-marscode></app-marscode>
+    <!-- <app-marscode></app-marscode> -->
 
 
     <div class="apropos-text">

@@ -12,12 +12,12 @@
 
     z-index: 3;
 
-    padding: 20px;
+    padding: 15px;
 
     padding-left: 50px;
     padding-right: 50px;
 
-    height: 90px;
+    height: 80px;
 
 
     width: 100%;
@@ -35,6 +35,15 @@
 .header .logo{
 
     padding: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .header li{
@@ -78,7 +87,7 @@
 
 /* RESPONSIVE */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
 
     .hide-menu{
         /* opacity: 0; */
@@ -194,5 +203,26 @@
         transform: rotate(45deg);
     }
     
+}
+
+.language-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.language{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.language:hover{
+    cursor: pointer;
+}
+
+.language.active{
+    border: solid 3px var(--white);
 }
 

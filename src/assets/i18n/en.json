@@ -1,0 +1,41 @@
+
+
+{
+    "HOME": "Home",
+    "ABOUT": "About",
+    "PROJECTS": "Projects",
+    "SKILLS": "Skills",
+    "CONTACT": "Contact",
+
+    "I AM": "I am",
+    "STUDENT": "Student engineer in computer science",
+    "FREELANCE" : "Freelance self-employed",
+    "PASSION" : "Passionate about programming",
+
+    "GAME OF LIFE INTRO" : "The background to this home page is a cellular automaton:",
+    "GAME OF LIFE TITLE" : "John Conway's Game of Life",
+
+    "PRESENTATION 1" : "I'm 22 years old and currently in my fifth year of engineering studies at the",
+    "UTBM" : " Belfort-Montbéliard University of Technology.",
+
+    "PRESENTATION 2": "During the first 2 years of the core curriculum, I discovered computer programming, which has become a great passion. ",
+    "PRESENTATION 3": "I regularly code projects as part of my school curriculum, but also in my spare time out of passion and a taste for challenges.",
+
+    "ENGINEER SOON": "Soon to be an engineer",
+
+    "MY PROJECTS": "My projects",
+
+    "ALL": "All",
+    "VIDEO GAME": "Video game",
+    "ALGORITHM": "Specific algorithm",
+
+    "MY SKILLS" : "My skills",
+    "DATABASES": "Databases",
+    "GRAPHICS": "Graphics",
+    
+
+    "CONTACT ME": "Contact me",
+
+    "THANK YOU 1": "Thank you for following my portfolio to the end, ",
+    "THANK YOU 2": "I created it in Html, Css and JavaScript."
+}

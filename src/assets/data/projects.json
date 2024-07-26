@@ -8,12 +8,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:38:36.581Z",
-        "updatedAt": "2024-07-20T13:24:48.323Z",
+        "updatedAt": "2024-07-26T13:01:38.077Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Application mobile de todolist, permet de visualiser les tâches à réaliser sous forme d'arbre ou de graph",
         "visible": true,
         "category": "application",
         "bigProject": true,
+        "smallDescriptionEn": "Mobile todolist application, displays tasks to be carried out in the form of a tree or graph",
         "skills": {
           "data": [
             {
@@ -378,12 +379,13 @@
         "linkUrl": "https://mariusdiguat.fr/Eventum/",
         "teamProject": true,
         "createdAt": "2024-07-19T20:47:24.781Z",
-        "updatedAt": "2024-07-20T13:29:26.090Z",
+        "updatedAt": "2024-07-26T13:02:05.557Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Réseau social web, dont le principe est basé sur la création et le partage d'événements",
         "visible": true,
         "category": "web",
         "bigProject": true,
+        "smallDescriptionEn": "Social web network, based on the principle of creating and sharing events",
         "skills": {
           "data": [
             {
@@ -840,12 +842,13 @@
         "linkUrl": null,
         "teamProject": true,
         "createdAt": "2024-07-19T20:48:52.369Z",
-        "updatedAt": "2024-07-20T13:30:31.760Z",
+        "updatedAt": "2024-07-26T13:04:40.069Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Projet d'optimisation sur un problème d'affectation de missions avec un algorithme génétique.",
         "visible": true,
         "category": "algorithm",
         "bigProject": false,
+        "smallDescriptionEn": "Optimisation project on a mission assignment problem using a genetic algorithm.",
         "skills": {
           "data": [
             {
@@ -942,12 +945,13 @@
         "linkUrl": "https://mariusdiguat.fr/",
         "teamProject": false,
         "createdAt": "2024-07-19T20:49:45.616Z",
-        "updatedAt": "2024-07-20T13:32:06.678Z",
+        "updatedAt": "2024-07-26T13:03:46.040Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Mon portfolio présentant mes projets et mes compétences",
         "visible": true,
         "category": "web",
         "bigProject": false,
+        "smallDescriptionEn": "My portfolio presenting my projects and skills",
         "skills": {
           "data": [
             {
@@ -1064,12 +1068,13 @@
         "linkUrl": "https://github.com/Mariusfaitducode/ChessGame",
         "teamProject": false,
         "createdAt": "2024-07-19T20:50:45.737Z",
-        "updatedAt": "2024-07-20T13:33:14.161Z",
+        "updatedAt": "2024-07-26T13:02:20.462Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Jeu d'échecs à 2 joueurs réalisé en C++ avec Qt Creator",
         "visible": true,
         "category": "game",
         "bigProject": false,
+        "smallDescriptionEn": "2-player chess game made in C++ with Qt Creator",
         "skills": {
           "data": [
             {
@@ -1178,12 +1183,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:51:53.375Z",
-        "updatedAt": "2024-07-20T13:34:33.944Z",
+        "updatedAt": "2024-07-26T13:03:26.993Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Puissance 4 jouable contre une IA implémentant l'algorithme minimax alpha beta",
         "visible": true,
         "category": "algorithm",
         "bigProject": false,
+        "smallDescriptionEn": "4 in a row playable against an AI implementing the minimax alpha beta algorithm",
         "skills": {
           "data": [
             {
@@ -1270,12 +1276,13 @@
         "linkUrl": null,
         "teamProject": true,
         "createdAt": "2024-07-19T20:53:21.946Z",
-        "updatedAt": "2024-07-20T13:35:25.327Z",
+        "updatedAt": "2024-07-26T13:04:57.539Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Jeu réalisé lors de la Scientific Game Jam 2022 de Bourgogne Franche Comté. Vainqueur du prix du public",
         "visible": true,
         "category": "game",
         "bigProject": false,
+        "smallDescriptionEn": "Game created at the Scientific Game Jam 2022 in Bourgogne Franche Comté. Winner of the Public Prize",
         "skills": {
           "data": [
             {
@@ -1360,12 +1367,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:54:04.289Z",
-        "updatedAt": "2024-07-20T13:36:46.401Z",
+        "updatedAt": "2024-07-26T13:02:33.242Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Programme permettant de générer des labyrinthes puis de les résoudre                                                                                               ",
         "visible": true,
         "category": "algorithm",
         "bigProject": false,
+        "smallDescriptionEn": "Program to generate mazes and then solve them ",
         "skills": {
           "data": [
             {
@@ -1452,12 +1460,13 @@
         "linkUrl": null,
         "teamProject": true,
         "createdAt": "2024-07-19T20:55:17.701Z",
-        "updatedAt": "2024-07-20T13:37:59.735Z",
+        "updatedAt": "2024-07-26T13:02:56.417Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Menu de 4 mini jeux : Brick Breaker, Furapi Bird, Apple Catcher et Stack                                                                                  ",
         "visible": true,
         "category": "game",
         "bigProject": false,
+        "smallDescriptionEn": "Menu of 4 mini games: Brick Breaker, Furapi Bird, Apple Catcher and Stack ",
         "skills": {
           "data": [
             {
@@ -1566,12 +1575,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:58:04.782Z",
-        "updatedAt": "2024-07-20T13:38:57.387Z",
+        "updatedAt": "2024-07-26T13:05:16.869Z",
         "publishedAt": "2024-07-20T14:21:51.735Z",
         "smallDescription": "Programme permettant de résoudre des grilles de Sudoku en utilisant un algorithme de backtracking  ",
         "visible": true,
         "category": "algorithm",
         "bigProject": false,
+        "smallDescriptionEn": "Program for solving Sudoku grids using a backtracking algorithm  ",
         "skills": {
           "data": [
             {
@@ -1658,12 +1668,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:58:56.950Z",
-        "updatedAt": "2024-07-20T13:39:52.383Z",
+        "updatedAt": "2024-07-26T13:05:36.302Z",
         "publishedAt": "2024-07-20T14:21:51.735Z",
         "smallDescription": "Jeu de Tetris avec plusieurs niveaux de difficultés                                                                                            \n",
         "visible": true,
         "category": "game",
         "bigProject": false,
+        "smallDescriptionEn": "Tetris game with several levels of difficulty                 ",
         "skills": {
           "data": [
             {
@@ -1750,12 +1761,13 @@
         "linkUrl": null,
         "teamProject": false,
         "createdAt": "2024-07-19T20:59:53.722Z",
-        "updatedAt": "2024-07-20T13:27:55.769Z",
+        "updatedAt": "2024-07-26T13:01:51.264Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Jeu d'aventure explorant différents mondes en 3 dimensions",
         "visible": false,
         "category": "game",
         "bigProject": true,
+        "smallDescriptionEn": "Adventure game exploring different worlds in 3 dimensions",
         "skills": {
           "data": [
             {
