@@ -6,11 +6,12 @@
 .big-project-row{
     margin: auto;
     
-    margin-top: 20px;
-    margin-bottom: 20px;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
 
+    margin: 20px;
 
-    width: 100%;
+    width: 1200px;
 
     max-width: 1200px;
     height: 400px;
@@ -60,12 +61,14 @@
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    /* background: var(--dark-blue);
-    border-radius: 20px; */
-    /* position: relative; */
+    background: var(--dark-blue);
+    border-radius: 20px; 
+    position: relative;
+
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
 }
 
 .slide {
@@ -84,18 +87,22 @@
 .slide.active {
     width: 100%;
     height: 100%;
+
+    // background-color: var(--blue);
     opacity: 1;
 }
 
 .slide img{
-    width: 90%;
+    // width: 90%;
     max-height: 400px;
+    width: 100%;
+    height: 100%;
     /* object-fit: cover; */
 
     object-fit: contain;
 
     opacity: 1;
-    /* border-radius: 20px; */
+    border-radius: 20px; 
 
 }
 
@@ -103,10 +110,42 @@
     fill: var(--white);
     cursor: pointer;
     transition: all .2s;
+
+    position: absolute;
+
+    height: 100%;
+    // width : 60px;
+    padding: 10px;
+
+    background-color: var(--transparent-black);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px 0px 0px 20px;
+
+}
+
+.slider-button.next{
+    right: 0;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .slider-button:hover{
     fill: var(--blue);
+}
+
+.slider-button svg{
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    // fill: red;
+}
+
+.slider-container:hover .slider-button{
+    opacity: 1;
 }
 
 
@@ -230,4 +269,47 @@
 
 .card-link:hover svg{
     fill: var(--blue);
+}
+
+
+.category{
+    
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--blue);
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.image-index{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+    // z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.index{
+    background-color: var(--blue);
+    padding: 6px;
+    border-radius: 6px;
+    opacity: 0.2;
+
+}
+
+.isIndex{
+    background-color: var(--blue);
+    // padding: 8px;
+    // border-radius: 8px;
+    opacity: 1;
 }

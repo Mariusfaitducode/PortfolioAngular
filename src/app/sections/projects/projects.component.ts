@@ -16,16 +16,32 @@ import { BigProjectComponent } from '../../components/big-project/big-project.co
 export class ProjectsComponent {
 
 
-  // @Input() projects: Project[] = [];
+  @Input() allProjects: Project[] = [];
+  // filteredProjects: Project[] = [];
 
   @Input() bigProjects: Project[] = [];
   @Input() smallProjects: Project[] = [];
 
+  
 
+  filter = 'all';
 
   ngOnInit(): void{
 
     
+  }
+
+
+  changeFilter(filter: string) {
+    this.filter = filter;
+    
+    this.bigProjects = this.allProjects.filter((project) => project.bigProject);
+    this.smallProjects = this.allProjects.filter((project) => !project.bigProject);
+
+    if (filter !== 'all') {
+      this.bigProjects = this.bigProjects.filter((project) => project.category === filter);
+      this.smallProjects = this.smallProjects.filter((project) => project.category === filter);
+    }
   }
 
 }

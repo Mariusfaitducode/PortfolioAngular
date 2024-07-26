@@ -32,6 +32,7 @@ export class AppComponent {
   title = 'PortfolioAngular';
 
 
+  allProjects : Project[] = [];
   bigProjects : Project[] = [];
   smallProjects : Project[] = [];
 
@@ -75,6 +76,7 @@ export class AppComponent {
         console.log(projects);
         console.log(this.skills);
 
+        this.allProjects = projects;
         this.bigProjects = projects.filter((project) => project.bigProject);
         this.smallProjects = projects.filter((project) => !project.bigProject);
 

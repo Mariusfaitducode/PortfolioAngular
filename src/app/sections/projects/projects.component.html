@@ -17,20 +17,22 @@
         
         <div class="portfolio-filters">
             
-            <a href="#" class="active" data-filter="all">Tous les projets</a>
+            <a [class.active]="filter == 'all'" (click)="changeFilter('all')">Tous les projets</a>
         
-            <a href="#" data-filter="web">Web / App</a>
+            <a [class.active]="filter == 'web'" (click)="changeFilter('web')">Web</a>
+
+            <a [class.active]="filter == 'application'" (click)="changeFilter('application')">Application</a>
         
-            <a href="#" data-filter="jeux">Jeux vidéo</a>
+            <a [class.active]="filter == 'game'" (click)="changeFilter('game')">Jeux vidéo</a>
         
-            <a href="#" data-filter="algo">Algorithmes spécifiques</a>
+            <a [class.active]="filter == 'algorithm'" (click)="changeFilter('algorithm')">Algorithmes spécifiques</a>
             
         </div>
 
 
-        <div *ngFor="let project of bigProjects">
+        <div *ngFor="let project of bigProjects; let i = index">
 
-            <app-big-project *ngIf="project.bigProject == true" [project]="project"></app-big-project>
+            <app-big-project *ngIf="project.bigProject == true" [project]="project" [reversed]="i % 2 != 0"></app-big-project>
             
         </div>
 
