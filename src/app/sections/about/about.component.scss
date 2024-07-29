@@ -13,7 +13,13 @@
     position: relative;
     z-index: 2;
 
-    padding: 100px;
+    padding: 100px 0px;
+    // width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .title{
@@ -30,7 +36,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 80px
+    gap: 80px;
+
+    max-width: 1200px;
+    padding: 20px 0px;
 }
 
 .presentation p{
@@ -39,8 +48,12 @@
 }
 
 .presentation img{
-    width: 450px;
-    height: 450px;
+    // width: 450px;
+    // height: 450px;
+
+    width: clamp(250px, 35vw, 450px);
+    height: clamp(250px, 35vw, 450px);
+
     // max-width: 600px;
     object-fit: cover;
 
@@ -48,127 +61,69 @@
 }
 
 
+@media screen and (max-width:1000px) {
+
+    .presentation{
+        
+        gap: 20px;
+    }
+}
 
 
 
 
+@media screen and (max-width:800px) {
 
+    .presentation{
+        flex-direction: column;
+        gap: 20px;
+        // width: 100%;
+    }
 
+    .presentation p{
+        width: 80%;
+        height: fit-content;
+        max-width: 600px;
+    }
 
+    .presentation img{
+        // width: 380px;
+        // height: 380px;
+    
+        width: clamp(250px, 80vw, 380px);
+        height: clamp(250px, 80vw, 380px);
+    }
+}
 
-
-
-
-
-// .apropos-text{
-
-//     margin-left: 10%;
-//     margin-right: 10%;
-//     padding-top: 100px;
-//     padding-bottom: 100px;
-
-//     width: 50%;
+// .entrepreneur img{
+//     width: 80px;
+//     height: 80px;
+//     /* margin-left: 20px; */
 // }
 
-.apropos-text h2{
-    margin-bottom: 40px;
-}
+// .entrepreneur-title{
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     /* justify-content: space-between; */
+//     align-items: center;
 
-.apropos-text h3{
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
+//     margin-top: 3rem;
+//     margin-bottom: 2rem;
+// }
 
-.apropos-text h4{
-    margin-top: 30px;
-   
-}
+// .entrepreneur-title h3{
+//     margin: 0px;
+//     margin-right: 20px;
+// }
 
-.apropos-text .stage-date{
-    color: var(--gray);
-    font-weight: 600;
+// .entrepreneur-logo{
+//     display: flex;
+//     flex-direction: row;
+//     /* justify-content: space-between; */
+//     align-items: center;
+// }
 
-    margin-bottom: 20px;
-   
-}
-
-
-
-.apropos img{
-    width: 40%;
-    max-width: 600px;
-    
-
-    object-fit: cover;
-
-    /* width: 300px;
-    height: 200px; */
-    /* background-image: linear-gradient(to right, var(--light-blue) 0%, rgba(0, 0, 0, 0) 5%), 
-                        url('../img/profil/ProfilNaxos2.jpeg');*/
-}
-
-
-
-
-@media screen and (max-width:900px) {
-
-    .apropos{
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .apropos-text{
-
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 100px;
-        padding-bottom: 60px;
-    
-        width: 80%;
-    }
-
-    .apropos img{
-        width: 100%;
-
-        max-width: none;
-        max-height: 600px;
-        
-        
-        object-fit: cover;
-    }
-}
-
-.entrepreneur img{
-    width: 80px;
-    height: 80px;
-    /* margin-left: 20px; */
-}
-
-.entrepreneur-title{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
-    align-items: center;
-
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-}
-
-.entrepreneur-title h3{
-    margin: 0px;
-    margin-right: 20px;
-}
-
-.entrepreneur-logo{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
-}
-
-.entrepreneur-name{
-    color: #165db4ff;
-}
+// .entrepreneur-name{
+//     color: #165db4ff;
+// }

@@ -1,0 +1,54 @@
+<div class="game-container" [style.gridTemplateColumns]="'repeat(' + numColumns + ', 1fr)'" [style.gridTemplateRows]="'repeat(' + numRows + ', 1fr)'">
+    <div *ngFor="let cell of cells; let index = index; trackBy: trackByFn"
+         
+        [class.alive-1]="cell.alive"
+        [class.alive-2]="cell.alive && cell.neighbors == 2"
+        [class.alive-3]="cell.alive && cell.neighbors == 3"
+        [class.alive-4]="cell.alive && cell.neighbors >= 4"
+        
+        (mouseover)="toggleCellState(cell)"
+         (touchstart)="toggleCellState(cell)"
+         [style.width.px]="cellSize"
+         [style.height.px]="cellSize"
+         class="cell">
+
+         <!-- {{cell.neighbors}} -->
+    </div>
+  </div>
+
+
+
+  <div class="controller">
+    <div class="pause" (click)="toggleGame()">
+        
+        <svg *ngIf="running" class="stop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112V400c0 26.5 21.5 48 48 48H80c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H48zm192 0c-26.5 0-48 21.5-48 48V400c0 26.5 21.5 48 48 48h32c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48H240z"/></svg>
+        
+        <svg *ngIf="!running" class="play" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
+    </div>
+
+    <div class="slider-speed">
+        <input   class="slider" id="speedSlider"
+            type="range" min="0.5" max="5" step="0.1" 
+            [value]="speed" (input)="updateSpeed($event)">
+        <span id="sliderValue">{{speed}}x</span>
+    </div>
+
+      
+    <div class="info-button" (click)="toggleGameInfo()">
+        i
+    </div>
+</div>
+
+<div class="information" *ngIf="gameInfoVisible">
+    {{"GAME OF LIFE INTRO" | translate}}
+    <a href="https://fr.wikipedia.org/wiki/Jeu_de_la_vie" target="_blank"> {{ "GAME OF LIFE TITLE" | translate}}</a>
+     
+    
+   
+    <div class="exit-information" (click)="toggleGameInfo()">
+
+        <svg viewBox="0 0 25 25"xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.96967 16.4697C6.67678 16.7626 6.67678 17.2374 6.96967 17.5303C7.26256 17.8232 7.73744 17.8232 8.03033 17.5303L6.96967 16.4697ZM13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697L13.0303 12.5303ZM11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303L11.9697 11.4697ZM18.0303 7.53033C18.3232 7.23744 18.3232 6.76256 18.0303 6.46967C17.7374 6.17678 17.2626 6.17678 16.9697 6.46967L18.0303 7.53033ZM13.0303 11.4697C12.7374 11.1768 12.2626 11.1768 11.9697 11.4697C11.6768 11.7626 11.6768 12.2374 11.9697 12.5303L13.0303 11.4697ZM16.9697 17.5303C17.2626 17.8232 17.7374 17.8232 18.0303 17.5303C18.3232 17.2374 18.3232 16.7626 18.0303 16.4697L16.9697 17.5303ZM11.9697 12.5303C12.2626 12.8232 12.7374 12.8232 13.0303 12.5303C13.3232 12.2374 13.3232 11.7626 13.0303 11.4697L11.9697 12.5303ZM8.03033 6.46967C7.73744 6.17678 7.26256 6.17678 6.96967 6.46967C6.67678 6.76256 6.67678 7.23744 6.96967 7.53033L8.03033 6.46967ZM8.03033 17.5303L13.0303 12.5303L11.9697 11.4697L6.96967 16.4697L8.03033 17.5303ZM13.0303 12.5303L18.0303 7.53033L16.9697 6.46967L11.9697 11.4697L13.0303 12.5303ZM11.9697 12.5303L16.9697 17.5303L18.0303 16.4697L13.0303 11.4697L11.9697 12.5303ZM13.0303 11.4697L8.03033 6.46967L6.96967 7.53033L11.9697 12.5303L13.0303 11.4697Z"/>
+        </svg>
+    </div>
+</div>

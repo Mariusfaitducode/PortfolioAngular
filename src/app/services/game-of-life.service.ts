@@ -1,5 +1,11 @@
 import { Injectable } from '@angular/core';
 
+export class Cell{
+  alive : boolean = false
+  neighbors : number = 0
+}
+
+
 @Injectable({
   providedIn: 'root'
 })
@@ -7,11 +13,11 @@ export class GameOfLifeService {
 
   private interval: any;
 
-  createEmptyGrid(rows: number, columns: number): boolean[] {
-    return new Array(rows * columns).fill(false);
+  createEmptyGrid(rows: number, columns: number): Cell[] {
+    return  Array.from({ length: rows * columns }, () => new Cell());
   }
 
-  startGame(cells: boolean[], rows: number, columns: number): void {
+  startGame(cells: Cell[], rows: number, columns: number): void {
     this.interval = setInterval(() => this.updateGrid(cells, rows, columns), 1000);
   }
 
@@ -19,35 +25,55 @@ export class GameOfLifeService {
     clearInterval(this.interval);
   }
 
-  updateInterval(cells: boolean[], rows: number, columns: number, speed: number): void {
+  updateInterval(cells: Cell[], rows: number, columns: number, speed: number): void {
     clearInterval(this.interval);
     this.interval = setInterval(() => this.updateGrid(cells, rows, columns), 1000 / speed);
   }
 
-  toggleCellState(cells: boolean[], index: number): void {
-    cells[index] = !cells[index];
-  }
+  // toggleCellState(cell: Cell): void {
 
-  updateGrid(cells: boolean[], rows: number, columns: number): void {
-    const transitionGrid = new Array(rows * columns).fill(false);
+  //   cell.alive = !cell.alive;
+
+  //   // return cells;
+  // }
+
+  updateGrid(cells: Cell[], rows: number, columns: number): void {
+
+    // console.log("UPDATE GRID")
+
+    // console.log(cells)
+
+    const transitionGrid =  Array.from({ length: rows * columns }, () => new Cell());
 
     for (let index = 0; index < cells.length; index++) {
-      const isAlive = cells[index];
+      
+      const isAlive = cells[index].alive;
       const neighbors = this.countAliveNeighbors(cells, index, rows, columns);
 
+      // console.log(isAlive)
+
+      transitionGrid[index].neighbors = neighbors;
+
       if (neighbors === 3 || (neighbors === 2 && isAlive)) {
-        transitionGrid[index] = true;
+        transitionGrid[index].alive = true;
       } else {
-        transitionGrid[index] = false;
+        transitionGrid[index].alive = false;
       }
     }
 
     for (let index = 0; index < cells.length; index++) {
       cells[index] = transitionGrid[index];
     }
+
+    for (let index = 0; index < cells.length; index++) {
+      cells[index].neighbors = this.countAliveNeighbors(cells, index, rows, columns);
+    }
+
+    // console.log(cells)
   }
 
-  private countAliveNeighbors(cells: boolean[], index: number, rows: number, columns: number): number {
+
+  private countAliveNeighbors(cells: Cell[], index: number, rows: number, columns: number): number {
     const row = Math.floor(index / columns);
     const col = index % columns;
     let count = 0;
@@ -55,14 +81,19 @@ export class GameOfLifeService {
     for (let i = -1; i <= 1; i++) {
       for (let j = -1; j <= 1; j++) {
         if (i === 0 && j === 0) continue;
+        
         const neighborRow = row + i;
         const neighborCol = col + j;
+
         if (neighborRow >= 0 && neighborRow < rows && neighborCol >= 0 && neighborCol < columns) {
           const neighborIndex = neighborRow * columns + neighborCol;
-          if (cells[neighborIndex]) count++;
+
+          if (cells[neighborIndex].alive) count++;
         }
       }
     }
+
+    // console.log(count);
 
     return count;
   }
