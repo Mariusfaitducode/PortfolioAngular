@@ -177,13 +177,13 @@
   @media screen and (max-width: 450px) {
 
     .controller{
-        
-        right: 30px;
+        display: none;
+        // right: 30px;
     }
 
-    .information{
-        right: 30px;
-        width: 300px;
-    }
+//     .information{
+//         right: 30px;
+//         width: 300px;
+//     }
 }
 

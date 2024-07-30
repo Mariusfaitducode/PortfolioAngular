@@ -1,11 +1,11 @@
 /* PORTFOLIO */
 
 .portfolio{
-    /* background-color:rgb(252,212,159); */
     background-color:var(--dark-blue-2);
-    /* padding-left: 50px;
-    padding-right: 50px; */
-    padding-bottom: 100px;
+    color: var(--white);
+
+    
+    padding: 100px 0px;
 
     position: relative;
     z-index: 2;
@@ -15,16 +15,15 @@
     align-items: center;
 }
  
-.portfolio-header{
-    display: flex;
-    justify-content: center;
-}
+
 
 .portfolio h2{
-    padding-top: 100px;
-    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
 
-    color: var(--white);
+    // padding-top: 100px;
+    padding-bottom: 20px;
+
     
 }
 
@@ -68,6 +67,7 @@
 
 .portfolio .projects-container{
 
+    width: 90vw;
     max-width: 1200px;
     margin: auto;
     margin-top: 60px;
@@ -90,13 +90,13 @@
 
 
 
-@media screen and (max-width:1250px) {
+// @media screen and (max-width:1250px) {
 
-    .portfolio .projects-container{
+//     .portfolio .projects-container{
         
-        max-width: 90%;
-    }
-}
+//         max-width: 90%;
+//     }
+// }
 
 @media screen and (max-width:1000px) {
 

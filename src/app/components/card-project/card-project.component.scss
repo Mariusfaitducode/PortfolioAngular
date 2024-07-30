@@ -2,7 +2,7 @@
 
 
 .card{
-    width: 360px;
+    width: clamp(280px, 28vw,360px);
     height: 420px;
 
     border-radius: 20px;
@@ -20,39 +20,6 @@
 
     transition: all ease-in-out .3s;
 }
-
-
-@media screen and (max-width:1250px) {
-
-
-    .card{
-        width: 90%;
-        min-width: 280px;
-        /* height: 350px; */
-    }
-}
-
-@media screen and (max-width:1000px) {
-
-   
-
-    .card{
-        
-        height: 380px;
-    }
-
-}
-
-@media screen and (max-width:650px) {
-
-
-    .card{
-        
-        height: 420px;
-    }
-
-}
-
 
 /* Contenu de la card */
 
@@ -180,3 +147,45 @@
 .card-link:hover svg{
     fill: var(--blue);
 }
+
+
+@media screen and (max-width:1000px) {
+
+   
+
+    .card{
+        width: clamp(280px, 40vw,360px);
+        
+        // height: 380px;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+
+
+    .card{
+        width: 360px;
+        height: 420px;
+    }
+
+}
+
+
+@media screen and (max-width:400px) {
+
+
+    .card{
+        width: 80vw;
+        height: 420px;
+    }
+
+    .card:hover img{
+        /* display: block; */
+    
+        height: 30%;
+    }
+}
+
+
+

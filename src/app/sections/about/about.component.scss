@@ -6,15 +6,11 @@
     background-color: var(--light-blue);
     color: var(--black);
 
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-between;
 
     position: relative;
     z-index: 2;
 
     padding: 100px 0px;
-    // width: 1200px;
 
     display: flex;
     flex-direction: column;
@@ -34,10 +30,11 @@
 .presentation{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 80px;
 
+    width: 90vw;
     max-width: 1200px;
     padding: 20px 0px;
 }
@@ -92,6 +89,14 @@
     
         width: clamp(250px, 80vw, 380px);
         height: clamp(250px, 80vw, 380px);
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .presentation p{
+        width: 90%;
     }
 }
 

@@ -20,6 +20,8 @@
 
 .timeline {
     position: relative;
+
+    width: 90vw;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
@@ -42,7 +44,7 @@
   
   // Experience
   .timeline-item {
-    padding: 20px 40px;
+    padding: 20px 0px;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -75,10 +77,13 @@
 
   .timeline-item:nth-child(odd) {
     left: 0;
+    padding-right: 40px;
   }
   
   .timeline-item.right {
     left: 50%;
+    padding-left: 40px;
+    padding-right: 0px;
   }
 
 
@@ -119,5 +124,47 @@
     max-height: 500px;
     opacity: 1;
     
+  }
+
+
+  @media screen and (max-width:800px) {
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 4px;
+      // background-color: #e9ecef;
+      background-color: var(--blue-2);
+  
+      top: 0;
+      bottom: 0;
+      left: 12%;
+      margin-left: -3px;
+    }
+
+    .timeline-item {
+      
+      width: 85%;
+    }
+    
+
+    .timeline-item:nth-child(odd) {
+      left: 12%;
+      padding-left: 40px;
+    }
+    
+    .timeline-item.right {
+      left: 12%;
+      padding-left: 40px;
+    }
+
+    .timeline-item:nth-child(odd)::after {
+      left: -13px;
+    }
+    
+    .timeline-item.right::after {
+      left: -13px;
+    }
+
   }
   

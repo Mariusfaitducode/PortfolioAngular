@@ -93,11 +93,12 @@
         /* opacity: 0; */
         /* height: 0px;
         
-        width: 0px;
         display: none; */
         transition: all 0.3s ease-in-out;
 
         transform: translate(300px);
+        // width: 0px;
+
     }
 
 
@@ -226,3 +227,10 @@
     border: solid 3px var(--white);
 }
 
+@media screen and (max-width:400px) {
+
+    .header{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
