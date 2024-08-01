@@ -145,12 +145,14 @@
     .timeline-item {
       
       width: 85%;
+      // max-width: 85vw;
     }
     
 
     .timeline-item:nth-child(odd) {
       left: 12%;
       padding-left: 40px;
+      padding-right: 0px;
     }
     
     .timeline-item.right {
@@ -167,4 +169,20 @@
     }
 
   }
+
+
+  @media screen and (max-width:400px) {
+
+    .timeline-header{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // align-items: center;
+    }
+
+    .timeline-content .date{
+      font-size: 1.6rem;
+      // justify-content: start;
+    }
+}
   

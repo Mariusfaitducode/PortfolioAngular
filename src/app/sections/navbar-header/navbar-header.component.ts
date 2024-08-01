@@ -15,6 +15,8 @@ export class NavbarHeaderComponent {
 
   language = 'fr';
 
+  openMenu = false;
+
   changeLanguage(langauge: string) {
     this.language = langauge;
     this.translate.use(langauge);

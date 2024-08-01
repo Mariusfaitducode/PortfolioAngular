@@ -16,6 +16,15 @@
     /* width: 500px; */
 
     height: 100vh;
+
+    // position: relative;
+    // z-index: 2;
+
+    // padding: 100px 0px;
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
 }
 
 .contact-header{
@@ -76,19 +85,35 @@
 }
 
 
-@media screen and (max-width: 500px) {
+// @media screen and (max-width: 500px) {
     
-    .contact-content{
-        margin-top: 200px;
+//     .contact-content{
+//         margin-top: 200px;
+//     }
+
+//     // .contact-container{
+//     //     /* top: 200px; */
+//     //     flex-direction: column;
+//     // }
+// }
+    
+// @media screen and (max-height: 850px) and (max-width: 500px){
+
+//     .contact-container{
+//         /* top: 200px; */
+//         gap: 20px;
+//     }
+// }
+
+@media screen and (max-width: 500px){
+
+    .contact-link{
+        padding: 15px;
     }
 
-    .contact-container{
-        /* top: 200px; */
-        flex-direction: column;
+    .contact-link img{
+        width: 60px;
     }
-}
-    
-@media screen and (max-height: 850px) and (max-width: 500px){
 
     .contact-container{
         /* top: 200px; */
@@ -96,10 +121,41 @@
     }
 }
 
-@media screen and (max-height: 800px) and (max-width: 500px){
+@media screen and (max-width: 400px){
+
+    .contact-link{
+        padding: 10px;
+    }
 
     .contact-link img{
-        width: 60px;
+        width: 50px;
+    }
+
+    .contact-container{
+        /* top: 200px; */
+        gap: 20px;
     }
 }
+
+
+@media screen and (max-height: 700px) {
+    
+    .contact-content{
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    
+    .contact-content{
+        margin-top: 200px;
+    }
+}
+
+// @media screen and (max-height: 500px) {
+    
+//     .contact-content{
+//         margin-top: 200px;
+//     }
+// }
 
