@@ -27,7 +27,8 @@
     </div>
 
     
-    <div class="slider-container" (mouseenter)="stopAutoScroll()" (mouseleave)="startAutoScroll()">
+    <div class="slider-container" (mouseenter)="stopAutoScroll()"
+     (mouseleave)="startAutoScroll()">
 
         <!-- <div> -->
         <div class="slider-button prev" (click)="decrementImageIndex()">
@@ -38,14 +39,35 @@
             </svg>
         </div>
 
-        <!-- <div  *ngFor="let url of project.images; let i = index"> -->
+        <!-- <div class="slide" [class.active]="true">
 
-            <div class="slide" [class.active]="true">
+            <img [src]="'assets'+project.images[imageIndex]" loading="lazy" width="200" alt="ConcepTask" >
+        </div> -->
 
-                <img [src]="'assets'+project.images[imageIndex]" loading="lazy" width="200" alt="ConcepTask" >
+        <div *ngFor="let img of project.images; let i = index" >
+
+            <!-- <div class="index" [class.isIndex]="i == imageIndex">
+
+            </div> -->
+
+            <div class="slide" 
+            [class.active]="i == imageIndex" 
+            [class.next-slide]="i == (imageIndex + 1) % project.images.length"
+            [class.previous-slide]="i == (imageIndex - 1 + project.images.length) % project.images.length">
+
+                <img [src]="'assets'+project.images[i]" loading="lazy" alt="Project Image">
             </div>
 
-        <!-- </div> -->
+
+        </div>
+
+        <!-- <div class="slide">
+            <img [src]="currentImage" loading="lazy" width="200" alt="Project Image">
+          </div> -->
+        
+          <!-- <div class="slide" *ngIf="previousImage" [ngClass]="{'leave-right': direction === 'right', 'leave-left': direction === 'left'}">
+            <img [src]="previousImage" loading="lazy" width="200" alt="Project Image">
+          </div> -->
 
         
         <div class="slider-button next" (click)="incrementImageIndex()">

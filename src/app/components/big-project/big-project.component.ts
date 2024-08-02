@@ -16,20 +16,60 @@ export class BigProjectComponent {
 
   @Input() reversed = false;
 
-  imageIndex = 0;
+  // imageIndex = 0;
 
 
   delayBetweenImages: number = 3000;
   autoScroll: any;
+
+  imageIndex = 0;
+  previousIndex = 0;
+  direction = '';
+  currentImage = '';
+  previousImage = '';
 
   constructor(private el: ElementRef, private renderer: Renderer2, private translate : TranslateService){}
 
 
   ngOnInit(): void {
 
-    this.startAutoScroll();
+    this.currentImage = 'assets' + this.project.images[this.imageIndex];
+    // this.startAutoScroll();
   }
 
+
+  
+
+  // Image transition
+
+  incrementImageIndex() {
+    this.previousIndex = this.imageIndex;
+    this.imageIndex = (this.imageIndex + 1) % this.project.images.length;
+    this.direction = 'right';
+    this.updateImages();
+  }
+
+  decrementImageIndex() {
+    this.previousIndex = this.imageIndex;
+    this.imageIndex = (this.imageIndex - 1) % this.project.images.length;
+    if (this.imageIndex < 0) {
+      this.imageIndex = this.project.images.length - 1;
+    }
+    this.direction = 'left';
+    this.updateImages();
+  }
+
+  updateImages() {
+    this.previousImage = this.currentImage;
+    this.currentImage = 'assets' + this.project.images[this.imageIndex];
+    // setTimeout(() => {
+    //   this.previousImage = '';
+    // }, 1000); // Duration of the CSS transition
+    this.direction = '';
+  }
+  
+
+  // Scroll
 
   isElementInViewport(): boolean {
     const rect = this.el.nativeElement.getBoundingClientRect();
@@ -41,26 +81,12 @@ export class BigProjectComponent {
     );
   }
 
-
-
-  incrementImageIndex() {
-    this.imageIndex = (this.imageIndex + 1) % this.project.images.length;
-  }
-
-  decrementImageIndex() {
-    this.imageIndex = (this.imageIndex - 1) % this.project.images.length;
-    if (this.imageIndex < 0) {
-      this.imageIndex = this.project.images.length - 1;
-    }
-  }
-
-
   startAutoScroll() {
-    this.autoScroll = setInterval(() => {
-      if (this.isElementInViewport()) {
-        this.incrementImageIndex();
-      }
-    }, this.delayBetweenImages);
+    // this.autoScroll = setInterval(() => {
+    //   if (this.isElementInViewport()) {
+    //     this.incrementImageIndex();
+    //   }
+    // }, this.delayBetweenImages);
   }
 
   stopAutoScroll() {

@@ -26,6 +26,7 @@ export class ProjectsComponent {
   @Input() smallProjects: Project[] = [];
 
   
+  currentIndexSmallProjects = 0;
 
   filter = 'all';
 
@@ -44,6 +45,48 @@ export class ProjectsComponent {
     if (filter !== 'all') {
       this.bigProjects = this.bigProjects.filter((project) => project.category === filter);
       this.smallProjects = this.smallProjects.filter((project) => project.category === filter);
+    }
+  }
+
+
+  onScroll(event: Event): void {
+
+    const container = document.querySelector('.projects-container')! as HTMLElement;
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
+
+    if (container.scrollLeft >= maxScrollLeft) {
+      container.scrollLeft = 5;
+    }
+    else if (container.scrollLeft <= 0) {
+      container.scrollLeft = maxScrollLeft-5;
+    }
+
+    this.updateCurrentIndex(container);
+
+  }
+
+  updateCurrentIndex(container : HTMLElement): void {
+    
+    if (container) {
+      const projects = Array.from(container.children);
+
+      // console.log(projects);
+
+      const containerRect = container.getBoundingClientRect();
+      this.currentIndexSmallProjects = projects.findIndex((project) => {
+        const projectRect = project.getBoundingClientRect();
+
+        // console.log(projectRect.left, containerRect.left);
+
+        // const projectWidth = projectRect.width;
+
+        return (
+          projectRect.left >= - projectRect.width / 2 &&
+          projectRect.right <= window.innerWidth + projectRect.width / 2
+        );
+      });
+
+      // console.log(this.currentIndexSmallProjects);
     }
   }
 

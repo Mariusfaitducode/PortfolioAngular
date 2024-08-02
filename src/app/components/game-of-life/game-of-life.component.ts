@@ -37,6 +37,9 @@ export class GameOfLifeComponent {
 
     this.adjustCellSize();
 
+
+
+
     // console.log(this.cells);
     // Initialize Intersection Observer
     // this.observer = new IntersectionObserver((entries) => {
@@ -53,6 +56,10 @@ export class GameOfLifeComponent {
     // }, { threshold: [0] });
 
     // this.observer.observe(this.el.nativeElement);
+
+    if (window.innerWidth < 400) {
+      this.gameOfLifeService.fillRandomGrid(this.cells, this.numRows, this.numColumns);
+    }
   }
 
   ngOnDestroy(): void {

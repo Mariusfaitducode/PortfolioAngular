@@ -36,16 +36,29 @@
             
         </div>
 
-        <div class="projects-container">
+        <div class="projects-container" (scroll)="onScroll($event)">
             <div *ngFor="let project of smallProjects">
 
                 <app-card-project *ngIf="project.bigProject == false" [project]="project"></app-card-project>
                 
             </div>
+
+            
         </div>
         
+        <div class="image-index">
+            <div *ngFor="let proj of smallProjects; let i = index" >
+
+                <div class="index" [class.isIndex]="i == currentIndexSmallProjects">
+
+                </div>
 
 
+            </div>
+
+        </div>
+
+        
 
 
     

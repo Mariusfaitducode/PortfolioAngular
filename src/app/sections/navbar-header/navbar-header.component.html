@@ -1,18 +1,26 @@
-<header class="header">
+<header class="header" [class.hideTopMenu]="hideTopMenu">
         
     <a href="#hero" class="logo">
         <img src="assets/img/profil/logo_MC.png" width="70" height="70" alt="logo">
     </a>
         
   
-    <ul class="menu" [class.hide-menu]="!openMenu">
-        <li><a href="#home">{{ 'HOME' | translate }}</a></li>
-        <li><a href="#about">{{ 'ABOUT' | translate }}</a></li>
-        <li><a href="#projects">{{ 'PROJECTS' | translate }}</a></li>
-        <li><a href="#skills">{{ 'SKILLS' | translate }}</a></li>
+    <ul class="menu" [class.hide-menu]="!openMenu" >
+        <li><a (click)="navigateAndClose($event, 'home')">
+            {{ 'HOME' | translate }}</a></li>
+            
+        <li><a (click)="navigateAndClose($event, 'about')">
+            {{ 'ABOUT' | translate }}</a></li>
+
+        <li><a (click)="navigateAndClose($event, 'projects')" >
+            {{ 'PROJECTS' | translate }}</a></li>
+
+        <li><a (click)="navigateAndClose($event, 'skills')">
+            {{ 'SKILLS' | translate }}</a></li>
         
         <!-- <li><a href="#experiences" data-sect="experiences">Expériences</a></li>  -->
-        <li><a href="#contact" data-sect="contact">{{ 'CONTACT' | translate }}</a></li>
+        <li><a (click)="navigateAndClose($event, 'contact')">
+            {{ 'CONTACT' | translate }}</a></li>
 
         <li class="language-selection">
             <img class="language" [class.active]="language == 'fr'" (click)="changeLanguage('fr')"

@@ -17,6 +17,12 @@ export class GameOfLifeService {
     return  Array.from({ length: rows * columns }, () => new Cell());
   }
 
+  fillRandomGrid(cells: Cell[], rows: number, columns: number): void {
+    for (let index = 0; index < cells.length; index++) {
+      cells[index].alive = Math.random() < 0.5;
+    }
+  }
+
   startGame(cells: Cell[], rows: number, columns: number): void {
     this.interval = setInterval(() => this.updateGrid(cells, rows, columns), 1000);
   }

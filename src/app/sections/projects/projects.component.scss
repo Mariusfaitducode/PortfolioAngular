@@ -122,7 +122,45 @@
 
         overflow: scroll;
 
+        // position: relative;
+
         /* margin-top: 0px; */
+    }
+
+
+    .portfolio-filters a{
+        font-size: 1.8rem;
+    }
+
+
+    .image-index{
+        // position: absolute;
+        // bottom: -10px;
+        // left: 50%;
+        // transform: translateX(-50%);
+        
+        
+        // z-index: 100;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .index{
+        background-color: var(--blue);
+        padding: 6px;
+        border-radius: 6px;
+        opacity: 0.2;
+    
+    }
+    
+    .isIndex{
+        background-color: var(--blue);
+        // padding: 8px;
+        // border-radius: 8px;
+        opacity: 1;
     }
 
 }
