@@ -18,13 +18,14 @@
 
 }
 
-.title{
-    display: flex;
-    justify-content: center;
+// .title{
+//     display: flex;
+//     justify-content: center;
 
-    // padding-top: 100px;
-    padding-bottom: 20px;
-}
+//     // padding-top: 100px;
+//     // margin: 0px;
+//     // padding-bottom: 40px;
+// }
 
 
 .presentation{
@@ -36,7 +37,9 @@
 
     width: 90vw;
     max-width: 1200px;
-    padding: 20px 0px;
+    // padding: 20px 0px;
+
+    padding-bottom: 20px;
 }
 
 .presentation p{

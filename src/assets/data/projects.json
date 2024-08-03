@@ -945,7 +945,7 @@
         "linkUrl": "https://mariusdiguat.fr/",
         "teamProject": false,
         "createdAt": "2024-07-19T20:49:45.616Z",
-        "updatedAt": "2024-07-26T13:03:46.040Z",
+        "updatedAt": "2024-07-29T10:51:09.021Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Mon portfolio présentant mes projets et mes compétences",
         "visible": true,
@@ -981,16 +981,6 @@
                 "createdAt": "2024-07-20T08:29:58.387Z",
                 "updatedAt": "2024-07-20T08:29:58.387Z",
                 "publishedAt": "2024-07-20T14:21:38.573Z",
-                "category": "front-end"
-              }
-            },
-            {
-              "id": 16,
-              "attributes": {
-                "title": "Angular",
-                "createdAt": "2024-07-20T08:30:21.946Z",
-                "updatedAt": "2024-07-20T08:30:21.946Z",
-                "publishedAt": "2024-07-20T14:18:49.503Z",
                 "category": "front-end"
               }
             }
@@ -2227,6 +2217,604 @@
           ]
         }
       }
+    },
+    {
+      "id": 13,
+      "attributes": {
+        "title": "EcoQuest",
+        "githubUrl": "https://github.com/Mariusfaitducode/EcoQuestXR",
+        "linkUrl": null,
+        "teamProject": true,
+        "createdAt": "2024-08-03T15:59:29.746Z",
+        "updatedAt": "2024-08-03T16:38:43.382Z",
+        "publishedAt": "2024-08-03T16:20:07.531Z",
+        "smallDescription": "EcoQuest est un jeu de simulation en réalité augmentée. Les utilisateurs peuvent visualiser un monde virtuel en 3D et faire des choix de cartes stratégiques pour atteindre des objectifs environnementaux",
+        "visible": true,
+        "category": "game",
+        "bigProject": true,
+        "smallDescriptionEn": "EcoQuest is an augmented reality simulation game. Users can visualise a virtual 3D world and make strategic card choices to achieve environmental objectives.",
+        "skills": {
+          "data": [
+            {
+              "id": 3,
+              "attributes": {
+                "title": "C#",
+                "createdAt": "2024-07-20T08:26:00.327Z",
+                "updatedAt": "2024-07-20T08:26:00.327Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "programmation"
+              }
+            },
+            {
+              "id": 23,
+              "attributes": {
+                "title": "Unity",
+                "createdAt": "2024-07-20T08:33:57.754Z",
+                "updatedAt": "2024-07-20T08:33:57.754Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "graphics"
+              }
+            },
+            {
+              "id": 28,
+              "attributes": {
+                "title": "Blender",
+                "createdAt": "2024-07-20T08:36:26.584Z",
+                "updatedAt": "2024-07-20T08:36:26.584Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "graphics"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 156,
+              "attributes": {
+                "name": "gilles_with_quest.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1000,
+                "height": 1080,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_gilles_with_quest.jpg",
+                    "hash": "thumbnail_gilles_with_quest_061dac4033",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 144,
+                    "height": 156,
+                    "size": 5.05,
+                    "sizeInBytes": 5046,
+                    "url": "/uploads/thumbnail_gilles_with_quest_061dac4033.jpg"
+                  },
+                  "large": {
+                    "name": "large_gilles_with_quest.jpg",
+                    "hash": "large_gilles_with_quest_061dac4033",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 926,
+                    "height": 1000,
+                    "size": 140.15,
+                    "sizeInBytes": 140147,
+                    "url": "/uploads/large_gilles_with_quest_061dac4033.jpg"
+                  },
+                  "medium": {
+                    "name": "medium_gilles_with_quest.jpg",
+                    "hash": "medium_gilles_with_quest_061dac4033",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 694,
+                    "height": 750,
+                    "size": 81.15,
+                    "sizeInBytes": 81150,
+                    "url": "/uploads/medium_gilles_with_quest_061dac4033.jpg"
+                  },
+                  "small": {
+                    "name": "small_gilles_with_quest.jpg",
+                    "hash": "small_gilles_with_quest_061dac4033",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 463,
+                    "height": 500,
+                    "size": 38.17,
+                    "sizeInBytes": 38173,
+                    "url": "/uploads/small_gilles_with_quest_061dac4033.jpg"
+                  }
+                },
+                "hash": "gilles_with_quest_061dac4033",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 163.83,
+                "url": "/uploads/gilles_with_quest_061dac4033.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:38:35.609Z",
+                "updatedAt": "2024-08-03T16:38:35.609Z"
+              }
+            },
+            {
+              "id": 142,
+              "attributes": {
+                "name": "Image1.jpg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 549,
+                "height": 548,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Image1.jpg",
+                    "hash": "thumbnail_Image1_db64182a20",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 7.17,
+                    "sizeInBytes": 7167,
+                    "url": "/uploads/thumbnail_Image1_db64182a20.jpg"
+                  },
+                  "small": {
+                    "name": "small_Image1.jpg",
+                    "hash": "small_Image1_db64182a20",
+                    "ext": ".jpg",
+                    "mime": "image/jpeg",
+                    "path": null,
+                    "width": 500,
+                    "height": 499,
+                    "size": 51.87,
+                    "sizeInBytes": 51873,
+                    "url": "/uploads/small_Image1_db64182a20.jpg"
+                  }
+                },
+                "hash": "Image1_db64182a20",
+                "ext": ".jpg",
+                "mime": "image/jpeg",
+                "size": 61.89,
+                "url": "/uploads/Image1_db64182a20.jpg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T15:58:57.095Z",
+                "updatedAt": "2024-08-03T15:58:57.095Z"
+              }
+            },
+            {
+              "id": 143,
+              "attributes": {
+                "name": "Image2.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 548,
+                "height": 310,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Image2.png",
+                    "hash": "thumbnail_Image2_eb2f1337eb",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 139,
+                    "size": 71.39,
+                    "sizeInBytes": 71389,
+                    "url": "/uploads/thumbnail_Image2_eb2f1337eb.png"
+                  },
+                  "small": {
+                    "name": "small_Image2.png",
+                    "hash": "small_Image2_eb2f1337eb",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 283,
+                    "size": 277.81,
+                    "sizeInBytes": 277814,
+                    "url": "/uploads/small_Image2_eb2f1337eb.png"
+                  }
+                },
+                "hash": "Image2_eb2f1337eb",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 97.81,
+                "url": "/uploads/Image2_eb2f1337eb.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T15:58:57.121Z",
+                "updatedAt": "2024-08-03T15:58:57.121Z"
+              }
+            },
+            {
+              "id": 144,
+              "attributes": {
+                "name": "image.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1069,
+                "height": 679,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_image.png",
+                    "hash": "thumbnail_image_41abdac48a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 245,
+                    "height": 156,
+                    "size": 85.4,
+                    "sizeInBytes": 85401,
+                    "url": "/uploads/thumbnail_image_41abdac48a.png"
+                  },
+                  "small": {
+                    "name": "small_image.png",
+                    "hash": "small_image_41abdac48a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 318,
+                    "size": 314.63,
+                    "sizeInBytes": 314633,
+                    "url": "/uploads/small_image_41abdac48a.png"
+                  },
+                  "medium": {
+                    "name": "medium_image.png",
+                    "hash": "medium_image_41abdac48a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 750,
+                    "height": 476,
+                    "size": 659.43,
+                    "sizeInBytes": 659430,
+                    "url": "/uploads/medium_image_41abdac48a.png"
+                  },
+                  "large": {
+                    "name": "large_image.png",
+                    "hash": "large_image_41abdac48a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 1000,
+                    "height": 635,
+                    "size": 1106.37,
+                    "sizeInBytes": 1106372,
+                    "url": "/uploads/large_image_41abdac48a.png"
+                  }
+                },
+                "hash": "image_41abdac48a",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 248.73,
+                "url": "/uploads/image_41abdac48a.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T15:58:57.467Z",
+                "updatedAt": "2024-08-03T15:58:57.467Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "attributes": {
+        "title": "Abuelos",
+        "githubUrl": "https://github.com/Mariusfaitducode/Abuelos",
+        "linkUrl": null,
+        "teamProject": false,
+        "createdAt": "2024-08-03T16:18:19.841Z",
+        "updatedAt": "2024-08-03T16:26:46.043Z",
+        "publishedAt": "2024-08-03T16:20:01.761Z",
+        "smallDescription": "J'ai participé au projet Abuelos, l'objectif était de développer une application mobile d'e-commerce pour la vente de fruits issus des champs d'orange de Yvan et Juan Monserrat",
+        "visible": true,
+        "category": "application",
+        "bigProject": true,
+        "smallDescriptionEn": "I took part in the Abuelos project, the aim of which was to develop a mobile e-commerce application for selling fruit from Yvan and Juan Monserrat's orange fields.",
+        "skills": {
+          "data": [
+            {
+              "id": 17,
+              "attributes": {
+                "title": "Ionic",
+                "createdAt": "2024-07-20T08:30:35.915Z",
+                "updatedAt": "2024-07-20T08:30:35.915Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "front-end"
+              }
+            },
+            {
+              "id": 10,
+              "attributes": {
+                "title": "NestJS",
+                "createdAt": "2024-07-20T08:28:23.800Z",
+                "updatedAt": "2024-07-20T08:28:23.800Z",
+                "publishedAt": "2024-07-20T14:21:38.573Z",
+                "category": "back-end"
+              }
+            },
+            {
+              "id": 21,
+              "attributes": {
+                "title": "Firebase",
+                "createdAt": "2024-07-20T08:32:50.986Z",
+                "updatedAt": "2024-07-20T08:32:50.986Z",
+                "publishedAt": "2024-07-20T14:18:49.503Z",
+                "category": "database"
+              }
+            }
+          ]
+        },
+        "images": {
+          "data": [
+            {
+              "id": 149,
+              "attributes": {
+                "name": "Capture d'écran 2024-08-03 181707.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 727,
+                "height": 520,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Capture d'écran 2024-08-03 181707.png",
+                    "hash": "thumbnail_Capture_d_ecran_2024_08_03_181707_57482a67b6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 218,
+                    "height": 156,
+                    "size": 15.86,
+                    "sizeInBytes": 15861,
+                    "url": "/uploads/thumbnail_Capture_d_ecran_2024_08_03_181707_57482a67b6.png"
+                  },
+                  "small": {
+                    "name": "small_Capture d'écran 2024-08-03 181707.png",
+                    "hash": "small_Capture_d_ecran_2024_08_03_181707_57482a67b6",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 500,
+                    "height": 358,
+                    "size": 48.35,
+                    "sizeInBytes": 48348,
+                    "url": "/uploads/small_Capture_d_ecran_2024_08_03_181707_57482a67b6.png"
+                  }
+                },
+                "hash": "Capture_d_ecran_2024_08_03_181707_57482a67b6",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 12.28,
+                "url": "/uploads/Capture_d_ecran_2024_08_03_181707_57482a67b6.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:18:05.489Z",
+                "updatedAt": "2024-08-03T16:18:05.489Z"
+              }
+            },
+            {
+              "id": 146,
+              "attributes": {
+                "name": "Capture d'écran 2024-07-18 113042.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 588,
+                "height": 1235,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Capture d'écran 2024-07-18 113042.png",
+                    "hash": "thumbnail_Capture_d_ecran_2024_07_18_113042_602fe1e198",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 74,
+                    "height": 156,
+                    "size": 10.66,
+                    "sizeInBytes": 10658,
+                    "url": "/uploads/thumbnail_Capture_d_ecran_2024_07_18_113042_602fe1e198.png"
+                  },
+                  "medium": {
+                    "name": "medium_Capture d'écran 2024-07-18 113042.png",
+                    "hash": "medium_Capture_d_ecran_2024_07_18_113042_602fe1e198",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 357,
+                    "height": 750,
+                    "size": 92.48,
+                    "sizeInBytes": 92483,
+                    "url": "/uploads/medium_Capture_d_ecran_2024_07_18_113042_602fe1e198.png"
+                  },
+                  "small": {
+                    "name": "small_Capture d'écran 2024-07-18 113042.png",
+                    "hash": "small_Capture_d_ecran_2024_07_18_113042_602fe1e198",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 238,
+                    "height": 500,
+                    "size": 55.87,
+                    "sizeInBytes": 55874,
+                    "url": "/uploads/small_Capture_d_ecran_2024_07_18_113042_602fe1e198.png"
+                  },
+                  "large": {
+                    "name": "large_Capture d'écran 2024-07-18 113042.png",
+                    "hash": "large_Capture_d_ecran_2024_07_18_113042_602fe1e198",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 476,
+                    "height": 1000,
+                    "size": 137.94,
+                    "sizeInBytes": 137940,
+                    "url": "/uploads/large_Capture_d_ecran_2024_07_18_113042_602fe1e198.png"
+                  }
+                },
+                "hash": "Capture_d_ecran_2024_07_18_113042_602fe1e198",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 34.72,
+                "url": "/uploads/Capture_d_ecran_2024_07_18_113042_602fe1e198.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:14:49.251Z",
+                "updatedAt": "2024-08-03T16:14:49.251Z"
+              }
+            },
+            {
+              "id": 147,
+              "attributes": {
+                "name": "Capture d'écran 2024-07-18 112947.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 598,
+                "height": 1261,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Capture d'écran 2024-07-18 112947.png",
+                    "hash": "thumbnail_Capture_d_ecran_2024_07_18_112947_bb1c661fa9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 74,
+                    "height": 156,
+                    "size": 8.65,
+                    "sizeInBytes": 8648,
+                    "url": "/uploads/thumbnail_Capture_d_ecran_2024_07_18_112947_bb1c661fa9.png"
+                  },
+                  "medium": {
+                    "name": "medium_Capture d'écran 2024-07-18 112947.png",
+                    "hash": "medium_Capture_d_ecran_2024_07_18_112947_bb1c661fa9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 356,
+                    "height": 750,
+                    "size": 80.86,
+                    "sizeInBytes": 80855,
+                    "url": "/uploads/medium_Capture_d_ecran_2024_07_18_112947_bb1c661fa9.png"
+                  },
+                  "large": {
+                    "name": "large_Capture d'écran 2024-07-18 112947.png",
+                    "hash": "large_Capture_d_ecran_2024_07_18_112947_bb1c661fa9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 474,
+                    "height": 1000,
+                    "size": 120.53,
+                    "sizeInBytes": 120534,
+                    "url": "/uploads/large_Capture_d_ecran_2024_07_18_112947_bb1c661fa9.png"
+                  },
+                  "small": {
+                    "name": "small_Capture d'écran 2024-07-18 112947.png",
+                    "hash": "small_Capture_d_ecran_2024_07_18_112947_bb1c661fa9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 237,
+                    "height": 500,
+                    "size": 45.75,
+                    "sizeInBytes": 45753,
+                    "url": "/uploads/small_Capture_d_ecran_2024_07_18_112947_bb1c661fa9.png"
+                  }
+                },
+                "hash": "Capture_d_ecran_2024_07_18_112947_bb1c661fa9",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 25.56,
+                "url": "/uploads/Capture_d_ecran_2024_07_18_112947_bb1c661fa9.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:14:49.296Z",
+                "updatedAt": "2024-08-03T16:14:49.296Z"
+              }
+            },
+            {
+              "id": 148,
+              "attributes": {
+                "name": "Capture d'écran 2024-07-18 112618.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 676,
+                "height": 1402,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_Capture d'écran 2024-07-18 112618.png",
+                    "hash": "thumbnail_Capture_d_ecran_2024_07_18_112618_ab0d72374a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 75,
+                    "height": 156,
+                    "size": 19.85,
+                    "sizeInBytes": 19847,
+                    "url": "/uploads/thumbnail_Capture_d_ecran_2024_07_18_112618_ab0d72374a.png"
+                  },
+                  "medium": {
+                    "name": "medium_Capture d'écran 2024-07-18 112618.png",
+                    "hash": "medium_Capture_d_ecran_2024_07_18_112618_ab0d72374a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 362,
+                    "height": 750,
+                    "size": 302.93,
+                    "sizeInBytes": 302933,
+                    "url": "/uploads/medium_Capture_d_ecran_2024_07_18_112618_ab0d72374a.png"
+                  },
+                  "small": {
+                    "name": "small_Capture d'écran 2024-07-18 112618.png",
+                    "hash": "small_Capture_d_ecran_2024_07_18_112618_ab0d72374a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 241,
+                    "height": 500,
+                    "size": 147.02,
+                    "sizeInBytes": 147020,
+                    "url": "/uploads/small_Capture_d_ecran_2024_07_18_112618_ab0d72374a.png"
+                  },
+                  "large": {
+                    "name": "large_Capture d'écran 2024-07-18 112618.png",
+                    "hash": "large_Capture_d_ecran_2024_07_18_112618_ab0d72374a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 482,
+                    "height": 1000,
+                    "size": 502.63,
+                    "sizeInBytes": 502630,
+                    "url": "/uploads/large_Capture_d_ecran_2024_07_18_112618_ab0d72374a.png"
+                  }
+                },
+                "hash": "Capture_d_ecran_2024_07_18_112618_ab0d72374a",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 206.95,
+                "url": "/uploads/Capture_d_ecran_2024_07_18_112618_ab0d72374a.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:14:50.138Z",
+                "updatedAt": "2024-08-03T16:14:50.138Z"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "meta": {
@@ -2234,7 +2822,7 @@
       "page": 1,
       "pageSize": 100,
       "pageCount": 1,
-      "total": 12
+      "total": 14
     }
   }
 }

@@ -66,6 +66,11 @@ export class AppComponent {
         let projects : Project[] = [];
 
         for (let project of dataProjects.data){
+
+          if (project.attributes.visible == false){
+            continue;
+          }
+
           let newProject = new Project(project);
 
           for (let skill of project.attributes.skills.data){

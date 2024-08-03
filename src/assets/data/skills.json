@@ -1030,6 +1030,124 @@
           ]
         }
       }
+    },
+    {
+      "id": 29,
+      "attributes": {
+        "title": "Strapi",
+        "createdAt": "2024-08-01T12:46:58.977Z",
+        "updatedAt": "2024-08-01T12:46:58.977Z",
+        "publishedAt": "2024-08-01T12:47:24.883Z",
+        "category": "database",
+        "url": {
+          "data": [
+            {
+              "id": 140,
+              "attributes": {
+                "name": "strapi.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 280,
+                "height": 280,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_strapi.png",
+                    "hash": "thumbnail_strapi_89e46aa659",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 1.7,
+                    "sizeInBytes": 1698,
+                    "url": "/uploads/thumbnail_strapi_89e46aa659.png"
+                  }
+                },
+                "hash": "strapi_89e46aa659",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 0.66,
+                "url": "/uploads/strapi_89e46aa659.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-01T12:46:53.450Z",
+                "updatedAt": "2024-08-01T12:46:53.450Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 30,
+      "attributes": {
+        "title": "Inkscape",
+        "createdAt": "2024-08-03T11:13:20.069Z",
+        "updatedAt": "2024-08-03T16:20:18.034Z",
+        "publishedAt": "2024-08-03T16:20:18.033Z",
+        "category": "graphics",
+        "url": {
+          "data": [
+            {
+              "id": 141,
+              "attributes": {
+                "name": "Inkscape_logo_2.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 128,
+                "height": 128,
+                "formats": null,
+                "hash": "Inkscape_logo_2_51f493ce1d",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 8.84,
+                "url": "/uploads/Inkscape_logo_2_51f493ce1d.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T11:13:13.089Z",
+                "updatedAt": "2024-08-03T11:13:13.089Z"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 31,
+      "attributes": {
+        "title": "Flask",
+        "createdAt": "2024-08-03T16:43:09.270Z",
+        "updatedAt": "2024-08-03T16:43:10.435Z",
+        "publishedAt": "2024-08-03T16:43:10.433Z",
+        "category": "back-end",
+        "url": {
+          "data": [
+            {
+              "id": 157,
+              "attributes": {
+                "name": "Flask.svg",
+                "alternativeText": null,
+                "caption": null,
+                "width": 128,
+                "height": 128,
+                "formats": null,
+                "hash": "Flask_ebd1d25170",
+                "ext": ".svg",
+                "mime": "image/svg+xml",
+                "size": 9.16,
+                "url": "/uploads/Flask_ebd1d25170.svg",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-08-03T16:43:03.377Z",
+                "updatedAt": "2024-08-03T16:43:03.377Z"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "meta": {
@@ -1037,7 +1155,7 @@
       "page": 1,
       "pageSize": 100,
       "pageCount": 1,
-      "total": 28
+      "total": 31
     }
   }
 }
