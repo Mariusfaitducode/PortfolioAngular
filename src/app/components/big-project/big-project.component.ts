@@ -34,7 +34,7 @@ export class BigProjectComponent {
   ngOnInit(): void {
 
     this.currentImage = 'assets' + this.project.images[this.imageIndex];
-    // this.startAutoScroll();
+    this.startAutoScroll();
   }
 
 
@@ -82,11 +82,11 @@ export class BigProjectComponent {
   }
 
   startAutoScroll() {
-    // this.autoScroll = setInterval(() => {
-    //   if (this.isElementInViewport()) {
-    //     this.incrementImageIndex();
-    //   }
-    // }, this.delayBetweenImages);
+    this.autoScroll = setInterval(() => {
+      if (this.isElementInViewport()) {
+        this.incrementImageIndex();
+      }
+    }, this.delayBetweenImages);
   }
 
   stopAutoScroll() {

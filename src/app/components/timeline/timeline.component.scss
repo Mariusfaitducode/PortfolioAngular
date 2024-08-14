@@ -94,12 +94,29 @@
     width: 16px;
     height: 16px;
     // right: -17px;
-    background-color: white;
+    // background-color: white;
     border: 4px solid var(--blue-3);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
   }
+
+  .timeline-item.past::after {
+    background-color: var(--light-gray);
+    // background-color: greenyellow;
+    // border: 4px solid green;
+
+  }
+    
+  .timeline-item.future::after {
+    background-color: var(--white)
+  }
+
+  .timeline-item.current::after {
+    background-color: red;
+  }
+
+
 
   .timeline-item:nth-child(odd)::after {
     right: -11px;

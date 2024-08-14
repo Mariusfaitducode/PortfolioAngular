@@ -53,15 +53,19 @@ export class AppComponent {
   ngOnInit(): void {
 
     this.dataService.getSkills().subscribe((dataSkills: any) => {
-      console.log(dataSkills);
+      // console.log(dataSkills);
 
       this.dataService.getProjects().subscribe((dataProjects: any) => {
 
-        console.log(dataProjects);
+        // console.log(dataProjects);
+
+        // Get skills
 
         for (let skill of dataSkills.data){
           this.skills.push(new Skill(skill));
         }
+
+        // Get projects
 
         let projects : Project[] = [];
 
@@ -83,8 +87,8 @@ export class AppComponent {
           projects.push(newProject);
         }
 
-        console.log(projects);
-        console.log(this.skills);
+        // console.log(projects);
+        // console.log(this.skills);
 
         this.allProjects = projects;
         this.bigProjects = projects.filter((project) => project.bigProject);
@@ -99,8 +103,11 @@ export class AppComponent {
         //   this.skillsByCategory[skill.category].push(skill);
         // }
 
+
+        // Get timeline events
+
         this.dataService.getTimeline().subscribe((dataTimeline: any) => {
-          console.log(dataTimeline);
+          // console.log(dataTimeline);
 
           for (let timeline of dataTimeline.data){
             this.timelineEvents.push(new Timeline(timeline));
@@ -114,19 +121,24 @@ export class AppComponent {
 
             let date = new Date(experience.startDate);
 
-            experience.startDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
-            experience.startDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+            // experience.startDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+            // experience.startDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+
+            experience.startDate = date;
+
 
             if (experience.endDate) {
 
               let date = new Date(experience.endDate);
 
-              experience.endDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
-              experience.endDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+              // experience.endDate = date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+              // experience.endDateEn = date.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+
+              experience.endDate = date;
             } 
           });
 
-          console.log(this.timelineEvents);
+          // console.log(this.timelineEvents);
         });
       });
     });

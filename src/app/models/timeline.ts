@@ -8,10 +8,10 @@ export class Timeline {
     type: string;
     logo?: string;
 
-    startDate: string;
-    startDateEn: string;
-    endDate: string;
-    endDateEn: string;
+    startDate: Date;
+    // startDateEn: string;
+    endDate: Date;
+    // endDateEn: string;
     
     constructor(data: any){
 
@@ -22,10 +22,10 @@ export class Timeline {
         this.type = data.attributes.type;
 
         this.startDate = data.attributes.startDate;
-        this.startDateEn = data.attributes.startDate;
+        // this.startDateEn = data.attributes.startDate;
 
         this.endDate = data.attributes.endDate;
-        this.endDateEn = data.attributes.endDate;
+        // this.endDateEn = data.attributes.endDate;
 
         if (data.attributes.logo.data){
             this.logo = data.attributes.logo.data[0].attributes.url;

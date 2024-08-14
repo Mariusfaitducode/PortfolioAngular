@@ -44,7 +44,7 @@ export class HeroComponent {
 
   ngOnInit(): void {
     
-    console.log(this.subtitles)
+    // console.log(this.subtitles)
 
     setTimeout(() => {
       this.showHeroSpan = true;

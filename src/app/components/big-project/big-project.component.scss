@@ -90,21 +90,6 @@
     transition: all 0.5s ease-in-out;
 }
 
-// .previous-slide{
-//     // transform: translateX(-100%);
-
-//     position: absolute;
-
-//     top: 0;
-//     left: 50%;
-//     transform: translateX(-50%);
-//     transform: translateY(50%);
-
-
-//     // width: 50%;
-//     // height: 50%;
-//     opacity: 1; 
-// }
 
 .active{
     // transform: translateY(-100%);
@@ -124,18 +109,6 @@
     opacity: 1;
 
 }
-
-// .next-slide{
-//     position: absolute;
-
-//     top: 0;
-//     right: 0;
-//     transform: translateX(100%);
-
-//     // width: 50%;
-//     // height: 50%;
-//     opacity: 1;
-// }
 
 
   
@@ -158,32 +131,6 @@
 
 }
 
-// Transition effects
-
-// .slide.enter-right {
-//     transform: translateX(20%);
-//     // opacity: 0;
-//   }
-  
-// .slide.enter-left {
-//     transform: translateX(-20%);
-// // opacity: 0;
-// }
-
-// .slide.center {
-//     transform: translateX(0%);
-//     opacity: 1;
-// }
-
-// .slide.leave-right {
-// transform: translateX(-100%);
-// // opacity: 0;
-// }
-
-// .slide.leave-left {
-// transform: translateX(100%);
-// // opacity: 0;
-// }
 
 // Buttons
 
@@ -300,58 +247,7 @@
 }
 
 
-// @media screen and (max-width:650px) {
 
-//     .portfolio .big-project-row{
-//         /* grid-template-columns: repeat(1, minmax(0, 1fr)); */
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         justify-content: center;
-//         height: 600px;
-//     }
-
-//     .big-project-row .project-infos{
-//         width: 80%;
-//         padding-left: 0px;
-//         padding-right: 0px;
-//         padding-bottom: 20px;
-//         /* padding-top: 40px; */
-//         text-align: center;
-
-//     }
-
-//     .big-project-row .category{
-//         display: flex;
-//         justify-content: center;
-//     }
-
-//     .big-project-row .card-link-container{
-//         display: flex;
-//         justify-content: center;
-
-//     }
-
-//     .slider-container{
-//         width: 90%;
-//         max-height: 350px;
-
-//     }
-
-//     .slide img{
-//         width: 90%;
-//         max-height: 350px;
-//         object-fit: contain;
-//         opacity: 1;
-//         /* border-radius: 20px; */
-    
-//     }
-
-//     .slider-button svg{
-//         width: 40px;
-//         height: 40px;
-//     }
-// }
 
 .big-project-row.hide{
     display: none;

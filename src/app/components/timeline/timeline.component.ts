@@ -21,6 +21,8 @@ export class TimelineComponent {
 
   filter = 'all';
 
+  actualDate = new Date();
+
 
   ngOnInit(){
     
@@ -48,11 +50,27 @@ export class TimelineComponent {
     return this.translate.currentLang === 'fr' ? timelineEvent.description : timelineEvent.descriptionEn;
   }
 
+
+
   getTranslatedStartDate(timelineEvent: Timeline){
-    return this.translate.currentLang === 'fr' ? timelineEvent.startDate : timelineEvent.startDateEn;
+
+    if (this.translate.currentLang === 'fr'){
+      return timelineEvent.startDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+    }
+    else{
+      return timelineEvent.startDate.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+    }
+    // return this.translate.currentLang === 'fr' ? timelineEvent.startDate : timelineEvent.startDateEn;
   }
 
   getTranslatedEndDate(timelineEvent: Timeline){
-    return this.translate.currentLang === 'fr' ? timelineEvent.endDate : timelineEvent.endDateEn;
+    // return this.translate.currentLang === 'fr' ? timelineEvent.endDate : timelineEvent.endDateEn;
+
+    if (this.translate.currentLang === 'fr'){
+      return timelineEvent.endDate.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long' });
+    }
+    else{
+      return timelineEvent.endDate.toLocaleDateString('en-EN', { year: 'numeric', month: 'long' });
+    }
   }
 }
