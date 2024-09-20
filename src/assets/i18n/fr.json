@@ -18,16 +18,25 @@
     "PRESENTATION 1" : "J'ai 22 ans et je poursuis actuellement ma cinquième année d'études en école d'ingénieur au sein de",
     "UTBM" : " l'Université de Technologie de Belfort-Montbéliard.",
 
+
+
+
     "PRESENTATION 2": "Durant les 2 premières années de tronc commun, j'ai découvert la programmation informatique qui est devenu une grande passion. ",
-    "PRESENTATION 3": "Je code régulièrement des projets dans le cadre de mon cursus scolaire, mais également à mes heures perdues par passion et par goût des défis.",
+
+    "PRESENTATION 3": "J'ai déjà mené à bien de nombreux projets personnels et professionnels. Ce qui m’anime : transformer des idées en solutions digitales performantes.",
 
     "ENGINEER SOON": "Bientôt ingénieur",
+
+    "MY CV": "Mon CV",
 
     "MY PROJECTS": "Mes projets",
 
     "ALL": "Tous",
     "VIDEO GAME": "Jeux vidéo",
     "ALGORITHM": "Algorithmes spécifiques",
+
+    "EDUCATION": "Formations",
+    "EXPERIENCE": "Expériences",
 
     "MY SKILLS" : "Mes compétences",
     "DATABASES": "Base de données",

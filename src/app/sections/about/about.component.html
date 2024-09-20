@@ -5,19 +5,56 @@
 
     <div class="presentation">
 
-        <p>
-            {{"PRESENTATION 1" | translate}}
-            <a href="https://www.utbm.fr/">{{"UTBM" | translate}}
-            </a> 
-            <br>
-            {{"PRESENTATION 2" | translate}}
-            <br>
-            <!-- Maintenant en branche informatique, je découvre davantage ce vaste monde. 
-            <br> -->
-            {{"PRESENTATION 3" | translate}}
-        </p>
+        <div class="presentation-left">
 
-        <img src="assets/img/profil/profil.jpg" alt="">
+            <div class="presentation-text" *ngIf="translate.currentLang === 'fr'">
+                {{"PRESENTATION 1" | translate}}
+                <a href="https://www.utbm.fr/"> <b>{{"UTBM" | translate}}</b>
+                </a> 
+                <!-- <br> -->
+                <div class="line-step"></div>
+
+                <!-- Dynamique et passionné d'informatique, habile en
+                <b>algorithmie</b>, <b>développement web</b>, <b>applications mobiles</b> et
+                <b>jeux vidéo</b>. -->
+                {{ "PRESENTATION 2" | translate}}
+
+                <!-- <br> -->
+                <div class="line-step"></div>
+
+                {{"PRESENTATION 3" | translate}}
+            </div>
+            <div class="presentation-text" *ngIf="translate.currentLang !== 'fr'">
+                
+                
+                {{"PRESENTATION 1" | translate}}
+
+                <a href="https://www.utbm.fr/"> <b>{{"UTBM" | translate}}</b></a> 
+                
+                <div class="line-step"></div>
+                <!-- Dynamic and passionate about computer science, skilled in <b>algorithms</b>, <b>web development</b>, <b>mobile applications</b> and <b>video games</b>. -->
+                {{ "PRESENTATION 2" | translate}}
+                
+                <div class="line-step"></div>
+
+                
+                {{"PRESENTATION 3" | translate}}
+            </div>
+
+            <div class="cv-button">
+                <a  href="assets/CV Marius Diguat.pdf" target="_blank">{{"MY CV" | translate}}</a>
+
+            </div>
+            
+            
+
+
+
+        </div>
+
+        
+
+        <img src="assets/img/profil/ProfilNaxos2.jpeg" alt="">
 
         
 

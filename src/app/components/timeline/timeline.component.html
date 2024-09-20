@@ -1,16 +1,16 @@
 
 
-<!-- <div class="timeline-filters">
+<div class="timeline-filters">
   <div class="filters">
             
-    <a [class.active]="filter == 'all'" (click)="filterExperiences('all')">Tout</a>
+    <a [class.active]="filter == 'all'" (click)="filterExperiences('all')">{{'ALL'| translate}}</a>
   
-    <a [class.active]="filter == 'formation'" (click)="filterExperiences('formation')">Formations</a>
+    <a [class.active]="filter == 'formation'" (click)="filterExperiences('formation')">{{'EDUCATION'| translate}}</a>
   
-    <a [class.active]="filter == 'experience'" (click)="filterExperiences('experience')">Expériences</a>
+    <a [class.active]="filter == 'experience'" (click)="filterExperiences('experience')">{{'EXPERIENCE'| translate}}</a>
     
   </div>
-</div> -->
+</div>
 
 
 
@@ -20,6 +20,7 @@
       <div class="timeline-item" 
         [class.right]="i % 2 != 0"
         [class.past]="experience.startDate && experience.startDate < actualDate"
+        [class.present]="experience.startDate && experience.startDate <= actualDate && experience.endDate && experience.endDate >= actualDate"
         [class.future]="experience.startDate && experience.startDate > actualDate"
        *ngIf="filter == 'all' || filter == experience.type">
         <div  class="timeline-content">

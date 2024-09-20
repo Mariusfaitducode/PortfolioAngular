@@ -14,7 +14,7 @@ export class NavbarHeaderComponent {
 
   constructor(private translate: TranslateService, private router: Router ) { }
 
-  language = 'fr';
+  language = this.translate.currentLang;
 
   openMenu = false;
 

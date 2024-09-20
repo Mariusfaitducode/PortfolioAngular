@@ -45,8 +45,18 @@ export class AppComponent {
   // skillsByCategory : any = {};
 
   constructor(private dataService : DataService, private translate: TranslateService){
-    translate.setDefaultLang('fr');
-    translate.use('fr');
+
+    // Set default language to user browser language if english, else french
+
+    let browserLang = translate.getBrowserLang();
+
+    if (browserLang == 'fr'){
+      translate.setDefaultLang('fr');
+      translate.use('fr');
+    } else {
+      translate.setDefaultLang('en');
+      translate.use('en');
+    }
   }
 
 
