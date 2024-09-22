@@ -33,7 +33,7 @@ export class HeroComponent {
   currentIndex: number = 0;
   typingSpeed: number = 50;
   erasingSpeed: number = 10;
-  delayBetweenTexts: number = 1500; // Delay before starting to erase
+  delayBetweenTexts: number = 2000; // Delay before starting to erase
   dynamicText: string = '';
 
   showCursor: boolean = false;
