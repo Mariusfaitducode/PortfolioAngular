@@ -5,10 +5,10 @@
       "attributes": {
         "title": "ConcepTask",
         "githubUrl": "https://github.com/Mariusfaitducode/ConcepTask",
-        "linkUrl": null,
+        "linkUrl": "https://play.google.com/store/apps/details?id=fr.marscode.todolist",
         "teamProject": false,
         "createdAt": "2024-07-19T20:38:36.581Z",
-        "updatedAt": "2024-08-12T09:39:59.027Z",
+        "updatedAt": "2024-11-10T16:06:19.585Z",
         "publishedAt": "2024-07-20T14:18:58.136Z",
         "smallDescription": "Application mobile de todolist, permet de visualiser les tâches à réaliser sous forme d'arbre ou de graph",
         "visible": true,
@@ -44,146 +44,6 @@
         },
         "images": {
           "data": [
-            {
-              "id": 51,
-              "attributes": {
-                "name": "screen_add.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1080,
-                "height": 2400,
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_screen_add.jpg",
-                    "hash": "thumbnail_screen_add_734f182ca2",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 70,
-                    "height": 156,
-                    "size": 2.74,
-                    "sizeInBytes": 2742,
-                    "url": "/uploads/thumbnail_screen_add_734f182ca2.jpg"
-                  },
-                  "large": {
-                    "name": "large_screen_add.jpg",
-                    "hash": "large_screen_add_734f182ca2",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 450,
-                    "height": 1000,
-                    "size": 53.14,
-                    "sizeInBytes": 53139,
-                    "url": "/uploads/large_screen_add_734f182ca2.jpg"
-                  },
-                  "medium": {
-                    "name": "medium_screen_add.jpg",
-                    "hash": "medium_screen_add_734f182ca2",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 338,
-                    "height": 750,
-                    "size": 36.08,
-                    "sizeInBytes": 36080,
-                    "url": "/uploads/medium_screen_add_734f182ca2.jpg"
-                  },
-                  "small": {
-                    "name": "small_screen_add.jpg",
-                    "hash": "small_screen_add_734f182ca2",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 225,
-                    "height": 500,
-                    "size": 19.53,
-                    "sizeInBytes": 19530,
-                    "url": "/uploads/small_screen_add_734f182ca2.jpg"
-                  }
-                },
-                "hash": "screen_add_734f182ca2",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 172.37,
-                "url": "/uploads/screen_add_734f182ca2.jpg",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2024-07-20T10:23:12.243Z",
-                "updatedAt": "2024-07-20T10:23:12.243Z"
-              }
-            },
-            {
-              "id": 50,
-              "attributes": {
-                "name": "screen_calendar.jpg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1080,
-                "height": 2400,
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_screen_calendar.jpg",
-                    "hash": "thumbnail_screen_calendar_b2dea2ea41",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 70,
-                    "height": 156,
-                    "size": 3.18,
-                    "sizeInBytes": 3179,
-                    "url": "/uploads/thumbnail_screen_calendar_b2dea2ea41.jpg"
-                  },
-                  "large": {
-                    "name": "large_screen_calendar.jpg",
-                    "hash": "large_screen_calendar_b2dea2ea41",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 450,
-                    "height": 1000,
-                    "size": 43.16,
-                    "sizeInBytes": 43164,
-                    "url": "/uploads/large_screen_calendar_b2dea2ea41.jpg"
-                  },
-                  "small": {
-                    "name": "small_screen_calendar.jpg",
-                    "hash": "small_screen_calendar_b2dea2ea41",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 225,
-                    "height": 500,
-                    "size": 17.95,
-                    "sizeInBytes": 17952,
-                    "url": "/uploads/small_screen_calendar_b2dea2ea41.jpg"
-                  },
-                  "medium": {
-                    "name": "medium_screen_calendar.jpg",
-                    "hash": "medium_screen_calendar_b2dea2ea41",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 338,
-                    "height": 750,
-                    "size": 29.54,
-                    "sizeInBytes": 29544,
-                    "url": "/uploads/medium_screen_calendar_b2dea2ea41.jpg"
-                  }
-                },
-                "hash": "screen_calendar_b2dea2ea41",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 135.52,
-                "url": "/uploads/screen_calendar_b2dea2ea41.jpg",
-                "previewUrl": null,
-                "provider": "local",
-                "provider_metadata": null,
-                "createdAt": "2024-07-20T10:23:12.130Z",
-                "updatedAt": "2024-07-20T10:23:12.130Z"
-              }
-            },
             {
               "id": 42,
               "attributes": {
@@ -231,143 +91,353 @@
               }
             },
             {
-              "id": 45,
+              "id": 161,
               "attributes": {
-                "name": "screen_graph.jpg",
+                "name": "1.png",
                 "alternativeText": null,
                 "caption": null,
                 "width": 1080,
-                "height": 2400,
+                "height": 1920,
                 "formats": {
                   "thumbnail": {
-                    "name": "thumbnail_screen_graph.jpg",
-                    "hash": "thumbnail_screen_graph_64546bbc35",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
+                    "name": "thumbnail_1.png",
+                    "hash": "thumbnail_1_e13eb819cd",
+                    "ext": ".png",
+                    "mime": "image/png",
                     "path": null,
-                    "width": 70,
+                    "width": 88,
                     "height": 156,
-                    "size": 2.7,
-                    "sizeInBytes": 2704,
-                    "url": "/uploads/thumbnail_screen_graph_64546bbc35.jpg"
-                  },
-                  "large": {
-                    "name": "large_screen_graph.jpg",
-                    "hash": "large_screen_graph_64546bbc35",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 450,
-                    "height": 1000,
-                    "size": 38.17,
-                    "sizeInBytes": 38171,
-                    "url": "/uploads/large_screen_graph_64546bbc35.jpg"
-                  },
-                  "medium": {
-                    "name": "medium_screen_graph.jpg",
-                    "hash": "medium_screen_graph_64546bbc35",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 338,
-                    "height": 750,
-                    "size": 26.1,
-                    "sizeInBytes": 26103,
-                    "url": "/uploads/medium_screen_graph_64546bbc35.jpg"
+                    "size": 13.62,
+                    "sizeInBytes": 13620,
+                    "url": "/uploads/thumbnail_1_e13eb819cd.png"
                   },
                   "small": {
-                    "name": "small_screen_graph.jpg",
-                    "hash": "small_screen_graph_64546bbc35",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
+                    "name": "small_1.png",
+                    "hash": "small_1_e13eb819cd",
+                    "ext": ".png",
+                    "mime": "image/png",
                     "path": null,
-                    "width": 225,
+                    "width": 281,
                     "height": 500,
-                    "size": 15.36,
-                    "sizeInBytes": 15362,
-                    "url": "/uploads/small_screen_graph_64546bbc35.jpg"
+                    "size": 69.1,
+                    "sizeInBytes": 69098,
+                    "url": "/uploads/small_1_e13eb819cd.png"
+                  },
+                  "large": {
+                    "name": "large_1.png",
+                    "hash": "large_1_e13eb819cd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 563,
+                    "height": 1000,
+                    "size": 244.14,
+                    "sizeInBytes": 244135,
+                    "url": "/uploads/large_1_e13eb819cd.png"
+                  },
+                  "medium": {
+                    "name": "medium_1.png",
+                    "hash": "medium_1_e13eb819cd",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 422,
+                    "height": 750,
+                    "size": 134.2,
+                    "sizeInBytes": 134202,
+                    "url": "/uploads/medium_1_e13eb819cd.png"
                   }
                 },
-                "hash": "screen_graph_64546bbc35",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 127.92,
-                "url": "/uploads/screen_graph_64546bbc35.jpg",
+                "hash": "1_e13eb819cd",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 129.85,
+                "url": "/uploads/1_e13eb819cd.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
-                "createdAt": "2024-07-20T10:23:11.680Z",
-                "updatedAt": "2024-07-20T10:23:11.680Z"
+                "createdAt": "2024-11-10T16:02:33.737Z",
+                "updatedAt": "2024-11-10T16:02:33.737Z"
               }
             },
             {
-              "id": 44,
+              "id": 159,
               "attributes": {
-                "name": "screen_home.jpg",
+                "name": "2.png",
                 "alternativeText": null,
                 "caption": null,
                 "width": 1080,
-                "height": 2400,
+                "height": 1920,
                 "formats": {
                   "thumbnail": {
-                    "name": "thumbnail_screen_home.jpg",
-                    "hash": "thumbnail_screen_home_94a3de0e17",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
+                    "name": "thumbnail_2.png",
+                    "hash": "thumbnail_2_1a7adfcd81",
+                    "ext": ".png",
+                    "mime": "image/png",
                     "path": null,
-                    "width": 70,
+                    "width": 88,
                     "height": 156,
-                    "size": 2.42,
-                    "sizeInBytes": 2419,
-                    "url": "/uploads/thumbnail_screen_home_94a3de0e17.jpg"
-                  },
-                  "large": {
-                    "name": "large_screen_home.jpg",
-                    "hash": "large_screen_home_94a3de0e17",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 450,
-                    "height": 1000,
-                    "size": 34.82,
-                    "sizeInBytes": 34816,
-                    "url": "/uploads/large_screen_home_94a3de0e17.jpg"
-                  },
-                  "medium": {
-                    "name": "medium_screen_home.jpg",
-                    "hash": "medium_screen_home_94a3de0e17",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
-                    "path": null,
-                    "width": 338,
-                    "height": 750,
-                    "size": 24.02,
-                    "sizeInBytes": 24020,
-                    "url": "/uploads/medium_screen_home_94a3de0e17.jpg"
+                    "size": 14.47,
+                    "sizeInBytes": 14466,
+                    "url": "/uploads/thumbnail_2_1a7adfcd81.png"
                   },
                   "small": {
-                    "name": "small_screen_home.jpg",
-                    "hash": "small_screen_home_94a3de0e17",
-                    "ext": ".jpg",
-                    "mime": "image/jpeg",
+                    "name": "small_2.png",
+                    "hash": "small_2_1a7adfcd81",
+                    "ext": ".png",
+                    "mime": "image/png",
                     "path": null,
-                    "width": 225,
+                    "width": 281,
                     "height": 500,
-                    "size": 14.29,
-                    "sizeInBytes": 14286,
-                    "url": "/uploads/small_screen_home_94a3de0e17.jpg"
+                    "size": 74.59,
+                    "sizeInBytes": 74587,
+                    "url": "/uploads/small_2_1a7adfcd81.png"
+                  },
+                  "medium": {
+                    "name": "medium_2.png",
+                    "hash": "medium_2_1a7adfcd81",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 422,
+                    "height": 750,
+                    "size": 147.94,
+                    "sizeInBytes": 147942,
+                    "url": "/uploads/medium_2_1a7adfcd81.png"
+                  },
+                  "large": {
+                    "name": "large_2.png",
+                    "hash": "large_2_1a7adfcd81",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 563,
+                    "height": 1000,
+                    "size": 272.89,
+                    "sizeInBytes": 272890,
+                    "url": "/uploads/large_2_1a7adfcd81.png"
                   }
                 },
-                "hash": "screen_home_94a3de0e17",
-                "ext": ".jpg",
-                "mime": "image/jpeg",
-                "size": 113.19,
-                "url": "/uploads/screen_home_94a3de0e17.jpg",
+                "hash": "2_1a7adfcd81",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 138.42,
+                "url": "/uploads/2_1a7adfcd81.png",
                 "previewUrl": null,
                 "provider": "local",
                 "provider_metadata": null,
-                "createdAt": "2024-07-20T10:23:11.652Z",
-                "updatedAt": "2024-07-20T10:23:11.652Z"
+                "createdAt": "2024-11-10T16:02:33.537Z",
+                "updatedAt": "2024-11-10T16:02:33.537Z"
+              }
+            },
+            {
+              "id": 158,
+              "attributes": {
+                "name": "3.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 1920,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_3.png",
+                    "hash": "thumbnail_3_41b5acc3c9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 88,
+                    "height": 156,
+                    "size": 12.32,
+                    "sizeInBytes": 12318,
+                    "url": "/uploads/thumbnail_3_41b5acc3c9.png"
+                  },
+                  "small": {
+                    "name": "small_3.png",
+                    "hash": "small_3_41b5acc3c9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 281,
+                    "height": 500,
+                    "size": 64.03,
+                    "sizeInBytes": 64027,
+                    "url": "/uploads/small_3_41b5acc3c9.png"
+                  },
+                  "medium": {
+                    "name": "medium_3.png",
+                    "hash": "medium_3_41b5acc3c9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 422,
+                    "height": 750,
+                    "size": 125.55,
+                    "sizeInBytes": 125549,
+                    "url": "/uploads/medium_3_41b5acc3c9.png"
+                  },
+                  "large": {
+                    "name": "large_3.png",
+                    "hash": "large_3_41b5acc3c9",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 563,
+                    "height": 1000,
+                    "size": 229.86,
+                    "sizeInBytes": 229858,
+                    "url": "/uploads/large_3_41b5acc3c9.png"
+                  }
+                },
+                "hash": "3_41b5acc3c9",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 124.08,
+                "url": "/uploads/3_41b5acc3c9.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-11-10T16:02:33.484Z",
+                "updatedAt": "2024-11-10T16:02:33.484Z"
+              }
+            },
+            {
+              "id": 164,
+              "attributes": {
+                "name": "5.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 1920,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_5.png",
+                    "hash": "thumbnail_5_d99cfdd24a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 88,
+                    "height": 156,
+                    "size": 13.58,
+                    "sizeInBytes": 13575,
+                    "url": "/uploads/thumbnail_5_d99cfdd24a.png"
+                  },
+                  "small": {
+                    "name": "small_5.png",
+                    "hash": "small_5_d99cfdd24a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 281,
+                    "height": 500,
+                    "size": 67.58,
+                    "sizeInBytes": 67580,
+                    "url": "/uploads/small_5_d99cfdd24a.png"
+                  },
+                  "medium": {
+                    "name": "medium_5.png",
+                    "hash": "medium_5_d99cfdd24a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 422,
+                    "height": 750,
+                    "size": 134.7,
+                    "sizeInBytes": 134699,
+                    "url": "/uploads/medium_5_d99cfdd24a.png"
+                  },
+                  "large": {
+                    "name": "large_5.png",
+                    "hash": "large_5_d99cfdd24a",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 563,
+                    "height": 1000,
+                    "size": 249.83,
+                    "sizeInBytes": 249832,
+                    "url": "/uploads/large_5_d99cfdd24a.png"
+                  }
+                },
+                "hash": "5_d99cfdd24a",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 124.51,
+                "url": "/uploads/5_d99cfdd24a.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-11-10T16:02:33.803Z",
+                "updatedAt": "2024-11-10T16:02:33.803Z"
+              }
+            },
+            {
+              "id": 162,
+              "attributes": {
+                "name": "6.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 1080,
+                "height": 1920,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_6.png",
+                    "hash": "thumbnail_6_54c5cd7bec",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 88,
+                    "height": 156,
+                    "size": 12.2,
+                    "sizeInBytes": 12203,
+                    "url": "/uploads/thumbnail_6_54c5cd7bec.png"
+                  },
+                  "small": {
+                    "name": "small_6.png",
+                    "hash": "small_6_54c5cd7bec",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 281,
+                    "height": 500,
+                    "size": 60.95,
+                    "sizeInBytes": 60948,
+                    "url": "/uploads/small_6_54c5cd7bec.png"
+                  },
+                  "medium": {
+                    "name": "medium_6.png",
+                    "hash": "medium_6_54c5cd7bec",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 422,
+                    "height": 750,
+                    "size": 119.54,
+                    "sizeInBytes": 119538,
+                    "url": "/uploads/medium_6_54c5cd7bec.png"
+                  },
+                  "large": {
+                    "name": "large_6.png",
+                    "hash": "large_6_54c5cd7bec",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 563,
+                    "height": 1000,
+                    "size": 221.39,
+                    "sizeInBytes": 221393,
+                    "url": "/uploads/large_6_54c5cd7bec.png"
+                  }
+                },
+                "hash": "6_54c5cd7bec",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 107.08,
+                "url": "/uploads/6_54c5cd7bec.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2024-11-10T16:02:33.776Z",
+                "updatedAt": "2024-11-10T16:02:33.776Z"
               }
             }
           ]
@@ -1461,7 +1531,7 @@
       "attributes": {
         "title": "Eventum",
         "githubUrl": "https://github.com/Mariusfaitducode/Eventum_Angular",
-        "linkUrl": null,
+        "linkUrl": "https://mariusdiguat.fr/Eventum/",
         "teamProject": true,
         "createdAt": "2024-07-19T20:47:24.781Z",
         "updatedAt": "2024-08-12T09:58:44.113Z",

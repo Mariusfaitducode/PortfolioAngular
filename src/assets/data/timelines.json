@@ -275,12 +275,47 @@
         "startDate": "2024-03-03",
         "endDate": "2024-06-30",
         "createdAt": "2024-07-24T16:59:04.229Z",
-        "updatedAt": "2024-07-26T13:26:57.720Z",
+        "updatedAt": "2025-02-09T12:28:58.432Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
         "titleEn": "Virtual World block semester",
         "descriptionEn": "I chose the Virtual World specialisation as my first career block. It was an opportunity to discover the fascinating world of virtual and augmented reality, as well as the main principles and techniques of 3D.",
         "logo": {
-          "data": null
+          "data": [
+            {
+              "id": 167,
+              "attributes": {
+                "name": "headset.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 500,
+                "height": 500,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_headset.png",
+                    "hash": "thumbnail_headset_8b92f9f793",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 4.91,
+                    "sizeInBytes": 4908,
+                    "url": "/uploads/thumbnail_headset_8b92f9f793.png"
+                  }
+                },
+                "hash": "headset_8b92f9f793",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 3.62,
+                "url": "/uploads/headset_8b92f9f793.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2025-02-09T12:28:52.048Z",
+                "updatedAt": "2025-02-09T12:28:52.048Z"
+              }
+            }
+          ]
         }
       }
     },
@@ -288,15 +323,15 @@
       "id": 7,
       "attributes": {
         "title": "Semestre bloc IA à ULiège",
-        "description": "Je partirai en Erasmus à l'Université de Liège pour suivre un semestre de spécialisation en Intelligence Artificielle.",
+        "description": "J'ai réalisé un Erasmus à l'Université de Liège pour suivre un semestre de spécialisation en Intelligence Artificielle. J'ai pu perfectionner mes compétences en IA, Machine Learning, Computer Vision et découvrir d'autres domaines comme la bioinformatique.",
         "type": "formation",
         "startDate": "2024-09-01",
         "endDate": "2025-01-31",
         "createdAt": "2024-07-24T17:00:09.861Z",
-        "updatedAt": "2024-07-26T13:26:20.788Z",
+        "updatedAt": "2025-02-09T12:23:15.781Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
         "titleEn": "IA block semester at ULiège",
-        "descriptionEn": "I'll be doing an Erasmus course at the University of Liège to do a semester specialising in Artificial Intelligence.",
+        "descriptionEn": "I did an Erasmus at the University of Liège for a semester specializing in Artificial Intelligence. I was able to perfect my skills in AI, Machine Learning and Computer Vision, and discover other fields such as bioinformatics.",
         "logo": {
           "data": [
             {
@@ -327,18 +362,40 @@
     {
       "id": 8,
       "attributes": {
-        "title": "Stage de fin d'études",
-        "description": "Ce stage sera l'aboutissement de 5 années d'études en école d'ingénieurs à l'UTBM. Il me permettra encore une fois de mettre mes compétences au service d'une entreprise et d'une équipe.",
+        "title": "Stage de fin d'études Dataiku",
+        "description": "Je réalise mon stage de fin d'études chez Dataiku, une entreprise dynamique et innovante en science des données et IA. C'est une belle conclusion à mes cinq années à l'UTBM et une passerelle vers le monde professionnel.",
         "type": "experience",
         "startDate": "2025-02-01",
         "endDate": "2025-06-30",
         "createdAt": "2024-07-24T17:01:33.926Z",
-        "updatedAt": "2024-07-26T13:28:41.286Z",
+        "updatedAt": "2025-02-09T11:49:13.601Z",
         "publishedAt": "2024-07-24T17:06:47.245Z",
-        "titleEn": "End-of-studies internship",
-        "descriptionEn": "This internship will be the culmination of 5 years' study at the UTBM engineering school. Once again, it will give me the opportunity to put my skills to work for a company and a team.",
+        "titleEn": "End-of-studies internship Dataiku",
+        "descriptionEn": "I'm doing my end-of-studies internship at Dataiku, a dynamic and innovative data science and AI company. It's a great conclusion to my five years at UTBM, and a gateway to the professional world.",
         "logo": {
-          "data": null
+          "data": [
+            {
+              "id": 165,
+              "attributes": {
+                "name": "dataiku.webp",
+                "alternativeText": null,
+                "caption": null,
+                "width": 150,
+                "height": 150,
+                "formats": null,
+                "hash": "dataiku_6cd53d3238",
+                "ext": ".webp",
+                "mime": "image/webp",
+                "size": 1.98,
+                "url": "/uploads/dataiku_6cd53d3238.webp",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2025-02-09T11:31:09.965Z",
+                "updatedAt": "2025-02-09T11:31:09.965Z"
+              }
+            }
+          ]
         }
       }
     },
@@ -430,6 +487,59 @@
           ]
         }
       }
+    },
+    {
+      "id": 10,
+      "attributes": {
+        "title": "Mission d'optimisation pour Enedis",
+        "description": "J'ai eu l'occasion de participer via la Junior UTBM à une mission informatique pour Enedis. L'objectif de cette mission était de réaliser un algorithme d'optimisation visant à améliorer la gestion des formations chez Enedis.",
+        "type": "experience",
+        "startDate": "2023-12-01",
+        "endDate": "2024-05-16",
+        "createdAt": "2025-02-09T12:01:56.202Z",
+        "updatedAt": "2025-02-09T12:07:06.435Z",
+        "publishedAt": "2025-02-09T12:05:12.905Z",
+        "titleEn": "Optimization mission for Enedis",
+        "descriptionEn": "I had the opportunity to take part in an IT mission for Enedis via the Junior UTBM. The aim of this assignment was to create an optimization algorithm to improve the management of training courses at Enedis.",
+        "logo": {
+          "data": [
+            {
+              "id": 166,
+              "attributes": {
+                "name": "enedis.png",
+                "alternativeText": null,
+                "caption": null,
+                "width": 225,
+                "height": 225,
+                "formats": {
+                  "thumbnail": {
+                    "name": "thumbnail_enedis.png",
+                    "hash": "thumbnail_enedis_9a28225da2",
+                    "ext": ".png",
+                    "mime": "image/png",
+                    "path": null,
+                    "width": 156,
+                    "height": 156,
+                    "size": 4.86,
+                    "sizeInBytes": 4859,
+                    "url": "/uploads/thumbnail_enedis_9a28225da2.png"
+                  }
+                },
+                "hash": "enedis_9a28225da2",
+                "ext": ".png",
+                "mime": "image/png",
+                "size": 1.69,
+                "url": "/uploads/enedis_9a28225da2.png",
+                "previewUrl": null,
+                "provider": "local",
+                "provider_metadata": null,
+                "createdAt": "2025-02-09T12:01:53.126Z",
+                "updatedAt": "2025-02-09T12:01:53.126Z"
+              }
+            }
+          ]
+        }
+      }
     }
   ],
   "meta": {
@@ -437,7 +547,7 @@
       "page": 1,
       "pageSize": 100,
       "pageCount": 1,
-      "total": 9
+      "total": 10
     }
   }
 }
